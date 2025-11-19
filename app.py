@@ -352,50 +352,14 @@ elif page == "Export":
 # CLEAN GRADIENT FOOTER WITH ICONS
 # ---------------------------------------------------------------
 
-import base64
-import os
 
-def safe_load_icon(path):
-    try:
-        with open(path, "rb") as f:
-            return base64.b64encode(f.read()).decode()
-    except Exception:
-        # fallback 1x1 transparent PNG
-        return "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2P8z8BQDwAFgwJ/lFUPWQAAAABJRU5ErkJggg=="
+import streamlit as st
 
-linkedin_icon = safe_load_icon("assets/linkedin.png")
-github_icon = safe_load_icon("assets/github.png")
-
-st.markdown(
-    f"""
-    <div style="
-        width: 100%;
-        margin-top: 40px;
-        padding: 22px 10px;
-        border-radius: 12px;
-        background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
-        text-align: center;
-        color: white;
-    ">
-
-        <!-- Social Icons -->
-        <div style="margin-bottom: 8px;">
-            <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
-                <img src="data:image/png;base64,{linkedin_icon}" width="34">
-            </a>
-
-            <a href="https://github.com/Vikrantthenge" target="_blank">
-                <img src="data:image/png;base64,{github_icon}" width="34">
-            </a>
-        </div>
-
-        <div style="font-size: 14px; margin-top: 10px;">
-            Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
-        </div>
-
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
+# Social Icons block
+st.markdown("""
+<div style="margin-bottom: 8px;">
+  <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="28" height="28">
+  </a>
+</div>
+""", unsafe_allow_html=True)
