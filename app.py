@@ -347,25 +347,45 @@ elif page == "Export":
         summary.to_csv(out, index=False)
         st.success(f"Saved: {out}")
 
+
 # ---------------------------------------------------------------
-# FOOTER BAR
+# GRADIENT FOOTER (LINKEDIN + GITHUB)
 # ---------------------------------------------------------------
-st.markdown("""
-    <br><br>
+import base64
+
+def load_icon(path):
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+linkedin_icon = load_icon("assets/linkedin.png")
+github_icon = load_icon("assets/github.png")
+
+st.markdown(
+    f"""
     <div style="
-        width: 100%;
-        padding: 18px;
-        text-align: center;
+        width:100%;
+        margin-top:40px;
+        padding:20px;
+        border-radius:10px;
         background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
-        color: white;
-        border-radius: 8px;
-        margin-top: 40px;
+        text-align:center;
+        color:white;
     ">
-        <p style="margin: 0; font-size: 16px;">
-            Built by <b>Vikrant Thenge</b> • 
-            <a href="https://github.com/vikrantthenge" target="_blank" style="color:white; text-decoration: underline;">
-                GitHub Profile
+        <div style="margin-bottom:8px;">
+            <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right:25px;">
+                <img src="data:image/png;base64,{linkedin_icon}" width="32" style="filter:brightness(100%);">
             </a>
-        </p>
+
+            <a href="https://github.com/Vikrantthenge" target="_blank">
+                <img src="data:image/png;base64,{github_icon}" width="32" style="filter:brightness(100%);">
+            </a>
+        </div>
+
+        <div style="font-size:14px; margin-top:10px;">
+            Built by <strong>Vikrant Thenge</strong> · Customer Analytics Dashboard
+        </div>
     </div>
-""", unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
+
