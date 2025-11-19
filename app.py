@@ -351,15 +351,6 @@ elif page == "Export":
 # ---------------------------------------------------------------
 # CLEAN GRADIENT FOOTER WITH ICONS
 # ---------------------------------------------------------------
-import base64
-
-def load_icon(path):
-    with open(path, "rb") as f:
-        return base64.b64encode(f.read()).decode()
-
-linkedin_icon = load_icon("assets/linkedin.png")
-github_icon = load_icon("assets/github.png")
-
 st.markdown(
     f"""
     <div style="
@@ -372,6 +363,7 @@ st.markdown(
         color: white;
     ">
 
+        <!-- Icons -->
         <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
             <img src="data:image/png;base64,{linkedin_icon}" width="34">
         </a>
@@ -380,6 +372,7 @@ st.markdown(
             <img src="data:image/png;base64,{github_icon}" width="34">
         </a>
 
+        <!-- Footer text -->
         <div style="margin-top: 10px; font-size: 14px;">
             Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
         </div>
