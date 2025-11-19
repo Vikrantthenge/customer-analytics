@@ -350,8 +350,6 @@ elif page == "Export":
 
 # ---------------------------------------------------------------
 
-import streamlit as st
-
 st.html("""
 <div style="
     width:100%;
@@ -363,26 +361,27 @@ st.html("""
     color:white;
 ">
 
-    <div style="margin-bottom: 8px;">
-        <a href="https://www.linkedin.com/in/vthenge"
-           target="_blank"
-           style="margin-right: 25px; text-decoration: none; font-size: 22px; color:white;">
-           🔗 LinkedIn
+    <!-- Icons -->
+    <div style="margin-bottom: 10px;">
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                 width="34" style="vertical-align:middle;"/>
         </a>
 
-        <a href="https://github.com/Vikrantthenge"
-           target="_blank"
-           style="text-decoration: none; font-size: 22px; color:white;">
-           💻 GitHub
+        <!-- GitHub -->
+        <a href="https://github.com/Vikrantthenge" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                 width="34" style="vertical-align:middle; filter: invert(1);"/>
         </a>
+
     </div>
 
-    <div style="font-size: 14px; margin-top: 10px;">
+    <!-- Footer Text -->
+    <div style="font-size: 14px; margin-top: 6px;">
         Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
     </div>
 
 </div>
 """)
-
-
-
