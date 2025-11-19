@@ -9,22 +9,23 @@
 ---
 
 ## 🚀 Live Demo  
-🔗 **Streamlit App:** *Add your deployed Streamlit link here*  
+🔗 **Streamlit App:** https://customer-analytic.streamlit.app/  
 🔗 **GitHub Repo:** https://github.com/Vikrantthenge/customer-analytics  
 
 ---
 
 ## 🖼️ Project Overview  
 
-This project provides a **full customer analytics workflow**, integrating data engineering, machine learning, customer segmentation, cohort retention modeling, and a modern interactive dashboard.
+This project provides a full customer analytics workflow, integrating data engineering, machine learning, RFM scoring, clustering, and a modern interactive dashboard.
 
 The app supports:  
 ✔ Exploratory analytics  
 ✔ RFM scoring  
 ✔ K-Means clustering  
-✔ Cohort retention heatmaps  
+✔ Cohort retention modeling  
 ✔ Customer lookup  
-✔ Complete export module  
+✔ Transaction-level filtering  
+✔ Data export  
 
 ---
 
@@ -34,7 +35,7 @@ The app supports:
 flowchart TD
     A[Raw Online Retail Data] --> B[Python Cleaning & Preprocessing]
     B --> C[PostgreSQL Data Warehouse]
-    C --> D[RFM Feature Engineering (SQL)]
+    C --> D[RFM Feature Engineering]
     D --> E[K-Means Segmentation]
-    E --> F[CLTV / Cohort Modeling]
-    F --> G[Streamlit Dashboard]
+    E --> F[Cohort & CLTV Modeling]
+    F --> G[Streamlit Dashboard UI]
