@@ -351,39 +351,40 @@ elif page == "Export":
 # ---------------------------------------------------------------
 
 st.markdown(
-    """
-    <div style="
-        width:100%;
-        margin-top:40px;
-        padding:20px;
-        border-radius:12px;
-        background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
-        text-align:center;
-        color:white;
-    ">
+"""
+<div style="
+    width:100%;
+    margin-top:40px;
+    padding:20px;
+    border-radius:12px;
+    background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
+    text-align:center;
+    color:white;
+">
 
-        <!-- Social Links with Emojis -->
-        <div style="margin-bottom: 8px;">
-            <a href="https://www.linkedin.com/in/vthenge" 
-               target="_blank" 
-               style="margin-right: 25px; text-decoration: none; font-size: 22px; color:white;">
-               🔗 LinkedIn
-            </a>
+    <!-- Social Links with Emojis -->
+    <div style="margin-bottom: 8px;">
+        <a href="https://www.linkedin.com/in/vthenge"
+           target="_blank"
+           style="margin-right: 25px; text-decoration: none; font-size: 22px; color:white;">
+           🔗 LinkedIn
+        </a>
 
-            <a href="https://github.com/Vikrantthenge" 
-               target="_blank" 
-               style="text-decoration: none; font-size: 22px; color:white;">
-               💻 GitHub
-            </a>
-        </div>
-
-        <!-- Footer Text -->
-        <div style="font-size: 14px; margin-top: 10px;">
-            Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
-        </div>
-
+        <a href="https://github.com/Vikrantthenge"
+           target="_blank"
+           style="text-decoration: none; font-size: 22px; color:white;">
+           💻 GitHub
+        </a>
     </div>
-    """,
-    unsafe_allow_html=True
+
+    <!-- Footer Text -->
+    <div style="font-size: 14px; margin-top: 10px;">
+        Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
+    </div>
+
+</div>
+""",
+unsafe_allow_html=True
 )
+
 
