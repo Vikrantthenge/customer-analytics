@@ -361,17 +361,13 @@ st.markdown("""
     background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
     text-align: center;
     color: white;
+    font-size: 16px;
 ">
 
-    <!-- Social Icons -->
+    <!-- Social Links with Emojis -->
     <div style="margin-bottom: 8px;">
-        <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="34">
-        </a>
-
-        <a href="https://github.com/Vikrantthenge" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="34">
-        </a>
+        <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px; text-decoration: none; font-size: 24px;">🔗 LinkedIn</a>
+        <a href="https://github.com/Vikrantthenge" target="_blank" style="text-decoration: none; font-size: 24px;">💻 GitHub</a>
     </div>
 
     <div style="font-size: 14px; margin-top: 10px;">
