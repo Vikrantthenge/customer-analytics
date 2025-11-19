@@ -351,29 +351,45 @@ elif page == "Export":
 # ---------------------------------------------------------------
 # CLEAN GRADIENT FOOTER WITH ICONS
 # ---------------------------------------------------------------
+
+import base64
+import os
+
+def safe_load_icon(path):
+    try:
+        with open(path, "rb") as f:
+            return base64.b64encode(f.read()).decode()
+    except Exception:
+        # fallback 1x1 transparent PNG
+        return "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2P8z8BQDwAFgwJ/lFUPWQAAAABJRU5ErkJggg=="
+
+linkedin_icon = safe_load_icon("assets/linkedin.png")
+github_icon = safe_load_icon("assets/github.png")
+
 st.markdown(
     f"""
     <div style="
         width: 100%;
         margin-top: 40px;
-        padding: 22px;
+        padding: 22px 10px;
         border-radius: 12px;
         background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
         text-align: center;
         color: white;
     ">
 
-        <!-- Icons -->
-        <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
-            <img src="data:image/png;base64,{linkedin_icon}" width="34">
-        </a>
+        <!-- Social Icons -->
+        <div style="margin-bottom: 8px;">
+            <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
+                <img src="data:image/png;base64,{linkedin_icon}" width="34">
+            </a>
 
-        <a href="https://github.com/Vikrantthenge" target="_blank">
-            <img src="data:image/png;base64,{github_icon}" width="34">
-        </a>
+            <a href="https://github.com/Vikrantthenge" target="_blank">
+                <img src="data:image/png;base64,{github_icon}" width="34">
+            </a>
+        </div>
 
-        <!-- Footer text -->
-        <div style="margin-top: 10px; font-size: 14px;">
+        <div style="font-size: 14px; margin-top: 10px;">
             Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
         </div>
 
