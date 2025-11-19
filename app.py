@@ -350,61 +350,33 @@ elif page == "Export":
 
 # ---------------------------------------------------------------
 
-import base64
-import os
 import streamlit as st
 
-def safe_load_icon(path):
-    try:
-        with open(path, "rb") as f:
-            return base64.b64encode(f.read()).decode()
-    except Exception:
-        # fallback 1x1 transparent PNG
-        return "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2P8z8BQDwAFgwJ/lFUPWQAAAABJRU5ErkJggg=="
+st.markdown("""
+<div style="
+    width: 100%;
+    margin-top: 40px;
+    padding: 22px 10px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
+    text-align: center;
+    color: white;
+">
 
-# Load icons
-linkedin_icon = safe_load_icon("assets/linkedin.png")
-github_icon = safe_load_icon("assets/github.png")
-twitter_icon = safe_load_icon("assets/twitter.png")
-email_icon = safe_load_icon("assets/email.png")
+    <!-- Social Icons -->
+    <div style="margin-bottom: 8px;">
+        <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="34">
+        </a>
 
-# Footer block
-st.markdown(
-    f"""
-    <div style="
-        width: 100%;
-        margin-top: 40px;
-        padding: 22px 10px;
-        border-radius: 12px;
-        background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
-        text-align: center;
-        color: white;
-    ">
-
-        <!-- Social Icons -->
-        <div style="margin-bottom: 8px;">
-            <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
-                <img src="data:image/png;base64,{linkedin_icon}" width="34">
-            </a>
-
-            <a href="https://github.com/Vikrantthenge" target="_blank" style="margin-right: 25px;">
-                <img src="data:image/png;base64,{github_icon}" width="34">
-            </a>
-
-            <a href="https://twitter.com/vikrantthenge" target="_blank" style="margin-right: 25px;">
-                <img src="data:image/png;base64,{twitter_icon}" width="34">
-            </a>
-
-            <a href="mailto:vikrant.thenge@gmail.com" target="_blank">
-                <img src="data:image/png;base64,{email_icon}" width="34">
-            </a>
-        </div>
-
-        <div style="font-size: 14px; margin-top: 10px;">
-            Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
-        </div>
-
+        <a href="https://github.com/Vikrantthenge" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="34">
+        </a>
     </div>
-    """,
-    unsafe_allow_html=True
-)
+
+    <div style="font-size: 14px; margin-top: 10px;">
+        Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
+    </div>
+
+</div>
+""", unsafe_allow_html=True)
