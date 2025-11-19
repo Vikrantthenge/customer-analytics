@@ -355,11 +355,15 @@ elif page == "Export":
 
 import streamlit as st
 
+
 # Social Icons block
 st.markdown("""
 <div style="margin-bottom: 8px;">
   <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="28" height="28">
+  </a>
+  <a href="https://github.com/vikrantthenge" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="28" height="28">
   </a>
 </div>
 """, unsafe_allow_html=True)
