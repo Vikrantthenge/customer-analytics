@@ -349,7 +349,7 @@ elif page == "Export":
 
 
 # ---------------------------------------------------------------
-# GRADIENT FOOTER (LINKEDIN + GITHUB)
+# CLEAN GRADIENT FOOTER WITH ICONS
 # ---------------------------------------------------------------
 import base64
 
@@ -363,29 +363,30 @@ github_icon = load_icon("assets/github.png")
 st.markdown(
     f"""
     <div style="
-        width:100%;
-        margin-top:40px;
-        padding:20px;
-        border-radius:10px;
+        width: 100%;
+        margin-top: 40px;
+        padding: 22px;
+        border-radius: 12px;
         background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
-        text-align:center;
-        color:white;
+        text-align: center;
+        color: white;
     ">
-        <div style="margin-bottom:8px;">
-            <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right:25px;">
-                <img src="data:image/png;base64,{linkedin_icon}" width="32" style="filter:brightness(100%);">
-            </a>
 
-            <a href="https://github.com/Vikrantthenge" target="_blank">
-                <img src="data:image/png;base64,{github_icon}" width="32" style="filter:brightness(100%);">
-            </a>
+        <a href="https://www.linkedin.com/in/vthenge" target="_blank" style="margin-right: 25px;">
+            <img src="data:image/png;base64,{linkedin_icon}" width="34">
+        </a>
+
+        <a href="https://github.com/Vikrantthenge" target="_blank">
+            <img src="data:image/png;base64,{github_icon}" width="34">
+        </a>
+
+        <div style="margin-top: 10px; font-size: 14px;">
+            Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
         </div>
 
-        <div style="font-size:14px; margin-top:10px;">
-            Built by <strong>Vikrant Thenge</strong> · Customer Analytics Dashboard
-        </div>
     </div>
     """,
     unsafe_allow_html=True
 )
+
 
