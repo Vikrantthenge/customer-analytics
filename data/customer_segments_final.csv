@@ -1,0 +1,4339 @@
+customerid,recency,frequency,monetary,km_segment
+12526,1,3,1316.66,Mass Regulars
+12423,1,8,1859.31,Mass Regulars
+12518,1,5,2056.89,Mass Regulars
+18102,1,60,259657.3,Elite
+14446,1,4,1039.58,Mass Regulars
+17389,1,34,31833.68,Loyal High-Value
+12433,1,7,13375.87,Mass Regulars
+17754,1,5,1772.26,Mass Regulars
+12662,1,11,3849.78,Mass Regulars
+16446,1,2,168472.5,Elite
+17490,1,7,2092.32,Mass Regulars
+12713,1,1,848.55,Mass Regulars
+15910,1,8,1232.18,Mass Regulars
+12748,1,209,33719.73,Elite
+15804,1,13,4206.39,Mass Regulars
+13426,1,10,3641.32,Mass Regulars
+15311,1,91,60767.9,Elite
+17581,1,25,11045.04,Loyal High-Value
+12680,1,4,862.81,Mass Regulars
+17364,1,11,4481.18,Mass Regulars
+15344,1,3,563.94,Mass Regulars
+13113,1,24,12245.96,Loyal High-Value
+14441,1,4,1712.89,Mass Regulars
+13069,1,24,4436.12,Loyal High-Value
+12985,1,2,1239.38,Mass Regulars
+13777,1,33,25977.16,Loyal High-Value
+14051,1,23,15610.39,Loyal High-Value
+17001,1,11,3989.57,Mass Regulars
+16954,1,9,2085.08,Mass Regulars
+15694,1,14,6479.4,Mass Regulars
+17428,1,28,17256.85,Loyal High-Value
+16705,1,20,14034.99,Loyal High-Value
+16558,1,20,8338.49,Loyal High-Value
+16626,1,17,4413.1,Loyal High-Value
+14422,1,6,4263.64,Mass Regulars
+17315,2,38,6292.26,Loyal High-Value
+15214,2,8,1661.44,Mass Regulars
+17405,2,3,1031.41,Mass Regulars
+17530,2,10,2385.0,Mass Regulars
+13298,2,1,360.0,Mass Regulars
+16892,2,5,525.54,Mass Regulars
+13077,2,4,729.27,Mass Regulars
+13436,2,1,196.89,Mass Regulars
+13890,2,10,1883.81,Mass Regulars
+14911,2,201,143825.06,Elite
+13954,2,2,439.92,Mass Regulars
+18109,2,26,8052.97,Loyal High-Value
+14129,2,5,1123.86,Mass Regulars
+13860,2,5,1245.9,Mass Regulars
+13026,2,5,975.36,Mass Regulars
+13404,2,2,252.49,Mass Regulars
+17436,2,2,216.3,Mass Regulars
+17830,2,3,398.7,Mass Regulars
+13510,2,4,1791.56,Mass Regulars
+13102,2,24,6424.09,Loyal High-Value
+14056,2,23,8214.65,Loyal High-Value
+18210,2,6,2621.38,Mass Regulars
+14719,2,5,1602.13,Mass Regulars
+14520,2,2,270.6,Mass Regulars
+17757,2,30,5605.29,Loyal High-Value
+14698,2,5,1250.76,Mass Regulars
+14138,2,2,982.38,Mass Regulars
+17144,2,2,984.57,Mass Regulars
+17554,2,5,1952.45,Mass Regulars
+17631,2,3,528.33,Mass Regulars
+16794,2,10,1222.71,Mass Regulars
+13599,2,21,5153.67,Loyal High-Value
+16523,2,21,9418.47,Loyal High-Value
+13536,2,7,3448.29,Mass Regulars
+17522,2,5,1070.71,Mass Regulars
+15237,2,4,1412.32,Mass Regulars
+16833,2,4,1106.53,Mass Regulars
+17491,2,10,3558.87,Mass Regulars
+17644,2,11,2895.64,Mass Regulars
+14291,2,11,3883.25,Mass Regulars
+12621,2,20,13689.67,Loyal High-Value
+13318,2,3,640.76,Mass Regulars
+15159,2,30,18641.01,Loyal High-Value
+16891,2,5,809.7,Mass Regulars
+17677,2,30,16363.23,Loyal High-Value
+15453,2,7,1388.37,Mass Regulars
+17856,2,4,1418.03,Mass Regulars
+16358,2,4,2027.5,Mass Regulars
+16161,2,19,5575.56,Loyal High-Value
+14646,2,73,280206.02,Elite
+17949,2,45,58510.48,Loyal High-Value
+13408,2,62,28117.04,Loyal High-Value
+12358,2,2,1168.06,Mass Regulars
+16442,2,3,616.79,Mass Regulars
+14606,2,93,12156.65,Loyal High-Value
+13263,2,35,7454.07,Loyal High-Value
+13680,2,4,3722.42,Mass Regulars
+12437,2,18,4951.41,Loyal High-Value
+16401,2,12,4098.32,Mass Regulars
+17668,2,2,347.75,Mass Regulars
+17675,2,31,20374.28,Loyal High-Value
+15156,2,3,961.49,Mass Regulars
+13471,2,4,2531.58,Mass Regulars
+16210,2,18,21086.3,Loyal High-Value
+17528,2,8,3628.5,Mass Regulars
+13468,2,37,5704.97,Loyal High-Value
+15484,2,4,3594.31,Mass Regulars
+13924,2,6,1838.85,Mass Regulars
+16322,2,2,326.75,Mass Regulars
+15189,2,41,16225.39,Loyal High-Value
+14653,2,7,1947.55,Mass Regulars
+14569,2,1,227.39,Mass Regulars
+16688,2,4,1260.86,Mass Regulars
+14796,2,17,8022.49,Loyal High-Value
+14251,2,5,2879.7,Mass Regulars
+17673,2,6,1629.12,Mass Regulars
+16933,2,2,563.23,Mass Regulars
+14217,2,17,2004.98,Mass Regulars
+17243,2,26,8676.85,Loyal High-Value
+14415,2,13,5900.28,Mass Regulars
+14702,2,17,3292.14,Mass Regulars
+15520,2,1,343.5,Mass Regulars
+15443,2,7,3236.91,Mass Regulars
+14621,2,5,1788.36,Mass Regulars
+15187,2,16,4777.18,Mass Regulars
+15399,2,3,815.77,Mass Regulars
+13013,2,13,4810.94,Mass Regulars
+13314,2,3,775.94,Mass Regulars
+14135,2,15,4690.31,Mass Regulars
+15898,2,5,1388.88,Mass Regulars
+15208,2,5,870.12,Mass Regulars
+13798,2,57,37153.85,Loyal High-Value
+12955,2,11,4757.16,Mass Regulars
+14191,2,13,4684.76,Mass Regulars
+13098,2,28,28882.44,Loyal High-Value
+13394,2,8,2520.02,Mass Regulars
+13521,2,3,1093.65,Mass Regulars
+17451,2,7,1721.4,Mass Regulars
+13269,2,15,5346.23,Mass Regulars
+15877,2,2,493.28,Mass Regulars
+14730,2,8,2005.06,Mass Regulars
+15796,2,8,2711.56,Mass Regulars
+17841,2,124,40991.57,Elite
+18219,3,10,2069.77,Mass Regulars
+14132,3,11,3586.03,Mass Regulars
+14395,3,9,3507.71,Mass Regulars
+17091,3,9,3827.76,Mass Regulars
+12783,3,6,2225.91,Mass Regulars
+14141,3,4,915.13,Mass Regulars
+15984,3,10,2837.67,Mass Regulars
+14910,3,4,434.35,Mass Regulars
+16817,3,9,1604.75,Mass Regulars
+18273,3,3,204.0,Mass Regulars
+17835,3,3,350.64,Mass Regulars
+14708,3,3,1126.37,Mass Regulars
+15498,3,27,13316.4,Loyal High-Value
+12950,3,3,1843.0,Mass Regulars
+16426,3,10,1908.25,Mass Regulars
+13769,3,10,2796.51,Mass Regulars
+15568,3,3,758.29,Mass Regulars
+17434,3,7,2373.82,Mass Regulars
+16525,3,26,13027.45,Loyal High-Value
+17449,3,7,2520.86,Mass Regulars
+13534,3,25,5870.08,Loyal High-Value
+12720,3,25,5781.73,Loyal High-Value
+16779,3,22,10629.72,Loyal High-Value
+13089,3,97,58825.83,Elite
+13668,3,21,6363.59,Loyal High-Value
+14204,3,1,161.03,Mass Regulars
+14794,3,7,1319.91,Mass Regulars
+13743,3,7,1341.6,Mass Regulars
+16672,3,20,8134.94,Loyal High-Value
+14904,3,2,1025.44,Mass Regulars
+17017,3,20,8694.26,Loyal High-Value
+13685,3,7,3119.44,Mass Regulars
+12826,3,7,1474.72,Mass Regulars
+13267,3,19,4521.49,Loyal High-Value
+17735,3,19,13110.02,Loyal High-Value
+13882,3,5,1191.13,Mass Regulars
+14397,3,19,2612.96,Loyal High-Value
+16458,3,18,3482.74,Loyal High-Value
+12347,3,7,4310.0,Mass Regulars
+14085,3,18,4448.54,Loyal High-Value
+14534,3,18,4447.05,Loyal High-Value
+12912,3,5,1662.3,Mass Regulars
+17238,3,17,3744.65,Mass Regulars
+13767,3,37,17220.36,Loyal High-Value
+12828,3,6,1018.71,Mass Regulars
+17503,3,2,558.96,Mass Regulars
+18237,3,5,987.1,Mass Regulars
+12935,3,7,2160.7,Mass Regulars
+17042,3,5,1044.38,Mass Regulars
+16368,3,2,497.43,Mass Regulars
+12583,3,15,7281.38,Loyal High-Value
+14189,3,15,4654.08,Mass Regulars
+14087,3,1,194.42,Mass Regulars
+16271,3,5,1429.24,Mass Regulars
+18272,3,6,3078.58,Mass Regulars
+17602,3,6,5102.97,Mass Regulars
+13756,3,14,5189.52,Mass Regulars
+15471,3,1,469.48,Mass Regulars
+12839,3,14,5591.42,Mass Regulars
+17232,3,2,421.52,Mass Regulars
+17590,3,3,1479.22,Mass Regulars
+15525,3,3,825.92,Mass Regulars
+15883,3,2,396.48,Mass Regulars
+17097,3,8,954.42,Mass Regulars
+13870,3,8,2770.94,Mass Regulars
+12569,3,32,4124.69,Loyal High-Value
+14769,3,8,10674.75,Mass Regulars
+16191,3,13,5180.52,Mass Regulars
+16393,3,13,3046.21,Mass Regulars
+17266,3,3,310.64,Mass Regulars
+16000,3,3,12393.7,Mass Regulars
+16678,3,12,3109.99,Mass Regulars
+17870,3,12,1894.35,Mass Regulars
+17511,3,31,91062.38,Loyal High-Value
+15969,3,3,666.1,Mass Regulars
+12615,3,4,2291.19,Mass Regulars
+14527,3,55,8508.82,Loyal High-Value
+12471,3,30,19824.05,Loyal High-Value
+15298,3,12,4799.9,Mass Regulars
+15195,3,1,3861.0,Mass Regulars
+15701,3,4,1542.14,Mass Regulars
+15750,3,8,2465.48,Mass Regulars
+12747,3,11,4196.01,Mass Regulars
+14032,3,11,2975.59,Mass Regulars
+18092,3,11,9068.26,Mass Regulars
+16539,3,4,1388.81,Mass Regulars
+13949,3,6,2427.32,Mass Regulars
+17049,3,9,5659.98,Mass Regulars
+17412,3,7,1258.06,Mass Regulars
+15136,3,4,1286.7,Mass Regulars
+16569,4,1,124.2,Mass Regulars
+16764,4,13,2799.25,Mass Regulars
+13994,4,6,2313.14,Mass Regulars
+12820,4,4,942.34,Mass Regulars
+17744,4,6,2322.4,Mass Regulars
+18283,4,16,2094.88,Mass Regulars
+16016,4,8,1508.76,Mass Regulars
+12417,4,9,3649.1,Mass Regulars
+12971,4,86,11189.91,Loyal High-Value
+13199,4,38,9817.12,Loyal High-Value
+13225,4,7,6463.84,Mass Regulars
+16495,4,3,684.41,Mass Regulars
+14293,4,4,1046.56,Mass Regulars
+13104,4,6,1098.48,Mass Regulars
+16987,4,7,1625.05,Mass Regulars
+13755,4,9,2161.35,Mass Regulars
+12650,4,1,314.44,Mass Regulars
+18225,4,12,5509.12,Mass Regulars
+12766,4,7,6989.63,Mass Regulars
+12682,4,31,12288.22,Loyal High-Value
+14121,4,4,2780.15,Mass Regulars
+15023,4,11,6802.76,Mass Regulars
+14578,4,1,168.63,Mass Regulars
+14572,4,7,2832.84,Mass Regulars
+16949,4,6,1286.27,Mass Regulars
+14562,4,18,5074.77,Loyal High-Value
+17481,4,4,1255.59,Mass Regulars
+14868,4,8,2953.59,Mass Regulars
+13507,4,4,2479.16,Mass Regulars
+16143,4,6,2424.94,Mass Regulars
+16528,4,1,244.41,Mass Regulars
+12584,4,9,2338.15,Mass Regulars
+13323,4,5,787.85,Mass Regulars
+17119,4,2,606.91,Mass Regulars
+16201,4,4,1863.47,Mass Regulars
+14113,4,4,1840.42,Mass Regulars
+12716,4,2,1053.49,Mass Regulars
+14216,4,4,1839.3,Mass Regulars
+15318,4,1,312.62,Mass Regulars
+14907,4,7,3501.1,Mass Regulars
+13881,4,20,17159.52,Loyal High-Value
+14110,4,12,5683.15,Mass Regulars
+13694,4,50,65039.62,Loyal High-Value
+12877,4,12,1535.77,Mass Regulars
+14825,4,12,2226.91,Mass Regulars
+16929,4,7,1295.39,Mass Regulars
+16313,4,2,274.15,Mass Regulars
+16620,4,2,178.96,Mass Regulars
+15907,4,3,967.45,Mass Regulars
+16353,4,23,6675.71,Loyal High-Value
+15822,4,2,885.47,Mass Regulars
+12478,4,1,680.99,Mass Regulars
+16979,4,6,1852.0,Mass Regulars
+17861,4,8,2100.8,Mass Regulars
+13078,4,26,12627.94,Loyal High-Value
+12362,4,10,5226.23,Mass Regulars
+15157,4,3,1936.07,Mass Regulars
+14418,4,3,1937.25,Mass Regulars
+17593,4,5,3927.34,Mass Regulars
+17705,4,9,1823.52,Mass Regulars
+17728,4,3,2876.01,Mass Regulars
+17914,4,1,336.43,Mass Regulars
+16013,4,47,37130.6,Loyal High-Value
+14737,4,3,1164.55,Mass Regulars
+12749,4,5,4090.88,Mass Regulars
+14503,4,6,3543.26,Mass Regulars
+14547,4,8,4007.54,Mass Regulars
+15992,4,1,41.99,Mass Regulars
+14071,4,8,1438.82,Mass Regulars
+12723,4,5,725.07,Mass Regulars
+14282,4,15,3729.34,Mass Regulars
+16133,4,33,14589.04,Loyal High-Value
+12989,4,15,6924.11,Loyal High-Value
+17884,4,4,717.45,Mass Regulars
+14673,4,5,1736.4,Mass Regulars
+18005,4,2,249.72,Mass Regulars
+15194,4,15,7616.53,Loyal High-Value
+18154,4,2,399.19,Mass Regulars
+16015,4,3,705.39,Mass Regulars
+14735,4,32,6065.69,Loyal High-Value
+16711,4,5,1651.03,Mass Regulars
+17730,4,13,5298.48,Mass Regulars
+17883,4,4,671.77,Mass Regulars
+17346,4,15,2676.56,Mass Regulars
+14871,4,4,522.38,Mass Regulars
+17250,4,2,384.52,Mass Regulars
+16790,4,6,1545.62,Mass Regulars
+13709,4,13,6328.05,Mass Regulars
+17666,4,2,728.16,Mass Regulars
+15061,4,48,54534.14,Loyal High-Value
+12442,4,1,172.06,Mass Regulars
+17290,4,2,525.24,Mass Regulars
+14140,4,2,935.05,Mass Regulars
+16076,4,10,2234.73,Mass Regulars
+14083,5,9,1018.43,Mass Regulars
+16360,5,6,3512.53,Mass Regulars
+16600,5,6,813.52,Mass Regulars
+16500,5,6,400.86,Mass Regulars
+16873,5,6,7123.62,Mass Regulars
+14629,5,2,959.01,Mass Regulars
+16684,5,28,66653.56,Loyal High-Value
+15856,5,27,16387.57,Loyal High-Value
+12841,5,25,4022.35,Loyal High-Value
+15274,5,2,716.57,Mass Regulars
+17857,5,23,26879.04,Loyal High-Value
+15358,5,22,8347.2,Loyal High-Value
+14194,5,21,11349.52,Loyal High-Value
+13417,5,2,640.83,Mass Regulars
+16200,5,2,1080.62,Mass Regulars
+14060,5,19,6140.42,Loyal High-Value
+16746,5,18,6697.66,Loyal High-Value
+13311,5,2,598.57,Mass Regulars
+15290,5,18,7943.22,Loyal High-Value
+14096,5,17,65164.79,Loyal High-Value
+17920,5,17,4204.1,Loyal High-Value
+17706,5,17,10504.49,Loyal High-Value
+12646,5,2,1346.97,Mass Regulars
+18198,5,17,5425.56,Loyal High-Value
+16592,5,16,4113.68,Mass Regulars
+16811,5,2,547.07,Mass Regulars
+16904,5,16,3754.27,Mass Regulars
+17404,5,15,31906.82,Loyal High-Value
+13985,5,15,7060.13,Loyal High-Value
+14759,5,3,1625.97,Mass Regulars
+15053,5,3,697.79,Mass Regulars
+12683,5,15,8476.57,Loyal High-Value
+15640,5,15,12515.66,Loyal High-Value
+16968,5,2,439.43,Mass Regulars
+18223,5,14,6484.54,Mass Regulars
+13230,5,14,2806.97,Mass Regulars
+13001,5,13,9818.82,Loyal High-Value
+17402,5,13,2633.85,Mass Regulars
+14401,5,13,4051.48,Mass Regulars
+15854,5,12,2974.65,Mass Regulars
+17579,5,3,448.9,Mass Regulars
+13173,5,2,353.65,Mass Regulars
+13083,5,2,303.75,Mass Regulars
+12628,5,3,786.46,Mass Regulars
+16149,5,2,280.52,Mass Regulars
+17254,5,2,272.44,Mass Regulars
+12925,5,2,694.05,Mass Regulars
+14075,5,3,942.26,Mass Regulars
+15690,5,2,239.76,Mass Regulars
+17817,5,3,387.68,Mass Regulars
+18030,5,2,230.65,Mass Regulars
+12994,5,3,974.42,Mass Regulars
+15033,5,10,2586.67,Mass Regulars
+18015,5,1,120.03,Mass Regulars
+18044,5,10,2088.6,Mass Regulars
+13305,5,10,2000.86,Mass Regulars
+17218,5,10,1960.72,Mass Regulars
+16851,5,3,342.45,Mass Regulars
+13790,5,1,348.8,Mass Regulars
+17006,5,4,781.78,Mass Regulars
+16513,5,4,874.59,Mass Regulars
+15628,5,9,2870.24,Mass Regulars
+15145,5,4,1194.73,Mass Regulars
+13021,5,9,2616.38,Mass Regulars
+17526,5,4,1195.9,Mass Regulars
+15621,5,4,1293.03,Mass Regulars
+17811,5,39,7837.73,Loyal High-Value
+15932,5,8,2495.87,Mass Regulars
+15392,5,4,1535.53,Mass Regulars
+16642,5,2,688.33,Mass Regulars
+13126,5,8,2099.64,Mass Regulars
+14608,5,4,1785.15,Mass Regulars
+16597,5,1,90.04,Mass Regulars
+14219,5,1,89.94,Mass Regulars
+16379,5,4,2157.4,Mass Regulars
+15097,5,1,248.08,Mass Regulars
+15550,5,4,575.63,Mass Regulars
+16910,5,8,1510.06,Mass Regulars
+15031,5,4,668.14,Mass Regulars
+17383,5,1,199.29,Mass Regulars
+14649,5,4,1417.29,Mass Regulars
+12782,5,5,2330.92,Mass Regulars
+14739,5,7,3902.28,Mass Regulars
+15572,5,7,2552.86,Mass Regulars
+12367,5,1,168.9,Mass Regulars
+13079,5,5,220.1,Mass Regulars
+12381,5,5,1845.31,Mass Regulars
+17090,5,7,2043.95,Mass Regulars
+14931,5,5,1257.68,Mass Regulars
+16682,5,5,1028.0,Mass Regulars
+14696,5,7,2078.95,Mass Regulars
+12913,5,5,2483.63,Mass Regulars
+18180,5,6,1843.75,Mass Regulars
+17676,5,6,1387.68,Mass Regulars
+17936,6,1,389.84,Mass Regulars
+13630,6,7,2031.78,Mass Regulars
+14658,6,2,247.15,Mass Regulars
+17131,6,5,2463.17,Mass Regulars
+12724,6,4,1031.41,Mass Regulars
+17954,6,12,2332.72,Mass Regulars
+13822,6,2,632.0,Mass Regulars
+17858,6,12,5155.66,Mass Regulars
+14720,6,3,663.81,Mass Regulars
+17750,6,9,1797.57,Mass Regulars
+14456,6,9,3062.4,Mass Regulars
+13704,6,9,2308.06,Mass Regulars
+18065,6,14,2392.83,Mass Regulars
+17827,6,5,1995.46,Mass Regulars
+17173,6,8,3766.6,Mass Regulars
+13319,6,26,10845.55,Loyal High-Value
+14546,6,5,2578.09,Mass Regulars
+14102,6,5,1360.28,Mass Regulars
+17629,6,8,1814.12,Mass Regulars
+16283,6,5,1570.81,Mass Regulars
+13153,6,1,486.22,Mass Regulars
+12827,6,3,430.15,Mass Regulars
+16561,6,2,511.12,Mass Regulars
+16535,6,1,593.75,Mass Regulars
+15773,6,1,635.68,Mass Regulars
+17618,6,3,971.58,Mass Regulars
+16438,6,5,798.35,Mass Regulars
+15867,6,15,3812.64,Mass Regulars
+17114,6,8,808.62,Mass Regulars
+12952,6,4,1387.79,Mass Regulars
+13558,6,4,605.06,Mass Regulars
+14583,6,5,1052.55,Mass Regulars
+16988,6,1,126.12,Mass Regulars
+13736,6,2,731.9,Mass Regulars
+13596,6,2,697.04,Mass Regulars
+12719,6,2,644.95,Mass Regulars
+12673,6,2,610.52,Mass Regulars
+16905,6,7,3102.43,Mass Regulars
+13435,6,7,3809.89,Mass Regulars
+14354,6,2,163.62,Mass Regulars
+12490,6,10,5417.93,Mass Regulars
+16931,6,21,4604.22,Loyal High-Value
+12560,6,3,2134.01,Mass Regulars
+13956,6,5,1026.42,Mass Regulars
+13838,6,4,691.73,Mass Regulars
+13808,6,5,1747.66,Mass Regulars
+16033,6,20,8816.4,Loyal High-Value
+16326,6,14,3110.96,Mass Regulars
+14428,8,5,1244.83,Mass Regulars
+15769,8,26,56252.72,Loyal High-Value
+13309,8,5,1456.79,Mass Regulars
+17221,8,2,335.13,Mass Regulars
+13780,8,2,360.01,Mass Regulars
+13495,8,5,2044.87,Mass Regulars
+14865,8,2,52.2,Mass Regulars
+18174,8,1,104.0,Mass Regulars
+17942,8,1,77.5,Mass Regulars
+17686,8,7,5739.46,Mass Regulars
+16333,8,22,26626.8,Loyal High-Value
+14560,8,22,2237.77,Loyal High-Value
+17386,8,6,2686.42,Mass Regulars
+12695,8,4,582.1,Mass Regulars
+12856,8,6,2179.93,Mass Regulars
+14594,8,2,379.83,Mass Regulars
+12364,8,4,1313.1,Mass Regulars
+16989,8,6,1133.25,Mass Regulars
+14688,8,21,5630.87,Loyal High-Value
+18245,8,7,2567.06,Mass Regulars
+13017,8,1,204.0,Mass Regulars
+13953,8,7,3515.68,Mass Regulars
+14250,8,3,1904.05,Mass Regulars
+15547,8,14,4954.84,Mass Regulars
+12700,8,4,4939.99,Mass Regulars
+14092,8,14,4076.91,Mass Regulars
+14895,8,20,11138.71,Loyal High-Value
+13458,8,14,9646.57,Loyal High-Value
+16359,8,9,1750.92,Mass Regulars
+17567,8,8,4331.48,Mass Regulars
+12587,8,1,144.0,Mass Regulars
+15078,8,32,9743.11,Loyal High-Value
+17611,8,15,3984.22,Mass Regulars
+15271,8,15,2507.07,Mass Regulars
+14493,8,5,2383.24,Mass Regulars
+13868,8,2,3192.54,Mass Regulars
+14897,8,4,1366.38,Mass Regulars
+16038,8,3,471.78,Mass Regulars
+17495,8,2,497.56,Mass Regulars
+16440,8,5,3640.67,Mass Regulars
+15123,8,2,2199.31,Mass Regulars
+18055,8,10,6784.19,Mass Regulars
+12762,8,2,1898.52,Mass Regulars
+13560,8,1,174.37,Mass Regulars
+16474,8,7,1871.5,Mass Regulars
+14788,8,2,679.44,Mass Regulars
+16759,8,3,789.79,Mass Regulars
+14031,8,19,17286.86,Loyal High-Value
+13969,8,18,9053.94,Loyal High-Value
+12684,8,7,2283.63,Mass Regulars
+17584,8,2,1242.3,Mass Regulars
+13183,8,9,3957.78,Mass Regulars
+16103,8,6,1429.64,Mass Regulars
+14023,8,2,584.07,Mass Regulars
+14292,8,9,4871.93,Mass Regulars
+17086,8,6,2050.08,Mass Regulars
+15539,8,1,538.46,Mass Regulars
+12558,8,1,269.96,Mass Regulars
+13705,8,3,711.86,Mass Regulars
+18282,8,2,178.05,Mass Regulars
+15570,8,12,4165.52,Mass Regulars
+17183,8,6,3347.31,Mass Regulars
+18144,8,12,2888.75,Mass Regulars
+12704,8,8,2340.84,Mass Regulars
+16899,8,6,1281.56,Mass Regulars
+12962,8,2,266.39,Mass Regulars
+14126,8,3,706.13,Mass Regulars
+13884,8,5,787.6,Mass Regulars
+17157,8,2,319.0,Mass Regulars
+13297,8,4,2089.85,Mass Regulars
+12970,8,4,452.24,Mass Regulars
+18097,8,6,2697.8,Mass Regulars
+17450,9,46,194550.79,Elite
+14287,9,3,176.63,Mass Regulars
+18077,9,11,2633.01,Mass Regulars
+15500,9,4,1131.56,Mass Regulars
+16156,9,9,3122.04,Mass Regulars
+15687,9,9,2993.1,Mass Regulars
+17381,9,29,20275.61,Loyal High-Value
+12664,9,9,4881.88,Mass Regulars
+14659,9,9,2529.93,Mass Regulars
+17350,9,4,1286.07,Mass Regulars
+14309,9,9,2352.53,Mass Regulars
+17014,9,3,586.33,Mass Regulars
+15021,9,9,1914.82,Mass Regulars
+17293,9,9,1875.11,Mass Regulars
+14960,9,2,221.27,Mass Regulars
+15948,9,2,955.24,Mass Regulars
+15060,9,4,303.09,Mass Regulars
+13159,9,4,1437.85,Mass Regulars
+16966,9,7,2154.97,Mass Regulars
+16145,9,11,3799.49,Mass Regulars
+17426,9,6,5037.26,Mass Regulars
+16169,9,4,1822.97,Mass Regulars
+15101,9,2,317.53,Mass Regulars
+14655,9,4,1932.23,Mass Regulars
+18122,9,6,1826.21,Mass Regulars
+16839,9,34,16594.35,Loyal High-Value
+16789,9,1,80.8,Mass Regulars
+16938,9,4,2736.38,Mass Regulars
+15373,9,12,2415.91,Mass Regulars
+17115,9,3,837.5,Mass Regulars
+16700,9,13,5076.55,Mass Regulars
+15028,9,4,627.13,Mass Regulars
+12963,9,8,1856.63,Mass Regulars
+14289,9,6,911.26,Mass Regulars
+16701,9,13,5398.3,Mass Regulars
+14732,9,8,2702.49,Mass Regulars
+14262,9,8,2618.23,Mass Regulars
+12919,9,6,1335.19,Mass Regulars
+16119,9,2,423.36,Mass Regulars
+13090,9,14,8910.82,Loyal High-Value
+16496,9,3,1599.52,Mass Regulars
+14440,9,5,2357.68,Mass Regulars
+15434,9,5,1041.48,Mass Regulars
+15172,9,5,1624.05,Mass Regulars
+12951,9,6,1064.07,Mass Regulars
+15531,9,2,2007.44,Mass Regulars
+16011,9,16,3362.71,Mass Regulars
+14367,9,16,9261.52,Loyal High-Value
+15144,9,17,6580.44,Loyal High-Value
+14178,9,7,1620.93,Mass Regulars
+13509,9,7,979.72,Mass Regulars
+14146,9,5,4191.0,Mass Regulars
+15380,9,5,1690.26,Mass Regulars
+17321,9,2,700.86,Mass Regulars
+15904,9,1,164.68,Mass Regulars
+17566,9,2,901.21,Mass Regulars
+17576,9,19,3622.68,Loyal High-Value
+14047,9,5,1308.61,Mass Regulars
+15993,9,7,2797.57,Mass Regulars
+16242,9,7,3603.21,Mass Regulars
+12562,9,7,3781.74,Mass Regulars
+12572,9,2,1020.42,Mass Regulars
+16376,9,2,987.01,Mass Regulars
+15951,9,2,708.22,Mass Regulars
+14766,9,6,2473.37,Mass Regulars
+13040,9,2,676.99,Mass Regulars
+13854,9,25,8109.52,Loyal High-Value
+14869,9,2,725.7,Mass Regulars
+14243,9,10,2588.77,Mass Regulars
+16813,9,10,1692.98,Mass Regulars
+12553,9,10,3692.28,Mass Regulars
+14804,9,1,353.27,Mass Regulars
+17937,9,7,4301.22,Mass Regulars
+15862,9,4,832.88,Mass Regulars
+12901,9,28,17654.54,Loyal High-Value
+17768,9,3,2273.18,Mass Regulars
+15602,9,9,1297.87,Mass Regulars
+14298,9,44,51527.3,Loyal High-Value
+14299,9,9,3965.62,Mass Regulars
+15414,10,3,774.9,Mass Regulars
+14156,10,55,117379.63,Elite
+13255,10,2,399.51,Mass Regulars
+13012,10,8,1661.84,Mass Regulars
+17502,10,4,689.1,Mass Regulars
+15680,10,3,1333.68,Mass Regulars
+15611,10,13,1591.45,Mass Regulars
+15152,10,13,4745.69,Mass Regulars
+16241,10,13,2607.87,Mass Regulars
+14448,10,2,375.35,Mass Regulars
+15073,10,3,1043.41,Mass Regulars
+13203,10,4,869.46,Mass Regulars
+12966,10,1,160.18,Mass Regulars
+12488,10,3,1298.66,Mass Regulars
+14432,10,6,2255.51,Mass Regulars
+12429,10,4,3750.4,Mass Regulars
+15654,10,2,922.53,Mass Regulars
+15251,10,11,10484.99,Mass Regulars
+16361,10,4,896.66,Mass Regulars
+12524,10,8,4485.72,Mass Regulars
+16712,10,11,3645.43,Mass Regulars
+16062,10,4,1153.62,Mass Regulars
+13362,10,4,3090.74,Mass Regulars
+16115,10,8,1667.97,Mass Regulars
+17288,10,7,1419.73,Mass Regulars
+12598,10,8,3023.08,Mass Regulars
+15394,10,4,2183.54,Mass Regulars
+12787,10,3,463.66,Mass Regulars
+15467,10,3,524.88,Mass Regulars
+14258,10,9,12669.98,Mass Regulars
+14062,10,12,10464.85,Loyal High-Value
+15903,10,7,5126.76,Mass Regulars
+18179,10,6,1793.17,Mass Regulars
+13647,10,4,1678.12,Mass Regulars
+15039,10,47,19914.44,Loyal High-Value
+15544,10,9,3546.71,Mass Regulars
+14713,10,11,2666.36,Mass Regulars
+15782,10,3,2614.74,Mass Regulars
+16265,10,9,5447.0,Mass Regulars
+13784,10,11,2462.79,Mass Regulars
+16657,10,4,933.62,Mass Regulars
+17911,10,1,366.23,Mass Regulars
+14618,10,3,553.44,Mass Regulars
+16915,10,6,621.68,Mass Regulars
+18241,10,17,2073.09,Mass Regulars
+14755,10,11,5010.28,Mass Regulars
+12630,10,2,1270.88,Mass Regulars
+12784,10,2,574.42,Mass Regulars
+14005,10,5,2874.72,Mass Regulars
+15024,10,10,1661.33,Mass Regulars
+15444,10,2,1418.26,Mass Regulars
+14893,10,2,1237.85,Mass Regulars
+14385,10,3,202.11,Mass Regulars
+12882,10,2,1463.04,Mass Regulars
+12921,10,37,16587.09,Loyal High-Value
+16295,10,4,1328.55,Mass Regulars
+15113,10,3,3609.33,Mass Regulars
+17736,10,3,377.44,Mass Regulars
+18230,10,7,2810.2,Mass Regulars
+18058,10,1,170.16,Mass Regulars
+12714,10,5,4708.86,Mass Regulars
+14963,10,5,1487.8,Mass Regulars
+12528,10,6,1933.48,Mass Regulars
+15712,10,5,1072.36,Mass Regulars
+12957,10,8,4017.54,Mass Regulars
+14540,10,3,996.26,Mass Regulars
+17737,10,2,168.24,Mass Regulars
+13658,10,5,2639.17,Mass Regulars
+12953,10,1,329.85,Mass Regulars
+15046,10,15,5213.77,Mass Regulars
+18158,10,2,453.4,Mass Regulars
+17466,11,2,763.28,Mass Regulars
+14550,11,2,765.62,Mass Regulars
+15239,11,2,780.59,Mass Regulars
+16168,11,27,3787.6,Loyal High-Value
+18118,11,26,5653.82,Loyal High-Value
+14180,11,25,4748.52,Loyal High-Value
+14667,11,25,9241.2,Loyal High-Value
+15615,11,23,10399.74,Loyal High-Value
+17306,11,19,8631.31,Loyal High-Value
+13576,11,18,6717.34,Loyal High-Value
+14088,11,13,50491.81,Loyal High-Value
+16782,11,13,2279.9,Mass Regulars
+13999,11,12,3901.81,Mass Regulars
+14866,11,12,14389.9,Loyal High-Value
+15218,11,11,5756.89,Mass Regulars
+14711,11,11,2868.8,Mass Regulars
+16818,11,11,3349.57,Mass Regulars
+16775,11,11,1695.66,Mass Regulars
+16549,11,10,4154.64,Mass Regulars
+13014,11,10,3466.28,Mass Regulars
+14349,11,1,133.5,Mass Regulars
+14961,11,9,7044.68,Mass Regulars
+14701,11,9,2549.37,Mass Regulars
+14390,11,9,4652.82,Mass Regulars
+12464,11,8,1212.05,Mass Regulars
+13137,11,8,3650.41,Mass Regulars
+14388,11,8,3212.84,Mass Regulars
+12727,11,7,3980.7,Mass Regulars
+17655,11,7,2638.94,Mass Regulars
+12627,11,7,4478.53,Mass Regulars
+14408,11,7,2606.53,Mass Regulars
+13198,11,6,3401.24,Mass Regulars
+17682,11,6,2474.33,Mass Regulars
+15089,11,6,2420.84,Mass Regulars
+15755,11,6,2364.25,Mass Regulars
+14419,11,6,1058.06,Mass Regulars
+14209,11,6,2073.43,Mass Regulars
+14723,11,6,1158.3,Mass Regulars
+16992,11,5,1614.31,Mass Regulars
+13883,11,5,2674.48,Mass Regulars
+12654,11,5,601.98,Mass Regulars
+14321,11,5,1530.75,Mass Regulars
+12670,11,5,2996.05,Mass Regulars
+12451,11,5,9035.52,Mass Regulars
+13928,11,4,464.57,Mass Regulars
+13147,11,4,712.8,Mass Regulars
+14601,11,1,213.96,Mass Regulars
+13428,11,1,218.47,Mass Regulars
+15790,11,1,220.85,Mass Regulars
+14554,11,4,2381.04,Mass Regulars
+15783,11,1,246.3,Mass Regulars
+13349,11,1,247.32,Mass Regulars
+17101,11,4,1621.73,Mass Regulars
+15148,11,1,301.29,Mass Regulars
+14824,11,4,1127.71,Mass Regulars
+13429,11,4,1006.8,Mass Regulars
+15206,11,4,420.3,Mass Regulars
+14173,11,4,450.84,Mass Regulars
+15619,11,1,336.4,Mass Regulars
+15197,11,3,1079.61,Mass Regulars
+14785,11,2,77.4,Mass Regulars
+14125,11,3,2740.43,Mass Regulars
+17468,11,2,137.0,Mass Regulars
+16852,11,2,144.91,Mass Regulars
+17772,11,2,182.77,Mass Regulars
+14836,11,3,102.45,Mass Regulars
+14452,11,2,264.44,Mass Regulars
+12798,11,3,6977.04,Mass Regulars
+15297,11,3,641.94,Mass Regulars
+16479,11,2,300.83,Mass Regulars
+13068,11,2,344.0,Mass Regulars
+13657,11,2,382.14,Mass Regulars
+17711,11,2,385.1,Mass Regulars
+13211,11,3,1197.42,Mass Regulars
+12375,11,2,457.5,Mass Regulars
+13467,11,2,1083.71,Mass Regulars
+13496,11,2,653.33,Mass Regulars
+14704,12,9,1546.91,Mass Regulars
+15561,12,4,800.59,Mass Regulars
+13004,12,18,5655.91,Loyal High-Value
+15511,12,5,909.23,Mass Regulars
+13418,12,18,6127.43,Loyal High-Value
+17188,12,7,2474.23,Mass Regulars
+17988,12,7,201.12,Mass Regulars
+14511,12,5,1314.81,Mass Regulars
+13258,12,3,698.58,Mass Regulars
+17739,12,7,2791.35,Mass Regulars
+13389,12,3,797.96,Mass Regulars
+13115,12,4,2294.78,Mass Regulars
+12660,12,1,245.1,Mass Regulars
+12657,12,4,1643.18,Mass Regulars
+16364,12,2,707.04,Mass Regulars
+15540,12,1,213.3,Mass Regulars
+15571,12,4,650.43,Mass Regulars
+17523,12,4,652.74,Mass Regulars
+13081,12,11,28337.38,Loyal High-Value
+14480,12,1,279.05,Mass Regulars
+15601,12,14,6776.56,Mass Regulars
+15721,12,1,507.08,Mass Regulars
+17299,12,4,669.11,Mass Regulars
+18101,12,2,223.65,Mass Regulars
+14741,12,6,1400.34,Mass Regulars
+13950,12,4,745.06,Mass Regulars
+14470,12,2,461.19,Mass Regulars
+13590,12,6,1981.92,Mass Regulars
+17806,12,1,546.04,Mass Regulars
+18041,12,21,4183.39,Loyal High-Value
+17019,12,4,1272.61,Mass Regulars
+17031,12,2,380.35,Mass Regulars
+15714,12,2,330.88,Mass Regulars
+14215,12,6,1789.72,Mass Regulars
+17419,12,12,4226.57,Mass Regulars
+14290,12,5,2314.65,Mass Regulars
+14597,12,2,883.15,Mass Regulars
+17651,12,10,3945.0,Mass Regulars
+13844,12,1,361.62,Mass Regulars
+17924,12,7,2962.5,Mass Regulars
+16744,12,7,1304.76,Mass Regulars
+13188,12,1,114.6,Mass Regulars
+16094,12,4,1078.23,Mass Regulars
+13266,12,12,3834.26,Mass Regulars
+17379,12,1,404.66,Mass Regulars
+17237,12,2,314.69,Mass Regulars
+13196,12,4,1797.78,Mass Regulars
+18229,12,20,7276.9,Loyal High-Value
+12668,12,4,3807.15,Mass Regulars
+12906,12,5,2919.81,Mass Regulars
+13914,12,2,626.45,Mass Regulars
+15022,12,4,905.04,Mass Regulars
+13758,12,7,3190.55,Mass Regulars
+17359,12,1,127.86,Mass Regulars
+18096,12,3,911.15,Mass Regulars
+14901,12,9,1421.29,Mass Regulars
+16347,12,2,887.65,Mass Regulars
+13030,12,2,799.48,Mass Regulars
+12479,12,1,527.2,Mass Regulars
+17929,12,4,843.0,Mass Regulars
+17852,12,2,114.34,Mass Regulars
+15838,12,19,33643.08,Loyal High-Value
+16800,12,1,1201.49,Mass Regulars
+14859,13,4,1353.74,Mass Regulars
+18112,13,2,352.69,Mass Regulars
+15861,13,8,3165.36,Mass Regulars
+17236,13,6,916.13,Mass Regulars
+17769,13,10,3997.98,Mass Regulars
+17068,13,21,4552.14,Loyal High-Value
+16942,13,9,1920.59,Mass Regulars
+14878,13,9,1485.54,Mass Regulars
+17885,13,1,190.19,Mass Regulars
+16877,13,6,853.72,Mass Regulars
+17365,13,8,4801.56,Mass Regulars
+13064,13,4,1119.49,Mass Regulars
+13610,13,7,1131.88,Mass Regulars
+18156,13,2,734.94,Mass Regulars
+16407,13,10,2126.93,Mass Regulars
+15054,13,2,302.1,Mass Regulars
+16983,13,7,1931.25,Mass Regulars
+14954,13,1,336.17,Mass Regulars
+13991,13,6,855.97,Mass Regulars
+15436,13,3,1122.53,Mass Regulars
+13546,13,3,626.99,Mass Regulars
+15514,13,11,4139.46,Mass Regulars
+17595,13,2,388.79,Mass Regulars
+16005,13,4,615.39,Mass Regulars
+16024,13,1,251.24,Mass Regulars
+18001,13,2,417.23,Mass Regulars
+14577,13,4,859.71,Mass Regulars
+15009,13,3,1261.78,Mass Regulars
+15987,13,7,1451.28,Mass Regulars
+16923,13,19,7247.61,Loyal High-Value
+17864,13,3,597.5,Mass Regulars
+15747,13,3,974.04,Mass Regulars
+13782,13,6,912.0,Mass Regulars
+17231,13,10,3174.32,Mass Regulars
+18145,13,4,2861.55,Mass Regulars
+17812,13,4,732.16,Mass Regulars
+14093,13,1,442.85,Mass Regulars
+13232,13,7,1357.6,Mass Regulars
+13571,13,12,2092.32,Mass Regulars
+15555,13,16,4805.17,Mass Regulars
+15351,13,7,1960.11,Mass Regulars
+17411,13,3,778.94,Mass Regulars
+17562,15,7,1122.38,Mass Regulars
+13149,15,4,1676.06,Mass Regulars
+15186,15,2,411.41,Mass Regulars
+12681,15,22,13787.54,Loyal High-Value
+12620,15,3,1339.41,Mass Regulars
+17302,15,5,1135.63,Mass Regulars
+13050,15,17,5836.86,Loyal High-Value
+15117,15,5,1551.78,Mass Regulars
+14966,15,1,191.32,Mass Regulars
+17385,15,1,261.11,Mass Regulars
+17624,15,2,843.48,Mass Regulars
+15473,15,7,1771.2,Mass Regulars
+16719,15,7,1790.42,Mass Regulars
+12531,15,1,125.22,Mass Regulars
+13048,15,4,1835.91,Mass Regulars
+13332,15,1,350.9,Mass Regulars
+13437,15,7,3408.06,Mass Regulars
+14111,15,4,692.85,Mass Regulars
+13184,15,10,1701.29,Mass Regulars
+13579,15,2,467.04,Mass Regulars
+17348,15,5,1159.52,Mass Regulars
+17813,15,5,1770.88,Mass Regulars
+18172,15,20,7561.68,Loyal High-Value
+15382,15,6,5955.71,Mass Regulars
+15737,15,8,1205.12,Mass Regulars
+16814,15,21,6509.1,Loyal High-Value
+15872,15,2,360.93,Mass Regulars
+13978,15,2,196.79,Mass Regulars
+17329,15,2,523.11,Mass Regulars
+13525,15,2,628.78,Mass Regulars
+13589,15,2,379.65,Mass Regulars
+14703,15,1,318.17,Mass Regulars
+15134,15,8,1387.99,Mass Regulars
+17557,15,3,541.46,Mass Regulars
+12438,15,2,2906.85,Mass Regulars
+16327,15,6,3844.22,Mass Regulars
+16856,15,1,35.4,Mass Regulars
+14710,15,4,606.13,Mass Regulars
+15793,15,3,965.61,Mass Regulars
+14946,15,1,100.9,Mass Regulars
+15428,16,1,93.78,Mass Regulars
+14709,16,13,4921.04,Mass Regulars
+12388,16,6,2780.66,Mass Regulars
+16173,16,6,1418.32,Mass Regulars
+13638,16,1,122.64,Mass Regulars
+18130,16,3,1059.39,Mass Regulars
+15005,16,28,6316.57,Loyal High-Value
+18188,16,3,2001.04,Mass Regulars
+16885,16,3,471.51,Mass Regulars
+12476,16,11,6816.42,Mass Regulars
+17727,16,1,1060.25,Mass Regulars
+16596,16,2,250.15,Mass Regulars
+13207,16,2,250.26,Mass Regulars
+15858,16,5,1438.85,Mass Regulars
+17516,16,5,768.08,Mass Regulars
+15270,16,7,2379.49,Mass Regulars
+16609,16,7,5493.46,Mass Regulars
+16189,16,2,215.48,Mass Regulars
+18184,16,1,49.8,Mass Regulars
+17139,16,12,10668.47,Loyal High-Value
+12421,16,4,807.04,Mass Regulars
+14277,16,3,4216.2,Mass Regulars
+12494,16,7,1246.1,Mass Regulars
+17133,16,7,4892.24,Mass Regulars
+16668,16,6,306.72,Mass Regulars
+12705,16,9,6868.29,Mass Regulars
+14539,16,2,537.48,Mass Regulars
+14756,16,1,738.96,Mass Regulars
+15482,16,12,11054.96,Loyal High-Value
+15725,16,1,415.25,Mass Regulars
+17323,16,7,921.07,Mass Regulars
+17096,16,4,1022.13,Mass Regulars
+13719,16,5,1041.68,Mass Regulars
+15594,16,5,1771.78,Mass Regulars
+16616,16,2,500.42,Mass Regulars
+17458,16,1,316.5,Mass Regulars
+16157,16,3,656.69,Mass Regulars
+14987,16,2,326.4,Mass Regulars
+13995,16,5,1393.69,Mass Regulars
+18161,16,5,1618.69,Mass Regulars
+16566,16,5,614.66,Mass Regulars
+13588,16,9,2478.95,Mass Regulars
+15953,16,8,1659.38,Mass Regulars
+16824,16,2,460.64,Mass Regulars
+14591,16,4,1447.14,Mass Regulars
+12709,16,15,9736.52,Loyal High-Value
+17247,16,1,282.19,Mass Regulars
+17228,16,8,1906.09,Mass Regulars
+15034,16,8,4308.61,Mass Regulars
+12937,16,4,1504.27,Mass Regulars
+17671,16,4,1572.71,Mass Regulars
+14607,16,14,16569.5,Loyal High-Value
+17975,16,13,4488.81,Mass Regulars
+17767,16,1,271.2,Mass Regulars
+15502,16,12,10384.93,Loyal High-Value
+17345,16,4,537.74,Mass Regulars
+13277,16,4,258.4,Mass Regulars
+14805,16,4,554.65,Mass Regulars
+16482,16,1,220.62,Mass Regulars
+12757,16,13,7857.1,Mass Regulars
+15632,16,8,3285.31,Mass Regulars
+16570,16,10,3738.4,Mass Regulars
+16066,17,5,1521.87,Mass Regulars
+15743,17,4,784.46,Mass Regulars
+14049,17,4,5681.72,Mass Regulars
+17034,17,3,745.52,Mass Regulars
+16900,17,3,887.11,Mass Regulars
+17685,17,7,3191.53,Mass Regulars
+13899,17,2,388.52,Mass Regulars
+16653,17,2,1212.66,Mass Regulars
+15727,17,7,5178.96,Mass Regulars
+13644,17,4,2624.26,Mass Regulars
+14912,17,2,867.85,Mass Regulars
+13139,17,7,5064.94,Mass Regulars
+12557,17,5,11990.96,Mass Regulars
+13448,17,6,3539.37,Mass Regulars
+16670,17,11,4095.9,Mass Regulars
+16057,17,7,2263.12,Mass Regulars
+15814,17,4,1945.33,Mass Regulars
+14334,17,8,2552.21,Mass Regulars
+13502,17,3,292.0,Mass Regulars
+14733,17,12,9585.91,Mass Regulars
+14205,17,2,466.7,Mass Regulars
+14581,17,1,138.6,Mass Regulars
+16343,17,2,370.48,Mass Regulars
+15398,17,2,1345.53,Mass Regulars
+15916,17,8,1528.09,Mass Regulars
+13650,17,6,1836.34,Mass Regulars
+14790,17,4,745.06,Mass Regulars
+15393,17,2,231.86,Mass Regulars
+16660,17,4,1267.65,Mass Regulars
+13831,17,6,2202.99,Mass Regulars
+17410,17,5,1214.72,Mass Regulars
+14020,17,2,642.8,Mass Regulars
+15949,17,2,364.72,Mass Regulars
+12619,17,9,3641.24,Mass Regulars
+16185,17,2,529.41,Mass Regulars
+14336,17,4,1614.91,Mass Regulars
+13742,17,12,3131.02,Mass Regulars
+17463,17,5,1896.41,Mass Regulars
+14675,17,1,604.75,Mass Regulars
+13174,17,3,2817.03,Mass Regulars
+17725,17,11,3439.08,Mass Regulars
+14099,17,11,3104.17,Mass Regulars
+14744,17,7,1099.98,Mass Regulars
+15901,17,3,363.88,Mass Regulars
+14335,17,2,468.26,Mass Regulars
+17422,17,6,1979.37,Mass Regulars
+17700,17,4,2534.64,Mass Regulars
+17135,17,7,1139.73,Mass Regulars
+17469,17,5,1870.97,Mass Regulars
+17809,17,12,5411.91,Mass Regulars
+16255,17,8,2619.91,Mass Regulars
+16079,17,3,1352.0,Mass Regulars
+12452,17,2,430.57,Mass Regulars
+15253,17,5,918.2,Mass Regulars
+16020,17,3,851.01,Mass Regulars
+13350,17,2,979.12,Mass Regulars
+18084,17,1,90.48,Mass Regulars
+12948,17,7,2064.95,Mass Regulars
+13018,17,28,7277.7,Loyal High-Value
+14297,18,4,1305.33,Mass Regulars
+18139,18,6,8438.34,Mass Regulars
+14515,18,6,2102.09,Mass Regulars
+17519,18,6,1844.02,Mass Regulars
+18249,18,1,95.34,Mass Regulars
+13681,18,4,827.83,Mass Regulars
+16107,18,7,3204.16,Mass Regulars
+17297,18,1,131.78,Mass Regulars
+13569,18,2,373.75,Mass Regulars
+16633,18,6,2883.1,Mass Regulars
+15116,18,4,1352.75,Mass Regulars
+17500,18,3,1138.0,Mass Regulars
+15106,18,5,1422.52,Mass Regulars
+14657,18,4,848.22,Mass Regulars
+17371,18,3,423.89,Mass Regulars
+15497,18,2,1262.2,Mass Regulars
+17360,18,3,585.79,Mass Regulars
+15845,18,8,3711.77,Mass Regulars
+15150,18,10,5314.47,Mass Regulars
+12586,18,1,196.94,Mass Regulars
+14505,18,8,5905.64,Mass Regulars
+17073,18,4,1446.09,Mass Regulars
+16261,18,4,746.83,Mass Regulars
+15965,18,4,845.64,Mass Regulars
+16985,18,10,5464.12,Mass Regulars
+12920,18,1,164.23,Mass Regulars
+13238,18,4,700.73,Mass Regulars
+17659,18,12,2999.46,Mass Regulars
+13322,18,1,199.48,Mass Regulars
+16607,18,14,3347.71,Mass Regulars
+14424,18,1,322.08,Mass Regulars
+17155,18,2,251.7,Mass Regulars
+13247,18,4,501.12,Mass Regulars
+13986,18,1,320.46,Mass Regulars
+12465,18,2,742.19,Mass Regulars
+16330,18,3,251.91,Mass Regulars
+13403,18,1,75.0,Mass Regulars
+15977,18,2,1054.73,Mass Regulars
+17324,18,4,990.23,Mass Regulars
+13499,18,5,1159.11,Mass Regulars
+16748,18,5,1515.9,Mass Regulars
+16422,18,51,34684.4,Loyal High-Value
+14768,18,2,192.6,Mass Regulars
+16128,18,5,1880.22,Mass Regulars
+16311,18,2,616.26,Mass Regulars
+15971,18,12,4199.85,Mass Regulars
+17600,18,1,161.67,Mass Regulars
+16164,18,3,822.48,Mass Regulars
+12775,18,5,1386.04,Mass Regulars
+13940,18,4,839.14,Mass Regulars
+16532,18,3,6748.8,Mass Regulars
+14467,18,4,598.76,Mass Regulars
+16352,18,2,494.44,Mass Regulars
+12936,18,4,1063.9,Mass Regulars
+16655,18,6,3794.52,Mass Regulars
+12656,18,5,4051.17,Mass Regulars
+14834,18,6,1720.3,Mass Regulars
+17075,18,4,834.12,Mass Regulars
+13456,18,6,1766.72,Mass Regulars
+12474,18,18,7375.79,Loyal High-Value
+15699,18,1,309.65,Mass Regulars
+12483,18,8,2484.98,Mass Regulars
+17759,18,3,834.99,Mass Regulars
+15634,18,1,243.55,Mass Regulars
+14329,18,7,5014.84,Mass Regulars
+16956,18,1,308.74,Mass Regulars
+16365,18,9,1540.42,Mass Regulars
+17453,18,2,486.72,Mass Regulars
+16722,18,13,4730.81,Mass Regulars
+17338,18,8,6643.93,Mass Regulars
+13268,18,11,3214.69,Mass Regulars
+13488,18,13,8968.31,Loyal High-Value
+13363,18,2,992.5,Mass Regulars
+14506,18,5,2012.17,Mass Regulars
+15671,19,7,2657.13,Mass Regulars
+16366,19,1,327.3,Mass Regulars
+16139,19,3,635.41,Mass Regulars
+14449,19,4,907.1,Mass Regulars
+15738,19,16,4812.42,Mass Regulars
+14447,19,5,1163.23,Mass Regulars
+14030,19,8,2360.09,Mass Regulars
+13823,19,2,957.66,Mass Regulars
+17432,19,2,365.76,Mass Regulars
+14300,19,1,43.2,Mass Regulars
+15163,19,2,304.47,Mass Regulars
+13862,19,8,2209.36,Mass Regulars
+12904,19,2,509.58,Mass Regulars
+17253,19,1,178.26,Mass Regulars
+14551,19,2,186.23,Mass Regulars
+15132,19,5,977.93,Mass Regulars
+15179,19,5,2206.95,Mass Regulars
+15567,19,1,186.01,Mass Regulars
+12504,19,2,482.05,Mass Regulars
+13282,19,3,1132.14,Mass Regulars
+12795,19,1,430.48,Mass Regulars
+15857,19,1,297.0,Mass Regulars
+16713,19,15,6923.13,Loyal High-Value
+15645,19,1,612.01,Mass Regulars
+15105,19,7,2298.93,Mass Regulars
+17010,19,1,195.36,Mass Regulars
+13246,19,6,1987.3,Mass Regulars
+17100,19,2,971.74,Mass Regulars
+13430,19,2,679.45,Mass Regulars
+17625,19,4,2047.0,Mass Regulars
+12984,19,1,97.5,Mass Regulars
+14198,19,4,701.4,Mass Regulars
+15093,19,6,4597.02,Mass Regulars
+17227,19,6,939.32,Mass Regulars
+14883,19,6,761.59,Mass Regulars
+16369,19,3,1553.66,Mass Regulars
+15676,19,3,3435.76,Mass Regulars
+14482,19,6,2068.15,Mass Regulars
+13971,19,8,2758.26,Mass Regulars
+13673,19,2,396.92,Mass Regulars
+12349,19,1,1757.55,Mass Regulars
+15527,19,8,2429.78,Mass Regulars
+14587,19,9,1601.14,Mass Regulars
+15115,19,1,340.11,Mass Regulars
+13167,19,4,791.33,Mass Regulars
+12658,19,1,686.05,Mass Regulars
+16406,19,1,163.07,Mass Regulars
+13189,19,2,260.68,Mass Regulars
+18080,19,2,1231.5,Mass Regulars
+13739,19,1,216.9,Mass Regulars
+12462,19,2,1189.59,Mass Regulars
+17664,19,2,604.64,Mass Regulars
+17384,20,2,336.4,Mass Regulars
+14359,20,3,912.18,Mass Regulars
+14984,20,2,213.27,Mass Regulars
+14525,20,9,4332.2,Mass Regulars
+16666,20,1,118.98,Mass Regulars
+16411,20,2,214.65,Mass Regulars
+14881,20,1,255.4,Mass Regulars
+14477,20,4,1309.6,Mass Regulars
+14159,20,11,4693.01,Mass Regulars
+13427,20,3,582.6,Mass Regulars
+15850,20,2,238.85,Mass Regulars
+17555,20,2,483.26,Mass Regulars
+12540,20,17,13400.24,Loyal High-Value
+12523,20,11,1789.77,Mass Regulars
+14052,20,1,225.36,Mass Regulars
+17425,20,2,759.17,Mass Regulars
+13142,20,1,307.09,Mass Regulars
+18127,20,3,348.73,Mass Regulars
+13118,20,5,1197.81,Mass Regulars
+15906,20,7,1567.69,Mass Regulars
+12395,20,12,3018.63,Mass Regulars
+16464,20,3,1314.68,Mass Regulars
+13832,20,1,52.2,Mass Regulars
+14950,20,1,371.2,Mass Regulars
+13212,20,3,788.08,Mass Regulars
+16784,20,1,107.6,Mass Regulars
+17738,20,4,1879.05,Mass Regulars
+13565,20,2,240.22,Mass Regulars
+14595,20,6,1740.6,Mass Regulars
+15988,20,1,158.03,Mass Regulars
+15745,20,4,1094.59,Mass Regulars
+16533,20,3,1095.56,Mass Regulars
+13200,20,4,870.09,Mass Regulars
+17561,20,1,167.62,Mass Regulars
+16399,20,2,408.57,Mass Regulars
+15919,20,2,639.89,Mass Regulars
+16506,20,2,90.3,Mass Regulars
+15465,20,18,7354.62,Loyal High-Value
+14116,20,5,1382.74,Mass Regulars
+12778,20,6,822.23,Mass Regulars
+14664,20,2,637.89,Mass Regulars
+12702,20,1,219.0,Mass Regulars
+14860,20,1,170.32,Mass Regulars
+15044,20,17,7700.23,Loyal High-Value
+13988,20,6,4147.96,Mass Regulars
+14157,20,2,432.88,Mass Regulars
+12597,20,4,3811.22,Mass Regulars
+18040,20,2,357.2,Mass Regulars
+14502,20,11,2470.67,Mass Regulars
+17758,20,8,3456.7,Mass Regulars
+17387,20,2,784.11,Mass Regulars
+17636,20,1,285.56,Mass Regulars
+16710,20,10,2483.04,Mass Regulars
+15426,20,5,1447.39,Mass Regulars
+16212,20,2,690.34,Mass Regulars
+14553,20,5,859.27,Mass Regulars
+18110,20,1,236.3,Mass Regulars
+15963,20,2,470.76,Mass Regulars
+15533,20,3,807.57,Mass Regulars
+16762,20,3,1501.38,Mass Regulars
+14903,22,5,2810.63,Mass Regulars
+16414,22,2,126.25,Mass Regulars
+13962,22,2,169.55,Mass Regulars
+17961,22,39,1296.44,Loyal High-Value
+17063,22,7,1461.14,Mass Regulars
+14849,22,25,7930.54,Loyal High-Value
+17286,22,1,153.92,Mass Regulars
+16945,22,19,4345.5,Loyal High-Value
+16134,22,2,618.09,Mass Regulars
+15088,22,2,1160.07,Mass Regulars
+12444,22,5,5005.46,Mass Regulars
+15494,22,2,1299.23,Mass Regulars
+13941,22,5,5112.96,Mass Regulars
+17650,22,1,166.08,Mass Regulars
+12603,22,1,739.2,Mass Regulars
+12618,22,1,177.31,Mass Regulars
+12578,22,2,2794.51,Mass Regulars
+14434,22,6,1372.8,Mass Regulars
+12931,22,15,42055.96,Loyal High-Value
+17904,22,1,191.67,Mass Regulars
+17301,22,1,197.63,Mass Regulars
+17159,22,3,1538.88,Mass Regulars
+14820,22,4,507.29,Mass Regulars
+14342,22,4,668.56,Mass Regulars
+16279,22,3,1509.58,Mass Regulars
+18034,22,2,422.88,Mass Regulars
+12391,22,1,460.89,Mass Regulars
+12427,22,3,825.8,Mass Regulars
+13117,22,8,984.91,Mass Regulars
+14793,22,1,228.99,Mass Regulars
+17888,22,8,726.05,Mass Regulars
+13516,22,3,1389.41,Mass Regulars
+17621,22,3,1379.9,Mass Regulars
+12380,22,4,2724.81,Mass Regulars
+15368,22,1,446.94,Mass Regulars
+14285,22,4,1910.01,Mass Regulars
+13171,22,3,468.41,Mass Regulars
+13880,22,13,3219.77,Mass Regulars
+13094,22,12,1927.32,Mass Regulars
+15530,22,4,1502.35,Mass Regulars
+16924,22,3,846.75,Mass Regulars
+16463,22,4,1422.4,Mass Regulars
+17779,22,3,658.57,Mass Regulars
+16350,22,4,1116.47,Mass Regulars
+17163,22,2,293.1,Mass Regulars
+14641,22,1,110.46,Mass Regulars
+17760,22,2,287.59,Mass Regulars
+12498,22,3,403.7,Mass Regulars
+14593,22,3,617.99,Mass Regulars
+15933,22,3,1107.46,Mass Regulars
+18061,22,10,2119.41,Mass Regulars
+16511,22,3,950.26,Mass Regulars
+16293,22,10,2248.99,Mass Regulars
+13960,22,2,230.22,Mass Regulars
+14416,23,2,490.22,Mass Regulars
+16656,23,15,8625.8,Loyal High-Value
+14332,23,3,866.31,Mass Regulars
+16871,23,6,2812.34,Mass Regulars
+15124,23,2,184.19,Mass Regulars
+13871,23,13,6403.25,Mass Regulars
+17095,23,3,1324.16,Mass Regulars
+16298,23,3,598.2,Mass Regulars
+15563,23,4,1400.44,Mass Regulars
+12567,23,10,9401.28,Mass Regulars
+16869,23,4,825.42,Mass Regulars
+12997,23,4,1226.89,Mass Regulars
+15287,23,2,486.69,Mass Regulars
+13815,23,4,4027.36,Mass Regulars
+15864,23,6,1936.32,Mass Regulars
+15435,23,1,149.29,Mass Regulars
+17147,23,4,1714.59,Mass Regulars
+17828,23,4,1820.09,Mass Regulars
+15529,23,11,3995.23,Mass Regulars
+15267,23,5,1717.36,Mass Regulars
+17797,23,3,780.43,Mass Regulars
+13138,23,6,962.39,Mass Regulars
+12610,23,5,2099.54,Mass Regulars
+12449,23,4,4067.29,Mass Regulars
+17985,23,1,634.95,Mass Regulars
+12847,23,1,871.54,Mass Regulars
+15489,23,3,1134.28,Mass Regulars
+12477,23,6,13219.74,Mass Regulars
+12445,23,1,133.4,Mass Regulars
+17080,23,2,287.62,Mass Regulars
+17397,23,2,696.41,Mass Regulars
+12753,23,6,21429.39,Loyal High-Value
+15506,23,3,979.26,Mass Regulars
+13160,23,1,91.8,Mass Regulars
+17716,23,11,5655.99,Mass Regulars
+17461,23,3,757.46,Mass Regulars
+17613,23,14,4559.15,Mass Regulars
+16186,23,12,4006.94,Mass Regulars
+14112,23,7,2915.15,Mass Regulars
+16042,23,5,1197.27,Mass Regulars
+17799,23,10,3055.93,Mass Regulars
+14034,23,3,651.82,Mass Regulars
+16638,23,10,1680.72,Mass Regulars
+15657,23,1,30.0,Mass Regulars
+16009,23,4,992.71,Mass Regulars
+15811,23,6,2218.62,Mass Regulars
+12481,23,10,5596.32,Mass Regulars
+13828,23,1,209.49,Mass Regulars
+12539,23,4,5568.35,Mass Regulars
+16070,23,2,852.15,Mass Regulars
+17330,23,2,363.9,Mass Regulars
+13028,23,2,661.32,Mass Regulars
+13308,23,3,1385.51,Mass Regulars
+12647,23,12,3722.82,Mass Regulars
+12356,23,3,2811.43,Mass Regulars
+16531,23,7,1244.59,Mass Regulars
+13313,23,5,1555.32,Mass Regulars
+14508,23,2,276.42,Mass Regulars
+18221,23,5,1041.61,Mass Regulars
+15983,23,4,1475.02,Mass Regulars
+12406,23,2,3415.3,Mass Regulars
+14234,23,4,775.46,Mass Regulars
+14362,23,1,161.2,Mass Regulars
+15081,23,5,504.8,Mass Regulars
+16809,24,5,914.69,Mass Regulars
+16804,24,3,536.99,Mass Regulars
+12731,24,12,18895.91,Loyal High-Value
+14057,24,17,6217.96,Loyal High-Value
+15900,24,1,351.11,Mass Regulars
+14426,24,10,4481.67,Mass Regulars
+13447,24,3,1129.14,Mass Regulars
+18246,24,2,596.1,Mass Regulars
+18167,24,3,1384.86,Mass Regulars
+15051,24,3,1391.61,Mass Regulars
+15967,24,2,418.83,Mass Regulars
+16469,24,4,650.43,Mass Regulars
+12640,24,3,1174.58,Mass Regulars
+13285,24,4,2709.12,Mass Regulars
+13500,24,3,1166.77,Mass Regulars
+13629,24,11,7792.36,Mass Regulars
+16669,24,3,1374.87,Mass Regulars
+18059,24,3,306.46,Mass Regulars
+17368,24,8,1912.67,Mass Regulars
+15584,24,4,725.11,Mass Regulars
+16245,24,3,1413.66,Mass Regulars
+12910,24,8,3075.04,Mass Regulars
+17549,24,2,148.86,Mass Regulars
+14507,24,6,1383.18,Mass Regulars
+12626,24,9,6620.48,Mass Regulars
+16085,24,5,981.51,Mass Regulars
+13449,24,1,291.88,Mass Regulars
+18006,24,1,444.68,Mass Regulars
+14286,24,3,4628.75,Mass Regulars
+16999,24,2,484.82,Mass Regulars
+16008,24,3,478.78,Mass Regulars
+16855,24,2,328.4,Mass Regulars
+18075,24,10,2611.75,Mass Regulars
+13894,24,3,564.62,Mass Regulars
+17680,24,1,184.4,Mass Regulars
+13131,24,3,1073.3,Mass Regulars
+15269,24,1,408.8,Mass Regulars
+17198,24,3,692.22,Mass Regulars
+12991,24,2,503.76,Mass Regulars
+15110,24,4,996.1,Mass Regulars
+15432,24,1,171.19,Mass Regulars
+14948,24,6,1101.97,Mass Regulars
+13575,24,5,732.07,Mass Regulars
+14898,24,6,1303.52,Mass Regulars
+14851,24,2,511.35,Mass Regulars
+13926,24,1,223.85,Mass Regulars
+12993,24,4,414.76,Mass Regulars
+17896,24,1,256.32,Mass Regulars
+13816,24,2,571.67,Mass Regulars
+16204,24,1,405.71,Mass Regulars
+16916,24,2,576.26,Mass Regulars
+14626,24,4,2791.27,Mass Regulars
+17596,24,7,2827.93,Mass Regulars
+16717,24,6,3858.38,Mass Regulars
+17377,24,20,4100.92,Loyal High-Value
+12500,24,11,4257.82,Mass Regulars
+13939,24,3,568.55,Mass Regulars
+15805,24,17,5528.48,Loyal High-Value
+13455,25,2,1058.34,Mass Regulars
+17540,25,2,578.9,Mass Regulars
+15981,25,8,3408.48,Mass Regulars
+14544,25,2,2024.45,Mass Regulars
+15556,25,1,279.77,Mass Regulars
+15758,25,1,205.25,Mass Regulars
+15720,25,1,598.73,Mass Regulars
+15679,25,4,781.28,Mass Regulars
+12883,25,4,703.47,Mass Regulars
+16423,25,1,346.12,Mass Regulars
+15582,25,3,682.91,Mass Regulars
+13735,25,4,2885.24,Mass Regulars
+14715,25,4,867.38,Mass Regulars
+16557,25,2,281.85,Mass Regulars
+13614,25,4,1610.46,Mass Regulars
+13058,25,3,271.4,Mass Regulars
+13066,25,2,470.8,Mass Regulars
+17357,25,2,388.14,Mass Regulars
+14640,25,6,2125.08,Mass Regulars
+13632,25,5,2121.27,Mass Regulars
+17777,25,3,665.86,Mass Regulars
+14714,25,1,160.19,Mass Regulars
+13236,25,2,744.85,Mass Regulars
+15419,25,1,135.86,Mass Regulars
+17314,25,8,2527.92,Mass Regulars
+14522,25,4,974.54,Mass Regulars
+18181,25,1,382.8,Mass Regulars
+14725,25,1,718.08,Mass Regulars
+14853,25,2,475.8,Mass Regulars
+17220,25,14,3198.25,Mass Regulars
+12676,25,6,1331.39,Mass Regulars
+15524,25,1,440.0,Mass Regulars
+12415,25,21,124914.53,Elite
+14666,25,1,195.25,Mass Regulars
+13410,25,5,1003.06,Mass Regulars
+18123,25,2,589.44,Mass Regulars
+18043,25,3,559.51,Mass Regulars
+13846,25,3,865.06,Mass Regulars
+15955,25,14,4416.26,Mass Regulars
+17510,25,1,308.48,Mass Regulars
+18259,25,3,2338.6,Mass Regulars
+14533,25,7,1949.72,Mass Regulars
+12890,25,1,380.47,Mass Regulars
+17974,25,3,740.79,Mass Regulars
+16240,25,2,3718.8,Mass Regulars
+17153,25,1,213.78,Mass Regulars
+12933,25,3,607.53,Mass Regulars
+17564,25,3,454.01,Mass Regulars
+16341,25,4,1971.87,Mass Regulars
+13692,25,3,1488.32,Mass Regulars
+15050,26,3,1782.09,Mass Regulars
+16303,26,3,5360.63,Mass Regulars
+16519,26,2,215.08,Mass Regulars
+12642,26,3,1013.26,Mass Regulars
+17658,26,2,595.42,Mass Regulars
+15365,26,7,2314.32,Mass Regulars
+12374,26,1,742.93,Mass Regulars
+15203,26,6,1827.8,Mass Regulars
+18263,26,3,1213.16,Mass Regulars
+15863,26,2,68.84,Mass Regulars
+18082,26,1,703.37,Mass Regulars
+13835,26,4,834.57,Mass Regulars
+15291,26,15,4668.3,Mass Regulars
+12428,26,9,7956.46,Mass Regulars
+14684,26,5,1236.28,Mass Regulars
+15532,26,4,1580.93,Mass Regulars
+15125,26,15,11528.48,Loyal High-Value
+15458,26,1,161.64,Mass Regulars
+13549,26,7,918.2,Mass Regulars
+18117,26,1,320.72,Mass Regulars
+17081,26,2,290.16,Mass Regulars
+15781,26,3,345.46,Mass Regulars
+17793,26,1,323.04,Mass Regulars
+12689,26,2,1247.61,Mass Regulars
+17663,26,7,1802.91,Mass Regulars
+13577,26,4,1687.6,Mass Regulars
+16936,26,1,262.68,Mass Regulars
+14680,26,16,28754.11,Loyal High-Value
+16504,26,1,484.38,Mass Regulars
+17235,26,2,550.06,Mass Regulars
+18211,26,5,600.07,Mass Regulars
+12938,26,1,114.14,Mass Regulars
+15058,26,11,2124.99,Mass Regulars
+16478,26,3,331.0,Mass Regulars
+14530,26,6,2925.91,Mass Regulars
+14902,26,1,332.66,Mass Regulars
+17044,26,1,948.48,Mass Regulars
+15681,26,5,1426.16,Mass Regulars
+17652,26,12,4867.72,Mass Regulars
+14953,26,1,289.82,Mass Regulars
+15660,26,9,1600.86,Mass Regulars
+16207,26,1,394.38,Mass Regulars
+15168,26,1,106.56,Mass Regulars
+14494,26,1,139.56,Mass Regulars
+17538,26,1,98.42,Mass Regulars
+14862,26,2,841.2,Mass Regulars
+12865,27,2,1568.23,Mass Regulars
+17211,27,8,2317.22,Mass Regulars
+15429,27,2,397.35,Mass Regulars
+12508,27,2,398.27,Mass Regulars
+13146,27,1,228.91,Mass Regulars
+16571,27,3,1421.69,Mass Regulars
+13892,27,4,632.97,Mass Regulars
+14044,27,4,652.82,Mass Regulars
+17790,27,14,1965.55,Mass Regulars
+15599,27,2,761.74,Mass Regulars
+15411,27,4,1358.88,Mass Regulars
+16898,27,3,508.81,Mass Regulars
+17720,27,4,1195.94,Mass Regulars
+14661,27,1,107.95,Mass Regulars
+16726,27,5,1382.02,Mass Regulars
+13451,27,5,2976.15,Mass Regulars
+13379,27,3,572.56,Mass Regulars
+14784,27,2,289.99,Mass Regulars
+13984,27,5,920.51,Mass Regulars
+17838,27,5,2779.3,Mass Regulars
+13603,27,1,164.34,Mass Regulars
+17287,27,7,1064.11,Mass Regulars
+14882,27,2,589.7,Mass Regulars
+12867,27,7,4036.82,Mass Regulars
+14499,27,3,815.32,Mass Regulars
+18069,27,5,2036.67,Mass Regulars
+16720,27,1,155.24,Mass Regulars
+16560,27,2,841.41,Mass Regulars
+15787,27,3,948.05,Mass Regulars
+17041,27,3,1081.57,Mass Regulars
+13170,27,1,116.01,Mass Regulars
+13700,27,10,2265.12,Mass Regulars
+14227,27,10,3350.96,Mass Regulars
+14487,27,6,1196.33,Mass Regulars
+13178,27,11,5725.47,Mass Regulars
+13450,27,6,2043.72,Mass Regulars
+16416,27,3,1051.4,Mass Regulars
+14382,27,1,626.07,Mass Regulars
+16930,27,3,380.55,Mass Regulars
+15449,27,3,974.52,Mass Regulars
+16460,29,3,814.72,Mass Regulars
+12384,29,2,585.27,Mass Regulars
+13895,29,4,2593.07,Mass Regulars
+13557,29,2,584.06,Mass Regulars
+17512,29,10,2924.99,Mass Regulars
+18014,29,1,166.42,Mass Regulars
+12589,29,2,646.68,Mass Regulars
+15557,29,1,473.65,Mass Regulars
+17052,29,1,413.75,Mass Regulars
+12726,29,7,2609.1,Mass Regulars
+13810,29,3,1499.01,Mass Regulars
+17295,29,3,556.95,Mass Regulars
+17015,29,3,1842.56,Mass Regulars
+14543,29,16,3630.33,Mass Regulars
+15492,29,2,659.46,Mass Regulars
+16386,29,2,317.2,Mass Regulars
+14226,29,5,2232.19,Mass Regulars
+17088,29,4,1991.01,Mass Regulars
+12691,29,6,1035.8,Mass Regulars
+15608,29,4,1093.68,Mass Regulars
+16433,29,1,184.26,Mass Regulars
+12697,29,3,957.59,Mass Regulars
+13732,29,1,491.86,Mass Regulars
+17069,29,9,2709.7,Mass Regulars
+17071,29,9,2429.03,Mass Regulars
+13727,29,2,333.48,Mass Regulars
+15692,29,1,191.04,Mass Regulars
+16332,29,7,1593.2,Mass Regulars
+12480,29,4,3281.63,Mass Regulars
+12712,29,13,4396.13,Mass Regulars
+17054,29,5,1356.33,Mass Regulars
+12685,29,6,2863.08,Mass Regulars
+17162,29,10,1715.46,Mass Regulars
+14035,29,5,1428.02,Mass Regulars
+18209,29,1,139.1,Mass Regulars
+16912,29,11,2575.38,Mass Regulars
+16671,29,3,1692.27,Mass Regulars
+13091,29,1,345.82,Mass Regulars
+13310,29,3,1132.03,Mass Regulars
+12517,29,5,2502.84,Mass Regulars
+17191,29,7,2095.13,Mass Regulars
+14789,29,1,197.64,Mass Regulars
+14662,29,4,771.17,Mass Regulars
+12600,29,10,2599.04,Mass Regulars
+16218,30,7,3084.68,Mass Regulars
+17340,30,11,12353.29,Loyal High-Value
+13606,30,3,280.54,Mass Regulars
+16903,30,1,373.24,Mass Regulars
+17573,30,3,380.6,Mass Regulars
+16025,30,1,439.66,Mass Regulars
+14064,30,5,1353.74,Mass Regulars
+12708,30,10,2712.91,Mass Regulars
+13817,30,2,382.98,Mass Regulars
+16628,30,5,2188.05,Mass Regulars
+18125,30,4,1142.99,Mass Regulars
+17197,30,1,1013.01,Mass Regulars
+13460,30,2,183.44,Mass Regulars
+17521,30,3,723.21,Mass Regulars
+15111,30,3,1567.48,Mass Regulars
+17791,30,1,106.1,Mass Regulars
+15463,30,1,126.14,Mass Regulars
+17977,30,1,288.14,Mass Regulars
+14712,30,3,917.07,Mass Regulars
+17059,30,5,3095.04,Mass Regulars
+12617,30,1,355.53,Mass Regulars
+16791,30,7,1721.78,Mass Regulars
+16434,30,7,1522.25,Mass Regulars
+15289,30,3,939.78,Mass Regulars
+16126,30,4,6287.77,Mass Regulars
+16003,30,5,2735.37,Mass Regulars
+15355,30,2,277.05,Mass Regulars
+17537,30,2,897.62,Mass Regulars
+13396,30,2,1360.99,Mass Regulars
+16743,30,7,2238.09,Mass Regulars
+15184,30,2,406.76,Mass Regulars
+14944,30,12,5900.25,Mass Regulars
+12981,30,2,372.22,Mass Regulars
+18236,30,6,882.24,Mass Regulars
+14829,30,4,697.55,Mass Regulars
+12538,30,1,363.95,Mass Regulars
+17901,30,1,110.38,Mass Regulars
+12473,30,5,3938.55,Mass Regulars
+18135,30,5,681.91,Mass Regulars
+14748,30,5,1415.75,Mass Regulars
+13148,30,12,3707.12,Mass Regulars
+17932,30,3,1331.57,Mass Regulars
+17416,30,7,6893.42,Mass Regulars
+16986,30,2,1873.2,Mass Regulars
+14765,30,3,254.11,Mass Regulars
+14863,30,1,266.76,Mass Regulars
+14466,30,7,2272.4,Mass Regulars
+13983,30,12,2603.43,Mass Regulars
+16907,30,5,981.65,Mass Regulars
+12599,30,7,1032.58,Mass Regulars
+17109,30,6,885.04,Mass Regulars
+15452,30,3,538.73,Mass Regulars
+18217,30,2,621.75,Mass Regulars
+15238,30,3,1071.99,Mass Regulars
+12541,30,3,981.18,Mass Regulars
+12844,30,2,325.96,Mass Regulars
+12659,30,1,91.68,Mass Regulars
+17038,31,1,112.4,Mass Regulars
+14188,31,6,2054.36,Mass Regulars
+16996,31,6,1456.96,Mass Regulars
+17867,31,6,1197.1,Mass Regulars
+13623,31,5,747.78,Mass Regulars
+16880,31,7,1519.08,Mass Regulars
+15986,31,1,168.12,Mass Regulars
+13804,31,7,2635.79,Mass Regulars
+14214,31,5,1004.38,Mass Regulars
+18274,31,1,175.92,Mass Regulars
+13384,31,7,4151.93,Mass Regulars
+12893,31,1,188.14,Mass Regulars
+14691,31,5,2114.33,Mass Regulars
+13209,31,8,5891.61,Mass Regulars
+13992,31,1,76.8,Mass Regulars
+12949,31,8,4167.22,Mass Regulars
+16751,31,1,1764.72,Mass Regulars
+17702,31,4,1824.37,Mass Regulars
+17011,31,1,270.9,Mass Regulars
+16953,31,1,20.8,Mass Regulars
+16516,31,1,101.7,Mass Regulars
+15450,31,1,429.84,Mass Regulars
+15027,31,4,1066.15,Mass Regulars
+14240,31,2,890.34,Mass Regulars
+16205,31,4,761.38,Mass Regulars
+15114,31,10,2760.56,Mass Regulars
+12532,31,1,349.83,Mass Regulars
+13522,31,1,125.8,Mass Regulars
+15485,31,3,2575.0,Mass Regulars
+16767,31,11,5580.6,Mass Regulars
+16041,31,3,3166.4,Mass Regulars
+13029,31,3,1247.5,Mass Regulars
+17690,31,15,4757.95,Mass Regulars
+14921,31,2,1316.07,Mass Regulars
+14284,31,2,595.25,Mass Regulars
+14108,31,2,597.91,Mass Regulars
+13046,31,2,629.31,Mass Regulars
+17865,31,20,10526.32,Loyal High-Value
+14968,31,1,147.59,Mass Regulars
+16284,32,2,823.97,Mass Regulars
+12849,32,2,1050.89,Mass Regulars
+14676,32,6,2548.24,Mass Regulars
+16505,32,1,777.6,Mass Regulars
+18216,32,1,481.75,Mass Regulars
+18177,32,6,1341.42,Mass Regulars
+15763,32,2,1086.92,Mass Regulars
+17219,32,1,114.23,Mass Regulars
+15356,32,10,2766.5,Mass Regulars
+17289,32,3,944.41,Mass Regulars
+15573,32,2,607.45,Mass Regulars
+16837,32,11,3170.98,Mass Regulars
+15957,32,1,428.89,Mass Regulars
+13643,32,3,519.44,Mass Regulars
+15249,32,13,6688.46,Mass Regulars
+13975,32,6,2526.28,Mass Regulars
+15103,32,2,703.36,Mass Regulars
+17515,32,4,639.02,Mass Regulars
+17022,32,1,71.0,Mass Regulars
+16187,32,15,6911.44,Loyal High-Value
+17964,32,2,471.7,Mass Regulars
+15043,32,1,537.0,Mass Regulars
+12990,32,3,409.5,Mass Regulars
+13329,32,2,789.0,Mass Regulars
+17313,32,1,2328.84,Mass Regulars
+17886,32,3,899.61,Mass Regulars
+15950,32,4,1765.51,Mass Regulars
+13695,32,15,2504.13,Mass Regulars
+13867,32,3,1015.29,Mass Regulars
+17633,32,4,1324.84,Mass Regulars
+13710,32,1,180.48,Mass Regulars
+13047,32,10,3237.54,Mass Regulars
+14050,32,2,746.36,Mass Regulars
+15153,32,1,329.25,Mass Regulars
+16863,32,2,502.8,Mass Regulars
+13272,32,2,276.56,Mass Regulars
+15406,32,2,510.71,Mass Regulars
+13110,32,7,1488.67,Mass Regulars
+16639,32,3,1257.51,Mass Regulars
+17637,32,2,547.06,Mass Regulars
+14524,32,9,1867.68,Mass Regulars
+17160,32,6,3518.03,Mass Regulars
+12721,32,6,2656.13,Mass Regulars
+16732,32,1,603.75,Mass Regulars
+13381,32,6,3639.31,Mass Regulars
+16618,32,5,2647.59,Mass Regulars
+14360,32,4,2128.23,Mass Regulars
+17158,33,3,1266.97,Mass Regulars
+15719,33,13,5045.61,Mass Regulars
+17043,33,4,1735.18,Mass Regulars
+14073,33,1,151.04,Mass Regulars
+13717,33,6,1445.01,Mass Regulars
+18150,33,3,566.58,Mass Regulars
+14700,33,3,2235.3,Mass Regulars
+14080,33,1,45.6,Mass Regulars
+12484,33,6,4541.72,Mass Regulars
+13097,33,10,6010.42,Mass Regulars
+16348,33,7,1469.45,Mass Regulars
+14623,33,5,889.25,Mass Regulars
+15493,33,5,2001.8,Mass Regulars
+14387,33,3,1770.56,Mass Regulars
+13824,33,5,1698.94,Mass Regulars
+17164,33,7,2467.35,Mass Regulars
+17761,33,1,712.78,Mass Regulars
+15870,33,1,354.09,Mass Regulars
+18016,33,5,1483.56,Mass Regulars
+16053,33,2,1511.95,Mass Regulars
+17430,33,2,265.76,Mass Regulars
+16362,33,5,734.77,Mass Regulars
+12408,33,5,2888.55,Mass Regulars
+15330,33,2,714.96,Mass Regulars
+15618,33,4,776.85,Mass Regulars
+18036,33,3,405.62,Mass Regulars
+15785,33,5,2328.97,Mass Regulars
+12472,33,7,6572.11,Mass Regulars
+14929,33,1,223.88,Mass Regulars
+15522,33,2,398.84,Mass Regulars
+17623,33,1,527.05,Mass Regulars
+16637,33,4,1154.47,Mass Regulars
+16612,33,4,1187.66,Mass Regulars
+12832,33,2,383.03,Mass Regulars
+15513,34,19,14758.22,Loyal High-Value
+16243,34,2,409.1,Mass Regulars
+13532,34,1,210.31,Mass Regulars
+15696,34,8,2736.46,Mass Regulars
+14174,34,1,134.46,Mass Regulars
+12638,34,1,671.69,Mass Regulars
+12357,34,1,6207.67,Mass Regulars
+12838,34,2,683.13,Mass Regulars
+16357,34,3,658.88,Mass Regulars
+13759,34,2,659.41,Mass Regulars
+18170,34,3,980.31,Mass Regulars
+14039,34,1,152.2,Mass Regulars
+13772,34,3,1132.13,Mass Regulars
+13527,34,7,2287.51,Mass Regulars
+16488,34,3,498.8,Mass Regulars
+13155,34,4,971.76,Mass Regulars
+13523,34,5,3964.88,Mass Regulars
+14936,34,8,8137.02,Mass Regulars
+15839,34,3,1048.49,Mass Regulars
+17082,34,2,2003.85,Mass Regulars
+17608,34,2,193.42,Mass Regulars
+15952,34,4,806.57,Mass Regulars
+16445,34,1,230.51,Mass Regulars
+17831,34,1,35.4,Mass Regulars
+16466,34,7,1603.46,Mass Regulars
+15526,34,2,148.44,Mass Regulars
+17107,34,6,10815.43,Mass Regulars
+14404,34,6,1474.32,Mass Regulars
+15025,34,1,377.01,Mass Regulars
+15407,34,4,1056.44,Mass Regulars
+16771,34,5,2246.81,Mass Regulars
+13365,34,2,2225.37,Mass Regulars
+13634,34,5,1575.16,Mass Regulars
+16372,34,2,367.93,Mass Regulars
+15427,34,3,1483.14,Mass Regulars
+15017,34,1,125.58,Mass Regulars
+16676,34,4,1592.12,Mass Regulars
+12645,34,4,1775.18,Mass Regulars
+14517,34,2,330.45,Mass Regulars
+15010,36,1,308.94,Mass Regulars
+14971,36,3,1116.57,Mass Regulars
+14150,36,2,658.64,Mass Regulars
+17979,36,4,757.71,Mass Regulars
+14913,36,4,1227.43,Mass Regulars
+17274,36,1,111.98,Mass Regulars
+12431,36,15,6487.45,Mass Regulars
+16318,36,1,328.15,Mass Regulars
+12397,36,2,2409.9,Mass Regulars
+16555,36,2,285.89,Mass Regulars
+15597,36,1,324.57,Mass Regulars
+15722,36,5,2222.56,Mass Regulars
+17084,36,2,2949.75,Mass Regulars
+18022,36,1,668.11,Mass Regulars
+15707,36,4,945.58,Mass Regulars
+13592,36,4,247.96,Mass Regulars
+17233,36,1,190.88,Mass Regulars
+17930,36,5,1740.48,Mass Regulars
+16887,36,1,194.88,Mass Regulars
+12928,36,5,2062.7,Mass Regulars
+17703,36,3,798.74,Mass Regulars
+13938,36,1,71.66,Mass Regulars
+14592,36,3,570.46,Mass Regulars
+13651,36,2,94.2,Mass Regulars
+16012,36,3,1415.29,Mass Regulars
+12577,36,3,657.8,Mass Regulars
+17203,36,6,3563.85,Mass Regulars
+12944,36,2,604.51,Mass Regulars
+12576,36,5,1315.83,Mass Regulars
+18035,36,3,730.4,Mass Regulars
+17193,36,7,1699.3,Mass Regulars
+13721,37,1,524.14,Mass Regulars
+13168,37,4,1319.19,Mass Regulars
+15612,37,2,195.15,Mass Regulars
+12352,37,8,2506.04,Mass Regulars
+17442,37,6,2248.56,Mass Regulars
+14856,37,3,1311.38,Mass Regulars
+17816,37,4,36.56,Mass Regulars
+16841,37,6,1869.82,Mass Regulars
+17078,37,2,378.2,Mass Regulars
+13636,37,5,949.12,Mass Regulars
+12808,37,3,483.65,Mass Regulars
+15809,37,5,515.77,Mass Regulars
+17076,37,3,841.08,Mass Regulars
+17403,37,1,281.62,Mass Regulars
+17634,37,9,2361.97,Mass Regulars
+14636,37,2,609.85,Mass Regulars
+15605,37,5,1198.23,Mass Regulars
+18205,37,2,517.36,Mass Regulars
+18081,37,3,343.45,Mass Regulars
+13324,37,10,7121.95,Mass Regulars
+14815,37,2,778.5,Mass Regulars
+17653,37,4,1207.56,Mass Regulars
+12544,37,1,372.7,Mass Regulars
+13728,37,6,1016.14,Mass Regulars
+16602,37,1,528.08,Mass Regulars
+15651,37,3,646.3,Mass Regulars
+15998,37,5,3089.97,Mass Regulars
+16221,37,3,864.86,Mass Regulars
+15252,37,2,740.78,Mass Regulars
+15551,37,1,436.06,Mass Regulars
+14098,37,1,147.35,Mass Regulars
+16914,37,1,208.46,Mass Regulars
+15227,37,5,1219.4,Mass Regulars
+16409,37,5,2028.88,Mass Regulars
+17351,37,3,587.15,Mass Regulars
+16337,37,1,151.05,Mass Regulars
+15065,38,4,3158.13,Mass Regulars
+18164,38,1,399.65,Mass Regulars
+12594,38,10,3338.22,Mass Regulars
+15576,38,1,940.67,Mass Regulars
+14528,38,1,364.22,Mass Regulars
+14974,38,1,114.39,Mass Regulars
+18105,38,1,113.48,Mass Regulars
+16043,38,4,773.99,Mass Regulars
+13316,38,4,5977.73,Mass Regulars
+17800,38,9,1199.01,Mass Regulars
+16706,38,3,531.35,Mass Regulars
+16014,38,3,662.38,Mass Regulars
+13904,38,2,332.64,Mass Regulars
+17999,38,2,382.06,Mass Regulars
+16308,38,4,2560.0,Mass Regulars
+12779,38,8,3981.36,Mass Regulars
+13271,38,1,217.38,Mass Regulars
+16884,38,2,429.84,Mass Regulars
+18104,38,1,754.64,Mass Regulars
+17965,38,14,2622.57,Mass Regulars
+17719,38,15,5396.04,Mass Regulars
+17947,38,1,176.68,Mass Regulars
+17966,38,5,1098.43,Mass Regulars
+16367,38,2,804.49,Mass Regulars
+15830,38,1,576.0,Mass Regulars
+15275,38,1,615.14,Mass Regulars
+13477,38,6,1454.58,Mass Regulars
+12830,38,6,6814.64,Mass Regulars
+16747,38,2,836.06,Mass Regulars
+15018,39,3,496.21,Mass Regulars
+14383,39,3,1247.69,Mass Regulars
+18270,39,2,283.15,Mass Regulars
+13697,39,1,151.3,Mass Regulars
+14345,39,1,108.98,Mass Regulars
+17696,39,8,2285.71,Mass Regulars
+16729,39,21,7239.92,Loyal High-Value
+16960,39,3,507.05,Mass Regulars
+17733,39,2,692.19,Mass Regulars
+16029,39,63,81024.84,Elite
+13461,39,3,1445.0,Mass Regulars
+16971,39,1,357.21,Mass Regulars
+12491,39,1,460.4,Mass Regulars
+16830,39,1,325.91,Mass Regulars
+17166,39,2,206.34,Mass Regulars
+16825,39,2,775.18,Mass Regulars
+14485,39,1,165.75,Mass Regulars
+12552,39,2,437.82,Mass Regulars
+14995,39,2,233.23,Mass Regulars
+15423,39,1,43.5,Mass Regulars
+13726,39,2,1079.66,Mass Regulars
+15847,39,2,389.27,Mass Regulars
+13327,39,8,3627.77,Mass Regulars
+12674,39,4,1970.6,Mass Regulars
+13292,39,2,578.94,Mass Regulars
+17951,40,3,1008.54,Mass Regulars
+12909,40,5,2178.67,Mass Regulars
+16969,40,3,650.41,Mass Regulars
+13544,40,2,291.41,Mass Regulars
+13813,40,4,1366.86,Mass Regulars
+13982,40,4,1871.81,Mass Regulars
+15667,40,1,301.32,Mass Regulars
+15329,40,3,1049.7,Mass Regulars
+17396,40,8,7330.8,Mass Regulars
+16127,40,1,656.25,Mass Regulars
+13103,40,1,243.94,Mass Regulars
+15360,40,1,427.93,Mass Regulars
+18257,40,8,2337.63,Mass Regulars
+12522,40,2,192.72,Mass Regulars
+14167,40,4,574.84,Mass Regulars
+15974,40,7,3442.15,Mass Regulars
+16836,40,2,251.87,Mass Regulars
+13145,40,4,618.52,Mass Regulars
+16018,40,2,408.9,Mass Regulars
+12588,40,1,214.9,Mass Regulars
+15752,40,7,2637.38,Mass Regulars
+14808,40,8,2741.17,Mass Regulars
+12581,40,1,197.71,Mass Regulars
+12571,40,2,519.61,Mass Regulars
+13186,40,3,1575.89,Mass Regulars
+15865,41,3,895.13,Mass Regulars
+17372,41,8,1342.68,Mass Regulars
+15708,41,7,3364.24,Mass Regulars
+13617,41,3,544.18,Mass Regulars
+16049,41,3,1111.79,Mass Regulars
+14582,41,1,114.11,Mass Regulars
+16235,41,5,867.31,Mass Regulars
+16190,41,1,215.08,Mass Regulars
+13421,41,2,1851.08,Mass Regulars
+15385,41,1,316.88,Mass Regulars
+17796,41,4,697.9,Mass Regulars
+14077,41,5,499.42,Mass Regulars
+17018,41,2,920.1,Mass Regulars
+15059,41,9,1337.72,Mass Regulars
+17373,41,4,646.92,Mass Regulars
+14295,41,1,166.2,Mass Regulars
+15478,41,2,1441.42,Mass Regulars
+17447,41,2,541.53,Mass Regulars
+14179,41,2,719.78,Mass Regulars
+16601,41,1,244.8,Mass Regulars
+15521,41,8,3000.2,Mass Regulars
+14040,41,12,3614.92,Mass Regulars
+15376,41,3,1233.36,Mass Regulars
+18067,41,1,396.33,Mass Regulars
+13278,41,1,542.73,Mass Regulars
+14158,41,1,507.66,Mass Regulars
+17609,41,5,1112.22,Mass Regulars
+13524,41,5,680.18,Mass Regulars
+15669,41,4,684.34,Mass Regulars
+14810,41,11,2087.88,Mass Regulars
+15370,41,7,2386.05,Mass Regulars
+13566,41,2,874.71,Mass Regulars
+15748,41,1,149.31,Mass Regulars
+13607,41,1,678.01,Mass Regulars
+17255,41,2,298.41,Mass Regulars
+15860,41,8,977.21,Mass Regulars
+17213,41,7,2781.23,Mass Regulars
+14221,43,9,3432.8,Mass Regulars
+14232,43,5,2048.07,Mass Regulars
+17669,43,7,3406.72,Mass Regulars
+14412,43,2,770.03,Mass Regulars
+12678,43,12,17628.46,Loyal High-Value
+17839,43,1,338.8,Mass Regulars
+16102,43,3,1842.14,Mass Regulars
+18287,43,3,1837.28,Mass Regulars
+13993,43,9,3466.36,Mass Regulars
+17418,43,2,463.46,Mass Regulars
+14738,43,7,1314.45,Mass Regulars
+16150,43,5,2053.02,Mass Regulars
+13812,43,3,539.0,Mass Regulars
+14218,43,1,169.48,Mass Regulars
+12895,43,2,372.8,Mass Regulars
+16843,43,16,10196.57,Loyal High-Value
+17837,43,8,1593.38,Mass Regulars
+14498,43,5,1957.32,Mass Regulars
+16554,43,3,837.1,Mass Regulars
+16648,43,1,290.66,Mass Regulars
+15096,43,1,219.39,Mass Regulars
+17272,43,4,2148.63,Mass Regulars
+12432,43,5,5059.32,Mass Regulars
+16847,44,1,193.44,Mass Regulars
+12536,44,3,12601.83,Mass Regulars
+12430,44,1,256.4,Mass Regulars
+15659,44,1,306.45,Mass Regulars
+14716,44,2,329.68,Mass Regulars
+13654,44,6,2707.33,Mass Regulars
+14842,44,4,2824.69,Mass Regulars
+17684,44,1,239.41,Mass Regulars
+16026,44,1,236.09,Mass Regulars
+13416,44,2,712.5,Mass Regulars
+18261,44,2,324.24,Mass Regulars
+14357,44,1,225.77,Mass Regulars
+15622,44,9,3709.56,Mass Regulars
+16232,44,4,990.88,Mass Regulars
+17545,44,3,645.96,Mass Regulars
+16680,44,1,183.7,Mass Regulars
+15288,44,5,2306.52,Mass Regulars
+18276,44,1,335.86,Mass Regulars
+17414,44,2,778.0,Mass Regulars
+15791,44,2,1612.69,Mass Regulars
+14004,44,7,4582.64,Mass Regulars
+15014,44,2,260.17,Mass Regulars
+14239,44,11,2380.85,Mass Regulars
+17878,44,1,379.45,Mass Regulars
+17459,44,2,657.3,Mass Regulars
+14752,44,1,389.64,Mass Regulars
+13538,44,7,1280.85,Mass Regulars
+12371,45,2,1887.96,Mass Regulars
+12812,45,1,229.64,Mass Regulars
+17470,45,5,1125.07,Mass Regulars
+12448,45,1,449.45,Mass Regulars
+15516,45,3,62.43,Mass Regulars
+14690,45,2,371.7,Mass Regulars
+16071,45,1,326.24,Mass Regulars
+15835,45,4,954.09,Mass Regulars
+13107,45,4,1531.62,Mass Regulars
+15990,45,2,792.11,Mass Regulars
+14379,45,2,348.1,Mass Regulars
+12879,45,3,573.22,Mass Regulars
+16225,45,5,1096.32,Mass Regulars
+16418,45,3,675.27,Mass Regulars
+16454,45,2,6.9,Mass Regulars
+17175,45,4,1443.69,Mass Regulars
+15821,45,2,570.96,Mass Regulars
+16750,45,5,623.93,Mass Regulars
+16415,45,1,210.35,Mass Regulars
+15320,45,1,267.13,Mass Regulars
+12456,45,3,3181.04,Mass Regulars
+16208,45,2,664.26,Mass Regulars
+16188,45,4,981.86,Mass Regulars
+14315,45,6,2481.13,Mass Regulars
+14598,45,1,221.97,Mass Regulars
+17712,45,1,522.91,Mass Regulars
+18226,45,11,5228.05,Mass Regulars
+15240,45,5,1706.57,Mass Regulars
+17895,45,1,98.0,Mass Regulars
+16345,45,1,575.41,Mass Regulars
+14754,45,2,638.05,Mass Regulars
+18147,46,2,179.34,Mass Regulars
+17928,46,2,212.54,Mass Regulars
+13601,46,2,693.32,Mass Regulars
+16258,46,5,5203.51,Mass Regulars
+18079,46,4,3651.97,Mass Regulars
+13481,46,5,1804.56,Mass Regulars
+15630,46,2,1186.35,Mass Regulars
+16708,46,1,656.63,Mass Regulars
+17917,46,3,341.28,Mass Regulars
+15656,46,4,748.5,Mass Regulars
+14001,46,3,2043.08,Mass Regulars
+16110,46,3,1337.48,Mass Regulars
+13652,46,3,1095.08,Mass Regulars
+15345,46,1,393.54,Mass Regulars
+13182,46,1,121.18,Mass Regulars
+12398,46,1,1635.66,Mass Regulars
+13340,46,7,10736.48,Mass Regulars
+17024,46,3,95.85,Mass Regulars
+15158,46,1,401.4,Mass Regulars
+18045,46,1,189.4,Mass Regulars
+14341,46,8,2182.28,Mass Regulars
+16056,46,1,664.85,Mass Regulars
+14145,47,4,3742.2,Mass Regulars
+14997,47,3,546.2,Mass Regulars
+16728,47,4,1054.67,Mass Regulars
+14019,47,3,1421.61,Mass Regulars
+17317,47,3,2600.34,Mass Regulars
+15806,47,3,784.58,Mass Regulars
+15277,47,1,255.9,Mass Regulars
+16023,47,3,719.81,Mass Regulars
+15142,47,1,498.74,Mass Regulars
+15068,47,2,553.36,Mass Regulars
+18240,47,1,422.58,Mass Regulars
+13165,47,2,1021.48,Mass Regulars
+16491,47,1,731.5,Mass Regulars
+17004,47,2,1412.94,Mass Regulars
+14139,47,1,415.82,Mass Regulars
+16444,47,4,654.67,Mass Regulars
+15592,47,1,388.58,Mass Regulars
+14312,47,6,1611.59,Mass Regulars
+17186,47,2,144.0,Mass Regulars
+15786,47,3,4932.2,Mass Regulars
+15215,47,3,734.94,Mass Regulars
+12546,47,2,1161.5,Mass Regulars
+17344,47,1,160.57,Mass Regulars
+13176,47,1,492.84,Mass Regulars
+15801,47,3,1063.95,Mass Regulars
+14474,47,1,547.66,Mass Regulars
+16742,47,1,464.9,Mass Regulars
+14764,47,1,278.3,Mass Regulars
+15844,47,1,130.74,Mass Regulars
+16325,47,3,594.24,Mass Regulars
+16019,47,9,3786.24,Mass Regulars
+17423,47,2,698.41,Mass Regulars
+14800,48,12,4339.74,Mass Regulars
+14731,48,3,380.02,Mass Regulars
+17836,48,1,110.21,Mass Regulars
+16007,48,4,1701.94,Mass Regulars
+16768,48,3,478.09,Mass Regulars
+16017,48,1,211.88,Mass Regulars
+16686,48,7,3062.83,Mass Regulars
+17111,48,1,248.61,Mass Regulars
+15000,48,1,490.52,Mass Regulars
+13598,48,1,180.17,Mass Regulars
+14504,48,4,673.26,Mass Regulars
+13917,50,2,272.04,Mass Regulars
+14967,50,1,463.8,Mass Regulars
+14233,50,4,1462.72,Mass Regulars
+16153,50,5,1824.23,Mass Regulars
+12403,50,1,427.7,Mass Regulars
+13918,50,2,1212.84,Mass Regulars
+12407,50,5,1708.12,Mass Regulars
+13974,50,1,413.59,Mass Regulars
+17940,50,10,4106.44,Mass Regulars
+17832,50,1,155.37,Mass Regulars
+15286,50,1,240.55,Mass Regulars
+15740,50,1,154.88,Mass Regulars
+13157,50,4,1741.22,Mass Regulars
+15819,50,4,1905.45,Mass Regulars
+16918,50,6,1068.82,Mass Regulars
+15677,50,1,657.23,Mass Regulars
+17361,50,3,488.2,Mass Regulars
+16497,50,6,2965.69,Mass Regulars
+13725,50,8,1980.56,Mass Regulars
+15296,51,6,3672.86,Mass Regulars
+15301,51,12,5070.35,Mass Regulars
+13245,51,1,430.5,Mass Regulars
+15129,51,11,3447.4,Mass Regulars
+14484,51,1,321.92,Mass Regulars
+15587,51,4,913.68,Mass Regulars
+14923,51,1,749.1,Mass Regulars
+15469,51,2,538.55,Mass Regulars
+17092,51,4,1777.78,Mass Regulars
+17007,51,6,889.93,Mass Regulars
+18252,51,2,526.67,Mass Regulars
+15121,51,2,457.72,Mass Regulars
+17354,51,1,1393.06,Mass Regulars
+15565,51,2,173.16,Mass Regulars
+14638,51,1,443.6,Mass Regulars
+13366,51,1,56.16,Mass Regulars
+14631,51,3,1006.98,Mass Regulars
+14495,51,2,123.8,Mass Regulars
+16177,51,1,331.95,Mass Regulars
+14427,51,2,363.34,Mass Regulars
+16099,51,3,731.9,Mass Regulars
+13573,51,2,294.4,Mass Regulars
+13761,51,2,1070.65,Mass Regulars
+15836,51,1,137.37,Mass Regulars
+17420,51,3,598.83,Mass Regulars
+17571,51,4,1498.51,Mass Regulars
+13897,51,1,311.16,Mass Regulars
+15664,51,1,386.43,Mass Regulars
+13669,51,2,218.55,Mass Regulars
+16260,51,1,1035.45,Mass Regulars
+17125,51,1,259.35,Mass Regulars
+14261,51,2,1163.45,Mass Regulars
+12556,51,2,603.71,Mass Regulars
+15807,51,3,903.9,Mass Regulars
+14585,51,1,157.05,Mass Regulars
+16593,51,3,330.03,Mass Regulars
+18149,51,3,612.08,Mass Regulars
+17764,51,2,818.82,Mass Regulars
+17672,51,2,3178.17,Mass Regulars
+16170,51,6,1885.05,Mass Regulars
+16846,51,1,214.32,Mass Regulars
+17934,52,2,704.25,Mass Regulars
+12370,52,4,3545.69,Mass Regulars
+15853,52,1,110.8,Mass Regulars
+16123,52,1,307.78,Mass Regulars
+17973,52,1,337.04,Mass Regulars
+15610,52,1,112.46,Mass Regulars
+14776,52,11,2538.3,Mass Regulars
+15468,52,2,467.51,Mass Regulars
+12596,52,2,618.27,Mass Regulars
+14799,52,1,157.7,Mass Regulars
+15220,52,6,1778.96,Mass Regulars
+18019,52,1,38.45,Mass Regulars
+14107,52,7,2703.23,Mass Regulars
+14273,52,4,559.97,Mass Regulars
+15803,52,1,415.82,Mass Regulars
+16470,52,4,762.39,Mass Regulars
+13491,52,10,1215.82,Mass Regulars
+16131,52,6,3506.54,Mass Regulars
+12744,52,7,21279.29,Loyal High-Value
+17148,52,1,124.88,Mass Regulars
+15754,52,3,458.57,Mass Regulars
+14306,52,2,2093.32,Mass Regulars
+15006,52,1,502.09,Mass Regulars
+16621,52,4,813.48,Mass Regulars
+17824,52,1,298.4,Mass Regulars
+16826,52,1,341.7,Mass Regulars
+14229,52,3,1547.2,Mass Regulars
+13849,52,2,1537.95,Mass Regulars
+13805,53,2,924.6,Mass Regulars
+15140,53,7,2354.25,Mass Regulars
+14639,53,6,2984.49,Mass Regulars
+17262,53,5,1253.36,Mass Regulars
+15505,53,5,3610.96,Mass Regulars
+16515,53,5,1627.13,Mass Regulars
+16249,53,5,1800.07,Mass Regulars
+13637,53,3,810.5,Mass Regulars
+14798,53,3,173.74,Mass Regulars
+12360,53,3,2662.06,Mass Regulars
+16940,53,3,3049.88,Mass Regulars
+16730,53,3,743.11,Mass Regulars
+16734,53,3,650.51,Mass Regulars
+12759,53,3,1531.44,Mass Regulars
+17679,53,2,1992.11,Mass Regulars
+13032,53,2,1010.18,Mass Regulars
+14015,53,1,917.34,Mass Regulars
+14861,53,1,125.79,Mass Regulars
+13594,53,1,396.97,Mass Regulars
+15678,53,1,352.7,Mass Regulars
+12611,53,1,1193.32,Mass Regulars
+16848,53,1,281.42,Mass Regulars
+15637,53,1,223.36,Mass Regulars
+15604,53,1,216.39,Mass Regulars
+15327,53,1,208.75,Mass Regulars
+14381,53,1,202.68,Mass Regulars
+12863,53,1,521.2,Mass Regulars
+17201,54,1,342.63,Mass Regulars
+17520,54,1,546.81,Mass Regulars
+16412,54,1,151.83,Mass Regulars
+18042,54,1,165.05,Mass Regulars
+15066,54,1,893.59,Mass Regulars
+12463,54,4,1344.78,Mass Regulars
+17534,54,1,223.36,Mass Regulars
+15012,54,2,423.04,Mass Regulars
+12475,54,1,723.38,Mass Regulars
+17527,54,4,939.37,Mass Regulars
+15335,54,1,173.97,Mass Regulars
+16363,54,1,109.36,Mass Regulars
+13750,54,5,1647.26,Mass Regulars
+16737,54,1,417.6,Mass Regulars
+17785,54,1,131.94,Mass Regulars
+17244,54,1,954.9,Mass Regulars
+17205,54,1,384.08,Mass Regulars
+13015,54,5,3346.28,Mass Regulars
+14443,54,4,1420.2,Mass Regulars
+16542,54,1,119.62,Mass Regulars
+16389,54,4,1382.07,Mass Regulars
+15598,54,1,240.68,Mass Regulars
+16932,54,1,161.94,Mass Regulars
+12794,54,2,860.41,Mass Regulars
+13265,54,5,2107.66,Mass Regulars
+14830,54,1,197.13,Mass Regulars
+17206,54,1,204.24,Mass Regulars
+17734,54,3,700.63,Mass Regulars
+17612,54,6,2048.45,Mass Regulars
+13923,54,1,351.13,Mass Regulars
+14211,54,9,2241.1,Mass Regulars
+16563,54,1,1077.74,Mass Regulars
+14841,54,6,3295.76,Mass Regulars
+13875,54,5,1786.79,Mass Regulars
+13760,55,2,286.79,Mass Regulars
+13034,55,2,642.77,Mass Regulars
+12940,55,2,913.54,Mass Regulars
+14780,55,2,447.68,Mass Regulars
+15440,55,3,383.68,Mass Regulars
+15994,55,1,427.07,Mass Regulars
+16052,55,1,362.06,Mass Regulars
+15545,55,2,292.72,Mass Regulars
+16206,55,4,537.06,Mass Regulars
+16934,55,2,950.93,Mass Regulars
+16674,55,2,319.61,Mass Regulars
+13878,55,1,1281.53,Mass Regulars
+16394,57,5,1555.34,Mass Regulars
+17892,57,3,244.1,Mass Regulars
+15826,57,3,1654.31,Mass Regulars
+16239,57,2,414.2,Mass Regulars
+17180,57,4,796.03,Mass Regulars
+16950,57,3,1178.56,Mass Regulars
+15620,57,3,1553.18,Mass Regulars
+14937,57,3,1621.88,Mass Regulars
+17986,57,1,20.8,Mass Regulars
+16413,57,1,262.2,Mass Regulars
+17771,57,2,245.81,Mass Regulars
+13006,57,1,81.57,Mass Regulars
+14567,57,2,1530.36,Mass Regulars
+18228,57,2,779.9,Mass Regulars
+13213,57,5,1520.58,Mass Regulars
+16081,57,5,2806.9,Mass Regulars
+12454,57,1,3528.34,Mass Regulars
+14089,57,1,161.0,Mass Regulars
+13136,57,5,2607.61,Mass Regulars
+16430,58,1,300.85,Mass Regulars
+12359,58,4,6372.58,Mass Regulars
+13827,58,3,412.05,Mass Regulars
+17509,58,8,6115.14,Mass Regulars
+15272,58,2,721.94,Mass Regulars
+12631,58,1,640.5,Mass Regulars
+13858,58,1,216.17,Mass Regulars
+14421,58,2,813.11,Mass Regulars
+13853,58,1,1090.14,Mass Regulars
+16121,58,2,867.11,Mass Regulars
+13911,58,9,2580.91,Mass Regulars
+14537,58,1,355.56,Mass Regulars
+12446,58,1,1002.31,Mass Regulars
+17614,58,1,390.07,Mass Regulars
+17279,58,1,187.83,Mass Regulars
+12613,58,5,3344.38,Mass Regulars
+13487,58,3,575.4,Mass Regulars
+16773,58,1,171.59,Mass Regulars
+17181,58,2,239.92,Mass Regulars
+17169,58,2,835.78,Mass Regulars
+16224,58,4,1295.3,Mass Regulars
+16770,58,5,770.1,Mass Regulars
+13930,58,2,337.34,Mass Regulars
+14975,58,1,279.94,Mass Regulars
+14624,58,2,225.85,Mass Regulars
+12876,58,2,2218.02,Mass Regulars
+18160,58,2,638.06,Mass Regulars
+14976,58,7,790.86,Mass Regulars
+15367,58,4,1877.59,Mass Regulars
+16793,58,1,243.84,Mass Regulars
+14555,58,2,324.14,Mass Regulars
+16203,59,4,592.9,Mass Regulars
+13842,59,9,3385.62,Mass Regulars
+15281,59,9,2332.15,Mass Regulars
+14541,59,8,1461.65,Mass Regulars
+16652,59,7,6773.97,Mass Regulars
+13464,59,1,674.68,Mass Regulars
+14852,59,6,2836.69,Mass Regulars
+13208,59,6,1223.9,Mass Regulars
+12667,59,1,620.13,Mass Regulars
+12602,59,1,153.12,Mass Regulars
+15038,59,6,705.49,Mass Regulars
+13520,59,6,3624.35,Mass Regulars
+18171,59,5,1231.31,Mass Regulars
+13865,59,4,501.56,Mass Regulars
+16753,59,1,223.92,Mass Regulars
+12633,59,4,2163.98,Mass Regulars
+14642,59,1,96.12,Mass Regulars
+12679,59,4,1113.02,Mass Regulars
+17190,59,2,444.74,Mass Regulars
+15421,59,4,950.36,Mass Regulars
+18277,59,1,110.38,Mass Regulars
+17913,59,2,411.6,Mass Regulars
+17489,59,2,376.64,Mass Regulars
+14775,59,3,1011.9,Mass Regulars
+15831,59,3,801.76,Mass Regulars
+15840,59,2,355.56,Mass Regulars
+14761,59,2,255.9,Mass Regulars
+17064,59,3,859.35,Mass Regulars
+13517,60,3,2128.42,Mass Regulars
+16171,60,1,73.2,Mass Regulars
+13690,60,1,172.25,Mass Regulars
+16086,60,5,1121.39,Mass Regulars
+16136,60,3,709.38,Mass Regulars
+12836,60,4,2612.86,Mass Regulars
+14857,60,2,1173.12,Mass Regulars
+17620,60,1,81.44,Mass Regulars
+12824,60,1,397.12,Mass Regulars
+12772,60,1,892.47,Mass Regulars
+12530,60,4,1662.28,Mass Regulars
+14175,60,3,3222.3,Mass Regulars
+13919,60,2,384.81,Mass Regulars
+17863,60,6,3160.0,Mass Regulars
+16861,60,2,173.76,Mass Regulars
+14952,60,11,8099.49,Mass Regulars
+13109,60,2,786.54,Mass Regulars
+13627,60,5,1638.47,Mass Regulars
+16120,60,4,1309.14,Mass Regulars
+15199,60,4,1268.7,Mass Regulars
+13283,60,2,93.66,Mass Regulars
+15553,61,1,437.23,Mass Regulars
+17284,61,6,1652.58,Mass Regulars
+13666,61,3,84.65,Mass Regulars
+17589,61,4,2404.17,Mass Regulars
+17462,61,2,675.69,Mass Regulars
+15304,61,8,694.4,Mass Regulars
+13373,61,3,3312.25,Mass Regulars
+17025,61,3,357.77,Mass Regulars
+14535,61,3,2864.19,Mass Regulars
+16982,61,1,384.06,Mass Regulars
+13980,61,1,200.14,Mass Regulars
+18169,61,1,202.65,Mass Regulars
+16385,61,3,555.89,Mass Regulars
+13224,61,2,2155.95,Mass Regulars
+18126,61,1,206.83,Mass Regulars
+16179,61,1,215.83,Mass Regulars
+16776,61,1,388.28,Mass Regulars
+15128,61,4,1471.0,Mass Regulars
+14529,61,3,620.04,Mass Regulars
+16395,61,5,1486.9,Mass Regulars
+17552,61,4,930.41,Mass Regulars
+14128,61,2,637.5,Mass Regulars
+14451,61,2,662.59,Mass Regulars
+14665,61,5,1835.7,Mass Regulars
+17214,61,6,1069.12,Mass Regulars
+15193,61,1,499.32,Mass Regulars
+14201,61,7,747.44,Mass Regulars
+14027,61,1,104.82,Mass Regulars
+12607,61,1,1579.51,Mass Regulars
+15211,61,2,894.41,Mass Regulars
+15886,61,1,181.09,Mass Regulars
+17648,61,4,1797.5,Mass Regulars
+13352,61,1,397.98,Mass Regulars
+13473,61,2,422.64,Mass Regulars
+15756,62,4,532.96,Mass Regulars
+16104,62,1,302.36,Mass Regulars
+13259,62,1,292.32,Mass Regulars
+18088,62,1,167.67,Mass Regulars
+16921,62,1,169.79,Mass Regulars
+16248,62,1,152.94,Mass Regulars
+16685,62,2,324.24,Mass Regulars
+14801,62,1,193.14,Mass Regulars
+14514,62,3,1055.35,Mass Regulars
+13193,62,1,117.88,Mass Regulars
+16380,62,1,1780.59,Mass Regulars
+16595,62,1,360.16,Mass Regulars
+15606,62,9,2920.16,Mass Regulars
+13260,62,1,557.62,Mass Regulars
+16518,62,2,484.32,Mass Regulars
+15874,64,7,4405.88,Mass Regulars
+17030,64,1,146.87,Mass Regulars
+13806,64,1,256.38,Mass Regulars
+16455,64,7,1841.18,Mass Regulars
+13169,64,2,712.88,Mass Regulars
+14067,64,2,374.7,Mass Regulars
+16354,64,2,395.8,Mass Regulars
+15706,64,4,1060.56,Mass Regulars
+15815,64,5,2100.6,Mass Regulars
+13689,64,1,910.0,Mass Regulars
+14029,64,2,467.66,Mass Regulars
+18136,64,3,784.33,Mass Regulars
+12740,64,1,427.6,Mass Regulars
+12492,64,2,263.21,Mass Regulars
+14792,64,1,6.2,Mass Regulars
+12781,64,2,826.74,Mass Regulars
+13276,64,2,590.93,Mass Regulars
+12420,64,1,600.39,Mass Regulars
+12519,64,1,340.84,Mass Regulars
+12394,64,2,1272.48,Mass Regulars
+13419,64,1,221.06,Mass Regulars
+13359,64,1,439.56,Mass Regulars
+12885,64,3,1175.22,Mass Regulars
+14844,64,4,3189.81,Mass Regulars
+13587,64,1,712.4,Mass Regulars
+13876,64,1,122.7,Mass Regulars
+13763,64,1,1714.96,Mass Regulars
+16477,64,7,2494.46,Mass Regulars
+15837,65,1,391.98,Mass Regulars
+15264,65,1,393.74,Mass Regulars
+16432,65,1,287.4,Mass Regulars
+13177,65,1,282.45,Mass Regulars
+15315,65,2,570.5,Mass Regulars
+16895,65,1,219.14,Mass Regulars
+15416,65,4,3984.32,Mass Regulars
+14959,65,4,695.42,Mass Regulars
+14538,65,2,388.25,Mass Regulars
+15518,65,8,1942.45,Mass Regulars
+13348,65,1,233.76,Mass Regulars
+16184,65,6,1158.79,Mass Regulars
+13771,65,4,2634.45,Mass Regulars
+13023,65,2,689.9,Mass Regulars
+13602,65,1,428.89,Mass Regulars
+13591,65,3,1117.13,Mass Regulars
+15937,65,1,145.35,Mass Regulars
+17921,65,4,826.52,Mass Regulars
+15306,65,3,1174.35,Mass Regulars
+15300,65,1,496.44,Mass Regulars
+12923,65,1,176.97,Mass Regulars
+13049,65,2,656.68,Mass Regulars
+13422,65,1,2626.3,Mass Regulars
+14257,65,5,3099.72,Mass Regulars
+14518,65,1,174.37,Mass Regulars
+14317,65,1,508.58,Mass Regulars
+14819,65,2,272.07,Mass Regulars
+15766,65,1,315.06,Mass Regulars
+13845,65,1,312.98,Mass Regulars
+12939,65,8,11581.8,Mass Regulars
+16316,65,8,2938.91,Mass Regulars
+13504,65,1,295.93,Mass Regulars
+13483,66,1,140.34,Mass Regulars
+13989,66,2,1266.08,Mass Regulars
+17382,66,1,65.4,Mass Regulars
+15762,66,2,583.75,Mass Regulars
+13947,66,1,90.6,Mass Regulars
+12789,66,1,91.85,Mass Regulars
+14054,66,1,92.46,Mass Regulars
+14396,66,2,487.99,Mass Regulars
+18033,66,1,97.97,Mass Regulars
+16106,66,1,108.38,Mass Regulars
+17483,66,3,414.04,Mass Regulars
+12843,66,8,1702.26,Mass Regulars
+15048,66,4,384.05,Mass Regulars
+15757,66,2,714.42,Mass Regulars
+16803,66,1,332.3,Mass Regulars
+15730,66,3,1120.88,Mass Regulars
+16140,66,2,725.18,Mass Regulars
+17222,66,1,354.15,Mass Regulars
+16758,66,1,369.34,Mass Regulars
+17647,66,1,133.06,Mass Regulars
+16040,66,3,1313.55,Mass Regulars
+15127,66,1,406.53,Mass Regulars
+16160,66,2,1025.44,Mass Regulars
+16059,66,6,1459.86,Mass Regulars
+14389,66,2,1043.46,Mass Regulars
+15244,66,2,631.57,Mass Regulars
+12413,67,3,758.1,Mass Regulars
+12457,67,7,2363.23,Mass Regulars
+14462,67,11,2004.02,Mass Regulars
+14184,67,1,452.89,Mass Regulars
+15241,67,8,1756.44,Mass Regulars
+17957,67,1,111.68,Mass Regulars
+15228,67,4,3386.71,Mass Regulars
+16253,67,2,3683.86,Mass Regulars
+13801,67,1,324.8,Mass Regulars
+15739,67,1,449.12,Mass Regulars
+15181,67,3,689.48,Mass Regulars
+16881,67,1,432.0,Mass Regulars
+15276,67,1,135.31,Mass Regulars
+13317,67,6,2273.68,Mass Regulars
+16556,67,7,3313.79,Mass Regulars
+13552,67,12,3740.07,Mass Regulars
+15255,67,1,890.85,Mass Regulars
+13351,67,1,373.94,Mass Regulars
+16882,67,3,705.12,Mass Regulars
+15339,67,2,574.07,Mass Regulars
+16374,67,2,473.03,Mass Regulars
+12512,67,2,138.03,Mass Regulars
+13792,67,2,195.55,Mass Regulars
+17667,67,5,2055.51,Mass Regulars
+13431,68,2,1269.1,Mass Regulars
+14193,68,2,853.39,Mass Regulars
+18116,68,8,1418.03,Mass Regulars
+14644,68,2,830.76,Mass Regulars
+14651,68,2,654.6,Mass Regulars
+15930,68,1,426.63,Mass Regulars
+15091,68,1,480.71,Mass Regulars
+13344,68,3,2543.72,Mass Regulars
+12886,68,2,1378.4,Mass Regulars
+16441,68,2,381.2,Mass Regulars
+14333,68,1,415.2,Mass Regulars
+15299,68,7,4507.01,Mass Regulars
+16183,68,1,338.71,Mass Regulars
+16774,68,4,661.52,Mass Regulars
+13635,68,1,1071.03,Mass Regulars
+14488,68,1,1064.28,Mass Regulars
+12637,68,8,6021.9,Mass Regulars
+16875,68,5,2095.53,Mass Regulars
+15579,69,2,348.6,Mass Regulars
+14970,69,4,1592.06,Mass Regulars
+16693,69,2,482.01,Mass Regulars
+15774,69,1,270.8,Mass Regulars
+16591,69,1,213.5,Mass Regulars
+16667,69,2,570.13,Mass Regulars
+15164,69,3,843.05,Mass Regulars
+13095,71,1,74.4,Mass Regulars
+17376,71,2,203.2,Mass Regulars
+13972,71,2,190.25,Mass Regulars
+12842,71,2,1118.99,Mass Regulars
+15321,71,3,2748.31,Mass Regulars
+15593,71,1,199.8,Mass Regulars
+13764,71,3,1521.76,Mass Regulars
+14916,71,4,1268.98,Mass Regulars
+15834,71,4,2233.75,Mass Regulars
+18008,71,9,2116.19,Mass Regulars
+13347,71,1,341.36,Mass Regulars
+12694,71,2,869.67,Mass Regulars
+18053,71,1,300.02,Mass Regulars
+14164,71,2,1631.77,Mass Regulars
+16613,71,1,618.59,Mass Regulars
+16101,71,1,1290.7,Mass Regulars
+16404,71,1,443.05,Mass Regulars
+15185,71,1,310.62,Mass Regulars
+12822,71,2,948.88,Mass Regulars
+13092,71,5,477.83,Mass Regulars
+18192,72,1,957.97,Mass Regulars
+17894,72,8,1119.81,Mass Regulars
+14409,72,6,2059.45,Mass Regulars
+15062,72,4,987.86,Mass Regulars
+13354,72,1,743.53,Mass Regulars
+12728,72,4,836.33,Mass Regulars
+16650,72,1,518.42,Mass Regulars
+17572,72,4,226.75,Mass Regulars
+17819,72,7,3704.87,Mass Regulars
+17905,72,4,800.24,Mass Regulars
+16233,72,3,536.68,Mass Regulars
+12458,72,2,947.4,Mass Regulars
+13886,72,1,243.56,Mass Regulars
+13364,72,1,134.96,Mass Regulars
+15030,72,2,518.28,Mass Regulars
+18235,72,3,1796.48,Mass Regulars
+12718,72,1,238.25,Mass Regulars
+14305,72,3,1858.96,Mass Regulars
+13741,72,3,668.43,Mass Regulars
+18204,72,3,1993.7,Mass Regulars
+15175,72,1,224.14,Mass Regulars
+14475,72,3,925.85,Mass Regulars
+13503,72,1,216.85,Mass Regulars
+14681,72,3,498.95,Mass Regulars
+12372,72,3,1298.04,Mass Regulars
+17724,72,3,1033.0,Mass Regulars
+16268,72,2,667.65,Mass Regulars
+16574,72,1,451.44,Mass Regulars
+17427,72,1,100.8,Mass Regulars
+12703,72,1,283.55,Mass Regulars
+16589,72,3,459.24,Mass Regulars
+17783,73,2,283.47,Mass Regulars
+13321,73,2,567.36,Mass Regulars
+13505,73,4,4393.63,Mass Regulars
+16321,73,5,373.65,Mass Regulars
+14609,73,4,601.56,Mass Regulars
+12393,73,4,1582.6,Mass Regulars
+16909,73,1,379.14,Mass Regulars
+16690,73,2,225.58,Mass Regulars
+15036,73,3,465.55,Mass Regulars
+13901,73,5,2867.2,Mass Regulars
+17513,73,1,513.2,Mass Regulars
+16681,73,6,1770.34,Mass Regulars
+17370,73,4,446.18,Mass Regulars
+18242,73,4,2232.49,Mass Regulars
+13061,73,1,248.61,Mass Regulars
+14947,73,2,290.82,Mass Regulars
+16182,73,4,6617.65,Mass Regulars
+15841,73,4,1224.06,Mass Regulars
+13515,73,4,891.12,Mass Regulars
+15348,73,1,158.04,Mass Regulars
+18265,73,2,801.51,Mass Regulars
+16281,73,1,2062.06,Mass Regulars
+17950,73,3,482.2,Mass Regulars
+14978,73,5,1931.42,Mass Regulars
+14109,73,1,144.2,Mass Regulars
+13397,73,5,1544.13,Mass Regulars
+16266,74,7,861.89,Mass Regulars
+13035,74,2,921.88,Mass Regulars
+17788,74,2,1117.9,Mass Regulars
+12987,74,2,558.7,Mass Regulars
+14272,74,2,437.96,Mass Regulars
+16629,74,2,417.73,Mass Regulars
+14818,74,3,657.8,Mass Regulars
+13016,74,3,789.89,Mass Regulars
+16462,74,3,136.0,Mass Regulars
+16181,74,1,305.54,Mass Regulars
+13555,74,4,4149.28,Mass Regulars
+16122,74,4,684.42,Mass Regulars
+17656,74,5,1674.69,Mass Regulars
+18278,74,1,173.9,Mass Regulars
+15674,74,5,2446.6,Mass Regulars
+14101,74,6,5976.79,Mass Regulars
+13514,74,1,152.2,Mass Regulars
+12455,74,6,2466.86,Mass Regulars
+17805,74,1,512.31,Mass Regulars
+17591,74,7,2225.97,Mass Regulars
+13979,74,1,869.87,Mass Regulars
+17061,74,11,5232.23,Mass Regulars
+15827,74,14,1836.09,Mass Regulars
+13390,75,1,544.08,Mass Regulars
+15243,75,1,316.68,Mass Regulars
+16468,75,1,74.9,Mass Regulars
+13927,75,1,348.99,Mass Regulars
+13434,75,2,534.24,Mass Regulars
+17674,75,2,551.04,Mass Regulars
+12823,75,5,1759.5,Mass Regulars
+16383,75,2,668.36,Mass Regulars
+13405,75,3,572.45,Mass Regulars
+12612,75,1,704.04,Mass Regulars
+16603,75,2,482.47,Mass Regulars
+14473,75,2,234.34,Mass Regulars
+13233,75,2,605.12,Mass Regulars
+16778,75,2,245.94,Mass Regulars
+12412,75,3,1226.88,Mass Regulars
+14908,75,1,277.8,Mass Regulars
+13866,75,1,145.67,Mass Regulars
+15626,75,2,675.8,Mass Regulars
+15958,75,1,104.35,Mass Regulars
+17997,75,8,1970.67,Mass Regulars
+13639,75,1,1033.34,Mass Regulars
+14561,76,3,1080.76,Mass Regulars
+13787,76,2,309.04,Mass Regulars
+12545,76,2,1000.39,Mass Regulars
+14806,76,1,193.39,Mass Regulars
+14757,76,1,420.5,Mass Regulars
+14235,76,5,3144.86,Mass Regulars
+16689,76,2,422.6,Mass Regulars
+13670,76,1,349.7,Mass Regulars
+17154,76,1,329.34,Mass Regulars
+15312,76,4,924.85,Mass Regulars
+14152,76,2,621.29,Mass Regulars
+16594,76,1,181.09,Mass Regulars
+18066,76,1,318.0,Mass Regulars
+15799,76,3,884.14,Mass Regulars
+18155,76,3,371.62,Mass Regulars
+16480,76,1,769.29,Mass Regulars
+16198,76,1,400.68,Mass Regulars
+16342,76,4,322.41,Mass Regulars
+17506,76,1,302.2,Mass Regulars
+12348,76,4,1797.24,Mass Regulars
+15366,76,2,602.51,Mass Regulars
+15154,76,1,296.42,Mass Regulars
+17498,76,1,272.22,Mass Regulars
+12516,78,2,1312.06,Mass Regulars
+13127,78,1,259.17,Mass Regulars
+15978,78,1,1098.78,Mass Regulars
+17480,78,1,511.82,Mass Regulars
+17388,78,4,1259.56,Mass Regulars
+16485,78,1,363.65,Mass Regulars
+14652,78,1,114.18,Mass Regulars
+15475,78,1,454.11,Mass Regulars
+16978,78,1,344.33,Mass Regulars
+18189,78,2,1090.24,Mass Regulars
+15744,78,1,34.8,Mass Regulars
+16872,78,3,680.02,Mass Regulars
+14880,78,3,706.19,Mass Regulars
+13336,78,1,795.12,Mass Regulars
+14014,78,1,505.18,Mass Regulars
+15549,78,3,1693.26,Mass Regulars
+15075,78,1,773.03,Mass Regulars
+13486,79,3,1122.41,Mass Regulars
+12930,79,2,415.8,Mass Regulars
+14854,79,7,2759.83,Mass Regulars
+13529,79,2,307.76,Mass Regulars
+17603,79,1,394.72,Mass Regulars
+12579,79,1,440.42,Mass Regulars
+12739,79,2,1013.04,Mass Regulars
+12609,79,3,1126.85,Mass Regulars
+15603,79,1,48.48,Mass Regulars
+16213,79,1,159.0,Mass Regulars
+17172,79,1,317.76,Mass Regulars
+12425,79,1,777.2,Mass Regulars
+15810,79,4,1391.98,Mass Regulars
+13519,79,1,122.75,Mass Regulars
+14038,79,3,1560.38,Mass Regulars
+13055,79,3,1214.41,Mass Regulars
+14147,79,2,483.4,Mass Regulars
+15067,79,3,1744.76,Mass Regulars
+12854,79,3,1324.5,Mass Regulars
+16735,79,5,2300.56,Mass Regulars
+13220,79,4,819.29,Mass Regulars
+13279,79,1,137.75,Mass Regulars
+17027,79,6,890.29,Mass Regulars
+13320,79,4,1548.7,Mass Regulars
+16236,79,1,432.2,Mass Regulars
+16715,79,1,301.72,Mass Regulars
+17311,79,2,1384.85,Mass Regulars
+12409,79,3,11072.67,Mass Regulars
+17079,79,1,118.8,Mass Regulars
+12550,80,1,964.83,Mass Regulars
+16627,80,1,322.8,Mass Regulars
+14356,80,2,701.23,Mass Regulars
+14951,80,1,311.69,Mass Regulars
+17731,80,4,1240.11,Mass Regulars
+12604,80,2,254.18,Mass Regulars
+16493,80,4,1351.63,Mass Regulars
+13946,80,3,561.57,Mass Regulars
+13959,80,3,598.2,Mass Regulars
+17415,80,1,507.84,Mass Regulars
+12435,80,2,7829.89,Mass Regulars
+12701,80,2,797.71,Mass Regulars
+13908,80,4,2369.55,Mass Regulars
+12390,80,1,549.84,Mass Regulars
+12520,80,5,2634.26,Mass Regulars
+14887,80,1,1862.0,Mass Regulars
+17475,80,1,194.37,Mass Regulars
+13356,81,1,768.24,Mass Regulars
+13038,81,3,908.46,Mass Regulars
+16624,81,2,810.57,Mass Regulars
+16928,81,17,2847.6,Mass Regulars
+15888,81,1,168.31,Mass Regulars
+14236,81,2,490.86,Mass Regulars
+15341,81,1,2020.52,Mass Regulars
+17873,81,5,1859.16,Mass Regulars
+16584,81,2,936.08,Mass Regulars
+15026,81,3,469.0,Mass Regulars
+16777,81,2,226.35,Mass Regulars
+16215,81,1,242.35,Mass Regulars
+13562,82,3,1799.33,Mass Regulars
+13325,82,1,675.3,Mass Regulars
+15675,82,3,323.69,Mass Regulars
+14934,82,2,1890.94,Mass Regulars
+12752,82,1,4366.78,Mass Regulars
+15504,82,1,52.83,Mass Regulars
+12497,82,1,1043.1,Mass Regulars
+12379,82,2,852.24,Mass Regulars
+13228,82,1,358.0,Mass Regulars
+17628,82,1,75.75,Mass Regulars
+18232,82,4,592.97,Mass Regulars
+16906,82,4,579.77,Mass Regulars
+16527,82,1,228.06,Mass Regulars
+16080,82,2,217.16,Mass Regulars
+12527,82,3,348.71,Mass Regulars
+13774,82,1,345.0,Mass Regulars
+18094,82,7,3017.3,Mass Regulars
+18017,82,3,523.0,Mass Regulars
+17848,82,9,901.2,Mass Regulars
+17058,82,3,1179.89,Mass Regulars
+16370,83,4,1320.56,Mass Regulars
+13067,83,1,115.46,Mass Regulars
+15947,83,1,1708.24,Mass Regulars
+13334,83,3,3536.82,Mass Regulars
+18194,83,1,973.84,Mass Regulars
+17802,83,3,1285.04,Mass Regulars
+15523,85,1,412.01,Mass Regulars
+13563,85,2,777.53,Mass Regulars
+16878,85,1,13.3,Mass Regulars
+12434,85,2,806.14,Mass Regulars
+15099,85,1,410.48,Mass Regulars
+12871,85,2,380.64,Mass Regulars
+15410,85,8,3450.84,Mass Regulars
+16108,85,1,842.5,Mass Regulars
+16709,85,5,3029.87,Mass Regulars
+14124,85,1,419.58,Mass Regulars
+13141,85,5,2388.75,Mass Regulars
+16573,85,2,663.61,Mass Regulars
+15975,85,1,371.01,Mass Regulars
+14894,86,1,655.75,Mass Regulars
+17333,86,1,494.25,Mass Regulars
+13539,86,3,631.34,Mass Regulars
+12722,86,4,997.63,Mass Regulars
+17594,86,2,993.18,Mass Regulars
+17786,86,2,278.74,Mass Regulars
+15322,86,1,679.68,Mass Regulars
+15417,86,1,508.8,Mass Regulars
+17898,86,2,152.06,Mass Regulars
+14557,86,1,788.38,Mass Regulars
+17047,86,3,1100.9,Mass Regulars
+13662,86,3,897.76,Mass Regulars
+13518,86,1,659.44,Mass Regulars
+17002,86,3,1493.73,Mass Regulars
+12995,86,1,211.32,Mass Regulars
+15466,86,1,334.53,Mass Regulars
+13134,86,4,1793.58,Mass Regulars
+15205,86,2,653.24,Mass Regulars
+17846,86,1,2033.1,Mass Regulars
+17640,87,1,621.66,Mass Regulars
+17033,87,3,1030.14,Mass Regulars
+18173,87,4,2106.84,Mass Regulars
+13877,87,1,117.24,Mass Regulars
+14177,87,4,559.41,Mass Regulars
+14660,87,2,285.74,Mass Regulars
+16745,87,17,7194.3,Loyal High-Value
+12756,87,1,112.08,Mass Regulars
+17347,87,1,228.96,Mass Regulars
+12566,87,1,351.65,Mass Regulars
+16959,88,1,117.35,Mass Regulars
+16036,88,2,758.92,Mass Regulars
+16098,88,7,2005.63,Mass Regulars
+16229,88,2,1010.6,Mass Regulars
+14753,88,1,563.15,Mass Regulars
+15201,88,5,1236.54,Mass Regulars
+14163,88,4,2445.91,Mass Regulars
+16451,88,1,266.97,Mass Regulars
+18251,88,1,4314.72,Mass Regulars
+15216,88,1,96.6,Mass Regulars
+15343,88,1,364.5,Mass Regulars
+17037,88,1,1267.32,Mass Regulars
+16475,89,4,544.3,Mass Regulars
+15980,89,3,2398.86,Mass Regulars
+14307,89,6,2995.72,Mass Regulars
+16209,89,5,2262.62,Mass Regulars
+16211,89,1,547.02,Mass Regulars
+16141,89,1,620.4,Mass Regulars
+12924,89,4,933.7,Mass Regulars
+13375,89,1,778.65,Mass Regulars
+14500,89,3,356.85,Mass Regulars
+16984,89,2,4481.35,Mass Regulars
+15996,89,6,1060.68,Mass Regulars
+17919,89,1,1304.04,Mass Regulars
+12884,89,1,309.05,Mass Regulars
+15673,89,4,2881.02,Mass Regulars
+15764,89,6,3279.97,Mass Regulars
+17433,89,1,303.16,Mass Regulars
+12965,90,1,771.91,Mass Regulars
+16384,90,2,584.5,Mass Regulars
+18215,90,1,299.34,Mass Regulars
+15939,90,15,6115.01,Mass Regulars
+13372,90,1,378.64,Mass Regulars
+15035,90,1,252.73,Mass Regulars
+12635,90,2,1689.18,Mass Regulars
+13124,90,3,3866.33,Mass Regulars
+13611,90,3,1171.8,Mass Regulars
+16796,90,1,305.62,Mass Regulars
+14212,90,1,1070.48,Mass Regulars
+15636,90,2,724.76,Mass Regulars
+14837,90,4,1649.5,Mass Regulars
+18255,90,1,103.3,Mass Regulars
+16027,92,6,934.62,Mass Regulars
+15652,92,1,337.74,Mass Regulars
+12535,92,2,716.35,Mass Regulars
+14628,92,2,671.96,Mass Regulars
+13441,92,1,296.64,Mass Regulars
+14414,92,7,1496.98,Mass Regulars
+14915,92,2,307.48,Mass Regulars
+16723,92,2,589.15,Mass Regulars
+15198,93,2,193.64,Mass Regulars
+14223,93,3,991.13,Mass Regulars
+15488,93,1,91.32,Mass Regulars
+18222,93,1,443.0,Mass Regulars
+13925,93,4,678.25,Mass Regulars
+12592,93,2,437.6,Mass Regulars
+15653,93,2,877.44,Mass Regulars
+15885,93,3,379.35,Mass Regulars
+13330,93,3,1140.93,Mass Regulars
+16031,93,2,548.94,Mass Regulars
+13848,93,3,1255.0,Mass Regulars
+13814,93,2,1579.12,Mass Regulars
+13244,93,1,121.74,Mass Regulars
+13249,93,3,711.41,Mass Regulars
+15400,93,5,716.2,Mass Regulars
+13889,93,1,416.9,Mass Regulars
+14410,93,9,1105.07,Mass Regulars
+16828,94,2,128.5,Mass Regulars
+18093,94,4,2106.52,Mass Regulars
+13210,94,1,353.48,Mass Regulars
+15071,94,2,982.07,Mass Regulars
+17460,95,6,622.43,Mass Regulars
+13158,95,4,1201.06,Mass Regulars
+16175,95,4,1037.59,Mass Regulars
+17560,95,4,854.95,Mass Regulars
+17339,95,2,243.36,Mass Regulars
+13130,95,1,64.0,Mass Regulars
+16400,95,1,303.93,Mass Regulars
+14208,95,1,151.74,Mass Regulars
+15462,95,3,234.6,Mass Regulars
+13122,95,2,922.39,Mass Regulars
+12461,95,2,826.88,Mass Regulars
+12616,96,2,713.3,Mass Regulars
+13744,96,2,1156.36,Mass Regulars
+13931,96,2,1237.53,Mass Regulars
+13851,96,3,2651.46,Mass Regulars
+12422,96,3,803.56,Mass Regulars
+15307,96,1,205.3,Mass Regulars
+12816,96,2,572.2,Mass Regulars
+12502,96,5,3723.87,Mass Regulars
+13748,96,5,948.25,Mass Regulars
+16172,96,5,1140.21,Mass Regulars
+14565,96,4,3099.12,Mass Regulars
+17309,96,1,82.75,Mass Regulars
+15491,96,6,3100.09,Mass Regulars
+16820,96,1,497.61,Mass Regulars
+18196,96,2,689.13,Mass Regulars
+16551,96,3,922.12,Mass Regulars
+15364,96,2,913.19,Mass Regulars
+13192,96,2,911.94,Mass Regulars
+13240,97,4,663.65,Mass Regulars
+17050,97,6,3228.84,Mass Regulars
+17722,97,4,2424.04,Mass Regulars
+13548,97,2,682.41,Mass Regulars
+12710,97,3,1149.02,Mass Regulars
+16761,97,1,316.62,Mass Regulars
+12851,97,1,135.18,Mass Regulars
+17229,97,2,318.76,Mass Regulars
+14965,97,2,599.0,Mass Regulars
+17774,97,4,1225.41,Mass Regulars
+18027,99,1,115.31,Mass Regulars
+18087,99,2,4055.72,Mass Regulars
+14463,99,3,529.62,Mass Regulars
+14436,99,1,89.06,Mass Regulars
+14171,99,1,363.79,Mass Regulars
+14276,99,3,1119.74,Mass Regulars
+12436,100,1,509.01,Mass Regulars
+13376,100,3,1019.76,Mass Regulars
+13099,100,1,207.36,Mass Regulars
+16456,100,5,2158.37,Mass Regulars
+15829,100,2,636.14,Mass Regulars
+13631,100,11,3070.42,Mass Regulars
+14420,100,1,387.52,Mass Regulars
+13470,100,2,165.0,Mass Regulars
+13045,100,1,305.28,Mass Regulars
+16808,100,2,288.42,Mass Regulars
+15596,101,5,1406.59,Mass Regulars
+16180,101,8,10254.18,Mass Regulars
+14513,101,3,455.59,Mass Regulars
+17588,101,3,1240.2,Mass Regulars
+16780,101,2,425.19,Mass Regulars
+16278,101,1,566.38,Mass Regulars
+16083,101,2,1317.62,Mass Regulars
+15260,101,7,1810.77,Mass Regulars
+16842,101,3,1264.19,Mass Regulars
+17320,101,3,1200.62,Mass Regulars
+14078,102,6,1049.37,Mass Regulars
+15866,102,1,230.53,Mass Regulars
+17298,102,2,498.42,Mass Regulars
+12814,102,1,125.92,Mass Regulars
+15095,104,4,1370.6,Mass Regulars
+15325,104,1,162.29,Mass Regulars
+16806,104,4,801.49,Mass Regulars
+15625,104,4,1534.26,Mass Regulars
+14472,104,8,1936.84,Mass Regulars
+13301,104,4,618.09,Mass Regulars
+15569,104,5,1375.71,Mass Regulars
+16816,104,4,417.06,Mass Regulars
+13778,104,1,178.7,Mass Regulars
+15074,106,1,748.87,Mass Regulars
+16641,106,1,231.1,Mass Regulars
+15641,106,4,1887.2,Mass Regulars
+13003,106,3,149.05,Mass Regulars
+14210,106,6,1905.84,Mass Regulars
+17146,106,3,749.78,Mass Regulars
+13489,106,4,449.52,Mass Regulars
+14687,107,1,628.38,Mass Regulars
+14314,107,1,120.0,Mass Regulars
+12624,107,2,641.13,Mass Regulars
+16093,107,1,17.0,Mass Regulars
+16503,107,4,1431.93,Mass Regulars
+16429,107,1,284.55,Mass Regulars
+17189,107,2,384.4,Mass Regulars
+15263,107,1,156.51,Mass Regulars
+14055,107,1,725.64,Mass Regulars
+18200,107,1,163.8,Mass Regulars
+15663,107,1,138.14,Mass Regulars
+13000,107,3,534.85,Mass Regulars
+12715,107,1,353.86,Mass Regulars
+17844,107,1,51.56,Mass Regulars
+16309,107,2,706.57,Mass Regulars
+17134,107,2,425.0,Mass Regulars
+14196,107,1,335.52,Mass Regulars
+17869,108,5,428.18,Mass Regulars
+15812,108,5,1801.14,Mass Regulars
+16340,108,1,549.07,Mass Regulars
+15800,108,2,699.08,Mass Regulars
+17268,108,4,763.64,Mass Regulars
+12649,108,3,623.51,Mass Regulars
+14973,108,3,1314.45,Mass Regulars
+13411,108,1,213.55,Mass Regulars
+14875,108,2,1465.32,Mass Regulars
+14407,108,6,2157.73,Mass Regulars
+17256,108,2,240.0,Mass Regulars
+14930,109,3,2372.86,Mass Regulars
+13140,109,3,423.72,Mass Regulars
+13593,109,5,2037.08,Mass Regulars
+17242,109,2,1135.04,Mass Regulars
+14364,109,8,3717.35,Mass Regulars
+14523,109,1,241.09,Mass Regulars
+12593,109,3,418.1,Mass Regulars
+13425,109,3,1624.21,Mass Regulars
+16550,109,5,2298.97,Mass Regulars
+18018,109,2,122.14,Mass Regulars
+13933,110,2,608.79,Mass Regulars
+17083,110,3,1405.78,Mass Regulars
+12363,110,2,552.0,Mass Regulars
+16952,110,2,167.61,Mass Regulars
+14265,110,2,530.18,Mass Regulars
+17585,110,4,1133.07,Mass Regulars
+14045,110,4,1659.75,Mass Regulars
+14566,111,1,1432.0,Mass Regulars
+14224,111,4,1050.12,Mass Regulars
+14460,111,3,434.34,Mass Regulars
+14013,111,3,473.02,Mass Regulars
+15313,111,1,52.0,Mass Regulars
+17029,111,2,716.0,Mass Regulars
+16536,111,1,548.97,Mass Regulars
+14246,111,3,1474.06,Mass Regulars
+16419,113,6,972.23,Mass Regulars
+12418,113,1,668.58,Mass Regulars
+14772,113,1,139.26,Mass Regulars
+15396,113,1,288.18,Mass Regulars
+14745,113,5,1220.26,Mass Regulars
+15938,113,5,404.58,Mass Regulars
+17747,113,1,71.4,Mass Regulars
+12513,113,1,612.29,Mass Regulars
+13242,113,3,270.4,Mass Regulars
+12968,113,1,135.95,Mass Regulars
+12688,114,1,4873.81,Mass Regulars
+17742,114,2,355.11,Mass Regulars
+15472,114,1,371.56,Mass Regulars
+16582,114,1,313.62,Mass Regulars
+17045,114,3,339.44,Mass Regulars
+15797,114,4,2207.4,Mass Regulars
+15232,114,2,612.06,Mass Regulars
+13027,114,6,6912.0,Mass Regulars
+13273,114,1,138.98,Mass Regulars
+12729,114,1,453.01,Mass Regulars
+15734,115,2,1339.45,Mass Regulars
+15541,115,1,85.13,Mass Regulars
+13655,115,2,932.97,Mass Regulars
+14323,115,2,605.06,Mass Regulars
+17398,115,3,653.38,Mass Regulars
+17070,115,1,312.14,Mass Regulars
+16755,115,3,1496.83,Mass Regulars
+16092,115,3,817.86,Mass Regulars
+18073,115,12,3877.52,Mass Regulars
+15122,115,3,1633.78,Mass Regulars
+14006,116,3,962.19,Mass Regulars
+15002,116,4,1641.76,Mass Regulars
+16927,116,3,543.05,Mass Regulars
+15768,116,3,621.83,Mass Regulars
+12641,116,1,185.9,Mass Regulars
+14918,116,2,1610.15,Mass Regulars
+13621,117,1,213.85,Mass Regulars
+15480,117,1,905.5,Mass Regulars
+12758,117,2,2791.59,Mass Regulars
+18143,117,2,1000.16,Mass Regulars
+17958,117,1,508.46,Mass Regulars
+16272,117,1,411.7,Mass Regulars
+17252,117,2,353.86,Mass Regulars
+16902,117,1,1706.88,Mass Regulars
+16961,117,1,234.17,Mass Regulars
+15624,117,4,588.13,Mass Regulars
+13720,117,4,799.9,Mass Regulars
+13799,117,2,688.86,Mass Regulars
+15683,118,1,193.75,Mass Regulars
+17048,118,3,925.35,Mass Regulars
+14301,118,1,640.14,Mass Regulars
+13888,120,2,605.63,Mass Regulars
+15689,120,2,254.1,Mass Regulars
+16317,120,3,1341.65,Mass Regulars
+17642,120,2,712.29,Mass Regulars
+16045,120,4,1340.7,Mass Regulars
+17122,120,1,138.32,Mass Regulars
+14855,120,2,645.65,Mass Regulars
+12399,120,4,1108.65,Mass Regulars
+14406,120,1,156.75,Mass Regulars
+13873,120,3,389.6,Mass Regulars
+15192,120,3,1044.32,Mass Regulars
+15581,121,13,3679.97,Mass Regulars
+13307,121,1,15.0,Mass Regulars
+13645,121,1,252.1,Mass Regulars
+17248,121,1,318.65,Mass Regulars
+14346,121,2,1021.58,Mass Regulars
+17994,122,4,678.49,Mass Regulars
+14024,122,2,327.7,Mass Regulars
+16292,122,1,302.25,Mass Regulars
+13217,123,3,533.98,Mass Regulars
+18248,123,2,804.02,Mass Regulars
+15247,123,1,356.0,Mass Regulars
+13280,123,3,814.86,Mass Regulars
+14127,123,3,709.71,Mass Regulars
+13355,123,1,674.7,Mass Regulars
+13162,123,4,1688.29,Mass Regulars
+13869,124,4,3104.95,Mass Regulars
+17085,124,5,1566.65,Mass Regulars
+17331,124,1,175.2,Mass Regulars
+15985,124,2,1142.42,Mass Regulars
+16788,124,2,597.48,Mass Regulars
+13752,125,6,1186.28,Mass Regulars
+14079,125,1,375.1,Mass Regulars
+14053,125,2,260.25,Mass Regulars
+14331,125,2,462.66,Mass Regulars
+13248,125,2,465.68,Mass Regulars
+17457,127,5,1737.7,Mass Regulars
+13082,127,9,3613.63,Mass Regulars
+16174,127,3,1009.55,Mass Regulars
+17400,127,5,2129.96,Mass Regulars
+16302,127,1,233.22,Mass Regulars
+13513,127,1,205.1,Mass Regulars
+14344,128,8,889.93,Mass Regulars
+17723,128,6,3276.4,Mass Regulars
+15133,128,3,982.42,Mass Regulars
+18099,128,1,168.31,Mass Regulars
+14778,128,2,730.86,Mass Regulars
+17267,128,2,317.62,Mass Regulars
+15254,128,1,300.36,Mass Regulars
+13791,128,2,1516.0,Mass Regulars
+17692,128,4,740.94,Mass Regulars
+12693,128,4,855.91,Mass Regulars
+13218,128,1,62.64,Mass Regulars
+13402,128,2,621.23,Mass Regulars
+16572,128,3,1009.6,Mass Regulars
+12750,129,1,275.88,Mass Regulars
+17429,129,3,524.92,Mass Regulars
+12643,129,6,3344.64,Mass Regulars
+16835,129,2,180.85,Mass Regulars
+16324,129,3,428.68,Mass Regulars
+12917,129,1,594.0,Mass Regulars
+15374,129,1,168.0,Mass Regulars
+17514,129,1,208.65,Mass Regulars
+14972,129,1,114.77,Mass Regulars
+18178,129,4,1590.81,Mass Regulars
+12378,130,1,4008.62,Mass Regulars
+17353,130,2,1740.0,Mass Regulars
+12644,130,1,477.91,Mass Regulars
+14133,130,3,605.64,Mass Regulars
+15342,130,1,406.09,Mass Regulars
+13850,130,1,1595.48,Mass Regulars
+13075,130,1,919.61,Mass Regulars
+17887,130,1,111.35,Mass Regulars
+17553,130,1,1487.6,Mass Regulars
+14076,130,1,122.47,Mass Regulars
+17053,131,1,498.48,Mass Regulars
+17941,131,1,304.56,Mass Regulars
+17615,131,3,329.6,Mass Regulars
+14403,131,4,1475.81,Mass Regulars
+17282,131,3,1703.41,Mass Regulars
+12534,131,1,1089.18,Mass Regulars
+12942,132,3,683.9,Mass Regulars
+15438,132,1,156.58,Mass Regulars
+17695,132,2,765.34,Mass Regulars
+14885,132,1,765.32,Mass Regulars
+13722,132,3,2375.41,Mass Regulars
+13388,132,2,677.1,Mass Regulars
+15120,134,1,358.82,Mass Regulars
+13106,134,1,76.5,Mass Regulars
+15942,134,1,337.44,Mass Regulars
+13414,134,3,1390.5,Mass Regulars
+18064,134,2,814.0,Mass Regulars
+15149,134,1,520.8,Mass Regulars
+17926,134,2,397.29,Mass Regulars
+14143,134,1,115.8,Mass Regulars
+16147,134,1,375.0,Mass Regulars
+15776,134,1,241.62,Mass Regulars
+16951,135,3,1277.75,Mass Regulars
+12507,135,3,1304.81,Mass Regulars
+15245,135,3,2515.84,Mass Regulars
+15118,135,1,244.8,Mass Regulars
+17931,135,2,408.36,Mass Regulars
+15639,135,1,425.32,Mass Regulars
+14002,135,2,529.73,Mass Regulars
+15746,135,1,196.88,Mass Regulars
+18268,135,1,25.5,Mass Regulars
+12853,135,6,1957.1,Mass Regulars
+12743,135,2,546.43,Mass Regulars
+12453,135,1,707.09,Mass Regulars
+18151,135,2,653.35,Mass Regulars
+13730,136,2,752.6,Mass Regulars
+13194,136,1,60.7,Mass Regulars
+16447,136,1,259.01,Mass Regulars
+15261,136,1,254.82,Mass Regulars
+16696,136,4,657.9,Mass Regulars
+13492,137,3,1269.84,Mass Regulars
+15855,137,5,712.24,Mass Regulars
+13296,138,1,87.4,Mass Regulars
+17040,138,1,449.73,Mass Regulars
+14692,138,4,591.55,Mass Regulars
+17693,138,1,200.47,Mass Regulars
+15372,138,1,2007.4,Mass Regulars
+14100,138,1,194.9,Mass Regulars
+12916,139,4,3006.15,Mass Regulars
+13116,139,1,501.14,Mass Regulars
+12763,139,2,494.08,Mass Regulars
+13037,139,3,881.07,Mass Regulars
+12864,139,1,147.12,Mass Regulars
+16305,139,1,361.22,Mass Regulars
+17265,139,2,562.9,Mass Regulars
+16948,139,3,435.02,Mass Regulars
+13802,139,3,4599.42,Mass Regulars
+17935,139,2,145.79,Mass Regulars
+17312,139,3,644.3,Mass Regulars
+16178,139,1,197.9,Mass Regulars
+17649,139,1,868.49,Mass Regulars
+18262,141,1,149.48,Mass Regulars
+18146,141,2,160.35,Mass Regulars
+15704,141,4,2293.62,Mass Regulars
+16866,141,3,207.74,Mass Regulars
+14259,142,1,120.0,Dormant
+15108,142,4,1300.25,Mass Regulars
+17660,142,1,196.0,Dormant
+16654,142,4,601.27,Mass Regulars
+15623,142,1,301.03,Dormant
+17694,142,1,283.12,Dormant
+16807,143,3,1121.59,Mass Regulars
+15802,143,1,451.42,Dormant
+12521,143,1,599.68,Dormant
+12510,143,2,982.57,Mass Regulars
+17962,143,1,102.83,Dormant
+17866,143,1,329.65,Dormant
+12947,144,6,1603.99,Mass Regulars
+15713,144,2,356.7,Mass Regulars
+16112,144,4,195.74,Mass Regulars
+12875,144,2,343.23,Mass Regulars
+14117,144,1,90.0,Dormant
+12840,144,4,2726.77,Mass Regulars
+16859,145,2,747.81,Dormant
+14758,145,4,1484.06,Mass Regulars
+13821,145,2,385.64,Dormant
+13564,145,3,1749.02,Mass Regulars
+16054,146,1,783.9,Dormant
+12833,146,1,417.38,Dormant
+17984,146,1,152.68,Dormant
+13967,146,1,80.7,Dormant
+15716,146,4,1118.81,Mass Regulars
+17948,148,1,358.56,Dormant
+15004,148,1,1246.32,Dormant
+14722,148,1,187.92,Dormant
+12815,148,2,1063.46,Dormant
+14958,148,3,499.68,Dormant
+17444,148,3,2940.04,Dormant
+14891,149,2,554.38,Dormant
+17259,149,2,603.37,Dormant
+14847,149,1,309.4,Dormant
+12915,149,2,363.65,Dormant
+12405,149,1,1710.39,Dormant
+15256,149,1,98.45,Dormant
+12653,149,2,2209.85,Dormant
+15402,149,2,626.77,Dormant
+14461,149,3,2103.06,Dormant
+13667,150,1,305.02,Dormant
+15895,150,1,179.17,Dormant
+16450,150,1,311.92,Dormant
+15795,150,1,610.01,Dormant
+18121,150,2,673.1,Dormant
+16998,150,4,295.0,Mass Regulars
+14400,150,1,574.7,Dormant
+13420,150,2,159.85,Dormant
+12669,151,3,2744.03,Dormant
+14548,151,2,652.8,Dormant
+13675,152,2,486.82,Dormant
+17337,152,4,2027.87,Dormant
+15045,152,2,735.66,Dormant
+12717,152,2,1030.98,Dormant
+14552,152,1,165.07,Dormant
+13754,152,2,282.6,Dormant
+15577,152,3,258.88,Dormant
+13678,152,1,232.6,Dormant
+15265,152,2,1506.12,Dormant
+18024,153,2,389.78,Dormant
+17787,153,4,1865.19,Dormant
+17126,153,5,1004.75,Mass Regulars
+16398,155,2,1705.8,Dormant
+12648,155,1,318.05,Dormant
+13955,155,2,322.96,Dormant
+14104,155,2,216.21,Dormant
+18037,155,6,70.02,Mass Regulars
+16091,155,2,315.06,Dormant
+15920,155,4,167.5,Dormant
+15182,155,2,622.85,Dormant
+14264,155,2,333.97,Dormant
+14021,156,3,631.9,Dormant
+13302,156,1,63.75,Dormant
+13291,156,1,361.11,Dormant
+13583,156,1,781.03,Dormant
+15512,156,2,121.0,Dormant
+18013,156,2,187.29,Dormant
+13699,156,1,308.58,Dormant
+14459,156,1,1837.92,Dormant
+15889,157,2,446.87,Dormant
+17341,157,3,781.36,Dormant
+16919,157,11,2596.45,Mass Regulars
+16829,157,1,197.22,Dormant
+14645,157,2,597.09,Dormant
+17440,157,3,186.42,Dormant
+15334,157,3,351.67,Dormant
+13253,157,2,1030.4,Dormant
+12977,157,1,39.24,Dormant
+12450,157,2,197.88,Dormant
+13085,158,2,416.08,Dormant
+13338,158,1,487.02,Dormant
+18203,158,1,160.42,Dormant
+16146,158,3,734.13,Dormant
+17046,158,1,642.02,Dormant
+15646,158,3,447.64,Dormant
+14352,158,4,1078.96,Dormant
+14905,158,2,616.15,Dormant
+18142,158,2,1019.52,Dormant
+12980,158,9,7374.9,Mass Regulars
+16338,158,1,214.8,Dormant
+17464,159,1,289.96,Dormant
+16344,159,1,101.1,Dormant
+17765,159,3,371.88,Dormant
+15349,159,2,473.81,Dormant
+17105,160,2,665.78,Dormant
+15007,160,1,156.91,Dormant
+17939,160,1,99.14,Dormant
+13833,160,1,384.8,Dormant
+17899,160,1,155.8,Dormant
+17781,160,2,188.02,Dormant
+14338,162,2,588.22,Dormant
+15483,162,4,233.81,Dormant
+17123,162,1,345.3,Dormant
+14016,162,4,4341.21,Dormant
+12922,162,1,405.38,Dormant
+17505,162,2,1145.84,Dormant
+16498,162,2,100.97,Dormant
+13745,163,1,300.04,Dormant
+15578,163,1,127.1,Dormant
+14267,163,3,1516.24,Dormant
+12424,163,2,1760.96,Dormant
+14803,163,3,845.55,Dormant
+17891,163,1,203.86,Dormant
+14327,164,1,311.65,Dormant
+17408,164,1,32.65,Dormant
+16801,164,4,1619.73,Dormant
+17391,164,2,508.8,Dormant
+16553,164,12,5719.82,Mass Regulars
+15537,164,1,110.92,Dormant
+14351,165,1,51.0,Dormant
+16545,165,1,339.3,Dormant
+13656,165,2,379.65,Dormant
+15146,165,2,1327.16,Dormant
+16473,165,3,316.11,Dormant
+14481,165,2,636.51,Dormant
+17980,166,3,811.45,Dormant
+17110,166,1,163.3,Dormant
+13453,166,2,356.98,Dormant
+15976,166,2,430.94,Dormant
+12493,166,2,433.74,Dormant
+18193,166,1,243.76,Dormant
+17969,167,2,228.2,Dormant
+14795,167,1,131.45,Dormant
+15644,167,4,813.0,Dormant
+12548,167,1,95.2,Dormant
+15665,169,2,2242.01,Dormant
+13856,169,3,388.5,Dormant
+17704,169,2,885.19,Dormant
+15258,169,2,623.16,Dormant
+14656,170,2,291.05,Dormant
+13937,170,1,158.85,Dormant
+14584,170,4,1042.26,Dormant
+15384,170,2,642.41,Dormant
+13300,170,1,371.89,Dormant
+16647,170,2,214.06,Dormant
+13929,170,2,842.65,Dormant
+15379,170,7,3703.29,Dormant
+16287,170,1,142.5,Dormant
+15130,170,1,330.11,Dormant
+17709,170,1,137.45,Dormant
+17630,170,2,503.6,Dormant
+16247,171,1,114.56,Dormant
+15041,171,1,180.35,Dormant
+16114,171,1,135.75,Dormant
+16214,171,3,1062.75,Dormant
+14643,171,2,693.81,Dormant
+17877,171,1,237.61,Dormant
+14998,171,2,429.87,Dormant
+15507,172,1,492.36,Dormant
+16526,172,1,290.36,Dormant
+15412,172,1,190.53,Dormant
+17960,172,1,73.78,Dormant
+15076,173,1,880.85,Dormant
+15016,173,1,170.04,Dormant
+15280,173,1,113.12,Dormant
+16320,173,2,1038.46,Dormant
+15700,173,2,696.68,Dormant
+15825,173,1,532.94,Dormant
+18260,173,6,2643.2,Dormant
+15921,173,1,336.03,Dormant
+17897,173,3,566.6,Dormant
+15389,173,1,500.0,Dormant
+12837,174,1,134.1,Dormant
+14162,174,2,289.36,Dormant
+16050,174,1,137.9,Dormant
+13005,174,2,513.7,Dormant
+16484,174,2,404.3,Dormant
+17616,174,3,571.2,Dormant
+15535,174,4,536.4,Dormant
+13618,174,1,177.34,Dormant
+17879,174,1,178.52,Dormant
+18062,174,3,720.52,Dormant
+15909,174,1,191.94,Dormant
+13568,174,1,192.85,Dormant
+16805,174,2,460.59,Dormant
+14491,176,2,340.93,Dormant
+17204,176,4,1564.56,Dormant
+18168,177,6,1169.94,Dormant
+14037,177,2,147.2,Dormant
+15219,177,1,305.75,Dormant
+17446,177,2,120.9,Dormant
+15585,177,1,455.3,Dormant
+13951,177,3,674.45,Dormant
+16739,177,1,323.0,Dormant
+12908,177,2,750.0,Dormant
+16276,177,1,810.6,Dormant
+16257,177,1,46.95,Dormant
+13826,177,1,189.5,Dormant
+12809,178,1,489.31,Dormant
+18165,178,1,302.46,Dormant
+17536,178,1,76.5,Dormant
+16644,178,2,833.78,Dormant
+16461,178,1,151.42,Dormant
+14222,178,1,683.17,Dormant
+13343,178,1,353.43,Dormant
+15574,178,4,702.25,Dormant
+15912,179,2,264.62,Dormant
+17179,179,3,711.79,Dormant
+13476,179,2,1238.47,Dormant
+17749,179,2,674.52,Dormant
+14573,180,9,1653.42,Dormant
+15069,180,1,1109.53,Dormant
+13080,180,1,58.08,Dormant
+12732,180,1,236.26,Dormant
+17795,180,2,350.39,Dormant
+17349,180,1,110.75,Dormant
+13936,180,1,376.58,Dormant
+13663,180,1,189.47,Dormant
+18281,181,1,80.82,Dormant
+14823,181,3,321.43,Dormant
+14450,181,3,483.25,Dormant
+17234,183,1,149.89,Dormant
+15098,183,3,39916.5,Loyal High-Value
+13533,183,3,270.79,Dormant
+16581,183,1,105.84,Dormant
+13686,183,1,72.0,Dormant
+16614,183,1,506.19,Dormant
+16113,184,1,161.38,Dormant
+15780,184,3,475.28,Dormant
+14231,184,3,925.71,Dormant
+14501,184,2,251.21,Dormant
+14241,184,1,213.7,Dormant
+13811,184,3,814.5,Dormant
+13900,184,3,740.95,Dormant
+17409,185,2,771.85,Dormant
+16955,185,4,518.67,Dormant
+14622,185,1,320.58,Dormant
+13466,185,1,307.9,Dormant
+16832,185,3,199.15,Dormant
+12383,185,5,1850.56,Dormant
+15609,185,1,298.48,Dormant
+17707,186,2,152.4,Dormant
+18072,186,1,247.44,Dormant
+13395,186,1,307.72,Dormant
+17987,186,1,198.57,Dormant
+17026,186,2,154.83,Dormant
+17874,186,6,683.46,Dormant
+17854,186,2,311.26,Dormant
+14542,186,1,103.25,Dormant
+17124,186,1,298.89,Dormant
+14867,186,3,710.28,Dormant
+12891,186,3,331.0,Dormant
+14375,186,1,257.68,Dormant
+12868,186,6,1607.06,Dormant
+16849,187,1,124.57,Dormant
+16520,187,3,1046.57,Dormant
+15386,187,1,394.14,Dormant
+15852,187,2,160.71,Dormant
+12802,187,1,427.58,Dormant
+16611,187,1,129.49,Dormant
+14682,188,2,52.0,Dormant
+14512,188,2,275.28,Dormant
+13682,188,1,59.5,Dormant
+16963,188,1,110.55,Dormant
+16883,188,2,276.73,Dormant
+12468,188,2,729.54,Dormant
+17708,188,2,267.08,Dormant
+13885,190,2,506.8,Dormant
+13294,190,2,873.74,Dormant
+16230,190,2,542.03,Dormant
+15508,190,6,1000.27,Dormant
+16117,190,1,232.21,Dormant
+15405,190,1,349.1,Dormant
+12601,190,5,577.06,Dormant
+16967,190,1,319.02,Dormant
+16659,190,1,39.12,Dormant
+14453,191,1,119.93,Dormant
+15918,191,2,334.23,Dormant
+17900,191,2,112.2,Dormant
+16529,191,1,455.25,Dormant
+15658,191,5,1024.1,Dormant
+17531,191,1,296.7,Dormant
+15643,192,3,664.0,Dormant
+14377,192,2,617.05,Dormant
+16424,192,1,133.56,Dormant
+13062,192,1,346.98,Dormant
+17472,192,3,710.29,Dormant
+13475,192,4,1431.78,Dormant
+18231,193,5,2083.27,Dormant
+12790,193,1,324.92,Dormant
+18190,193,2,284.46,Dormant
+16810,193,1,309.54,Dormant
+13070,193,1,228.8,Dormant
+13398,193,1,457.34,Dormant
+17454,193,4,517.53,Dormant
+16483,193,1,139.35,Dormant
+15925,195,1,207.15,Dormant
+16567,195,2,865.6,Dormant
+15897,195,2,222.05,Dormant
+16889,195,3,1578.67,Dormant
+12426,195,1,582.73,Dormant
+17152,195,3,1689.5,Dormant
+17051,195,1,247.14,Dormant
+13135,197,1,3096.0,Dormant
+14828,197,3,2139.76,Dormant
+16275,197,1,559.87,Dormant
+14280,197,1,134.04,Dormant
+16034,197,3,437.7,Dormant
+16323,197,1,207.5,Dormant
+12999,197,3,455.88,Dormant
+14625,197,2,899.63,Dormant
+15104,197,2,1027.44,Dormant
+14740,198,3,1448.21,Dormant
+16838,198,2,588.85,Dormant
+16449,198,2,707.69,Dormant
+12974,198,1,144.8,Dormant
+12547,198,2,207.8,Dormant
+14816,198,1,271.85,Dormant
+17550,198,3,267.16,Dormant
+16356,198,3,211.77,Dormant
+14009,199,2,695.61,Dormant
+16448,199,1,188.89,Dormant
+17770,199,5,1143.27,Dormant
+14985,199,2,296.75,Dormant
+14705,199,1,179.0,Dormant
+16763,199,1,611.85,Dormant
+17955,199,4,557.3,Dormant
+15882,199,4,516.36,Dormant
+17375,200,3,400.1,Dormant
+15314,200,1,327.97,Dormant
+18202,200,3,1396.99,Dormant
+15042,200,1,135.93,Dormant
+13339,201,1,860.12,Dormant
+13737,201,1,339.6,Dormant
+13223,201,2,163.2,Dormant
+14817,201,2,1110.34,Dormant
+13479,201,2,300.95,Dormant
+17715,201,1,326.4,Dormant
+17176,202,1,306.13,Dormant
+13227,202,1,257.7,Dormant
+14195,202,2,1012.0,Dormant
+15292,202,1,180.94,Dormant
+15705,202,1,143.1,Dormant
+15724,202,2,218.25,Dormant
+14647,202,1,243.22,Dormant
+13391,204,1,59.8,Dormant
+17455,204,1,131.7,Dormant
+16226,204,3,255.12,Dormant
+18048,204,2,172.29,Dormant
+13243,204,1,600.07,Dormant
+17245,205,1,171.45,Dormant
+12353,205,1,89.0,Dormant
+17871,205,1,155.9,Dormant
+13887,205,1,349.55,Dormant
+14896,205,2,468.77,Dormant
+15648,205,2,657.35,Dormant
+14442,205,2,1589.82,Dormant
+12897,205,2,216.5,Dormant
+13531,206,2,483.8,Dormant
+17556,206,1,157.9,Dormant
+12690,206,1,389.01,Dormant
+14620,206,2,412.78,Dormant
+13659,206,2,1573.2,Dormant
+13572,206,1,1384.25,Dormant
+13976,207,1,357.98,Dormant
+17504,207,9,2997.03,Dormant
+14320,207,2,477.79,Dormant
+14888,208,1,369.2,Dormant
+15813,208,2,1303.91,Dormant
+14489,208,1,463.38,Dormant
+14689,209,1,112.8,Dormant
+17263,209,1,63.44,Dormant
+15333,209,1,1028.56,Dormant
+12857,211,2,1106.4,Dormant
+14873,211,1,519.68,Dormant
+12770,211,1,1351.45,Dormant
+13837,212,2,271.24,Dormant
+12590,212,2,9864.26,Dormant
+18218,212,2,662.08,Dormant
+16244,212,2,1522.75,Dormant
+16943,212,3,816.73,Dormant
+12976,212,1,738.6,Dormant
+17970,212,1,582.59,Dormant
+16006,212,1,101.4,Dormant
+16116,212,1,612.78,Dormant
+14988,212,1,334.54,Dormant
+12625,212,2,2683.82,Dormant
+14000,212,1,635.66,Dormant
+17889,213,2,203.87,Dormant
+15079,213,4,895.61,Dormant
+13235,213,1,1031.07,Dormant
+14920,213,2,977.77,Dormant
+15732,213,2,294.12,Dormant
+15729,213,1,85.0,Dormant
+13052,213,1,348.15,Dormant
+18133,213,1,931.5,Dormant
+17597,214,1,2044.37,Dormant
+16306,214,6,632.27,Dormant
+15063,214,1,370.8,Dormant
+15381,214,2,596.85,Dormant
+14288,214,1,426.6,Dormant
+16431,214,3,642.81,Dormant
+13990,214,1,311.3,Dormant
+15433,214,2,533.3,Dormant
+16756,215,1,239.4,Dormant
+14699,215,1,109.13,Dormant
+12821,215,1,92.72,Dormant
+12888,215,2,354.12,Dormant
+18120,215,1,111.15,Dormant
+12355,215,1,459.4,Dormant
+14353,216,1,90.6,Dormant
+15092,216,2,457.81,Dormant
+13561,216,1,141.86,Dormant
+13642,216,1,354.8,Dormant
+14161,216,3,1110.52,Dormant
+15552,218,1,90.12,Dormant
+18227,218,1,93.75,Dormant
+15235,218,12,2247.51,Dormant
+13952,218,2,3251.07,Dormant
+17174,218,1,59.9,Dormant
+18078,218,2,336.13,Dormant
+15668,218,1,76.32,Dormant
+17604,218,2,309.36,Dormant
+12414,218,3,562.41,Dormant
+13723,218,1,199.85,Dormant
+16319,218,1,404.4,Dormant
+13762,219,1,306.72,Dormant
+14423,219,1,265.2,Dormant
+17374,219,2,495.77,Dormant
+17849,219,4,605.8,Dormant
+16457,219,1,208.36,Dormant
+14393,219,1,67.95,Dormant
+14199,219,1,185.4,Dormant
+16990,219,1,179.0,Dormant
+16109,219,2,611.88,Dormant
+18239,219,5,1561.61,Dormant
+15759,219,3,253.04,Dormant
+14697,219,2,188.61,Dormant
+16714,219,3,1161.53,Dormant
+17578,219,1,143.46,Dormant
+13711,219,2,252.06,Dormant
+14340,219,1,134.7,Dormant
+14245,220,2,1693.45,Dormant
+17646,220,3,1008.39,Dormant
+17443,220,1,534.24,Dormant
+17394,220,1,203.87,Dormant
+16610,220,1,75.66,Dormant
+13731,220,2,610.59,Dormant
+14149,221,1,446.62,Dormant
+17501,221,2,288.6,Dormant
+16055,221,1,134.8,Dormant
+16634,223,2,217.9,Dormant
+14304,223,1,383.45,Dormant
+17991,226,2,93.35,Dormant
+15223,226,2,755.75,Dormant
+14271,226,1,112.32,Dormant
+15210,226,1,331.18,Dormant
+14022,226,1,440.0,Dormant
+13229,226,1,160.95,Dormant
+17893,226,1,112.25,Dormant
+16227,226,1,314.22,Dormant
+15143,226,1,259.45,Dormant
+17187,227,1,203.95,Dormant
+18220,227,1,305.28,Dormant
+16965,227,1,201.19,Dormant
+15891,227,1,524.52,Dormant
+16698,227,2,1998.0,Dormant
+12573,228,1,160.54,Dormant
+16823,228,1,358.38,Dormant
+17277,228,2,1065.35,Dormant
+16834,228,1,413.46,Dormant
+18183,228,2,632.07,Dormant
+17670,228,1,205.7,Dormant
+16163,233,2,856.6,Dormant
+13482,233,1,184.64,Dormant
+12354,233,1,1079.4,Dormant
+12506,233,1,73.5,Dormant
+14770,233,2,876.42,Dormant
+17718,233,1,139.35,Dormant
+12622,233,1,180.1,Dormant
+16587,233,1,225.15,Dormant
+17946,234,2,149.58,Dormant
+13485,234,1,454.24,Dormant
+17548,234,1,103.3,Dormant
+14148,234,1,157.2,Dormant
+17120,234,1,307.46,Dormant
+15517,234,1,267.03,Dormant
+14242,235,2,280.55,Dormant
+12733,235,1,383.95,Dormant
+12585,235,2,2040.1,Dormant
+13101,235,1,101.19,Dormant
+15225,235,1,409.4,Dormant
+17217,235,1,113.5,Dormant
+15717,235,1,150.3,Dormant
+14672,235,2,765.55,Dormant
+16947,236,1,406.48,Dormant
+18009,236,1,257.34,Dormant
+16217,236,2,304.25,Dormant
+16617,236,1,151.85,Dormant
+12754,236,3,3010.74,Dormant
+15749,236,3,44534.3,Loyal High-Value
+17990,237,3,630.84,Dormant
+16193,237,1,314.45,Dormant
+13474,237,1,229.59,Dormant
+17697,237,1,338.95,Dormant
+18213,237,1,232.48,Dormant
+14532,237,4,932.85,Dormant
+12878,237,2,854.99,Dormant
+17582,237,1,175.27,Dormant
+15246,239,2,514.15,Dormant
+12582,239,2,511.36,Dormant
+13120,239,1,30.6,Dormant
+12639,239,1,486.1,Dormant
+12769,239,1,1143.6,Dormant
+17367,239,1,168.4,Dormant
+17362,240,2,312.23,Dormant
+14154,240,2,1345.62,Dormant
+17142,240,1,579.0,Dormant
+15139,240,2,178.96,Dormant
+16957,240,2,416.64,Dormant
+14105,240,1,1266.23,Dormant
+17601,240,1,116.01,Dormant
+15935,240,2,416.86,Dormant
+15230,240,2,429.6,Dormant
+14206,240,1,328.16,Dormant
+15135,240,1,139.05,Dormant
+16097,241,1,185.05,Dormant
+13740,241,1,350.75,Dormant
+13221,241,2,847.41,Dormant
+15147,241,1,623.5,Dormant
+17746,241,1,110.25,Dormant
+16697,242,1,112.75,Dormant
+15777,242,4,1047.11,Dormant
+15212,242,1,101.8,Dormant
+13484,242,1,313.8,Dormant
+17972,242,1,136.04,Dormant
+14669,242,3,1269.99,Dormant
+17278,242,1,246.04,Dormant
+14616,243,3,406.08,Dormant
+14326,243,1,183.85,Dormant
+14311,243,1,310.26,Dormant
+17574,243,1,185.65,Dormant
+14339,243,1,309.52,Dormant
+16552,243,2,379.73,Dormant
+12982,243,1,390.54,Dormant
+15655,244,1,560.67,Dormant
+12447,244,1,476.49,Dormant
+13508,244,1,110.97,Dormant
+13570,244,1,239.49,Dormant
+18129,244,1,112.55,Dormant
+15775,246,1,104.9,Dormant
+16010,246,3,407.5,Dormant
+17035,246,2,433.53,Dormant
+15109,246,1,484.95,Dormant
+14619,246,1,394.44,Dormant
+15119,246,1,266.4,Dormant
+16643,246,1,487.51,Dormant
+16623,246,1,129.45,Dormant
+14924,246,1,310.05,Dormant
+13718,247,2,306.55,Dormant
+16144,247,1,175.2,Dormant
+14465,247,3,1058.62,Dormant
+13712,247,1,228.84,Dormant
+14981,247,1,102.12,Dormant
+12580,247,1,415.7,Dormant
+17140,248,1,465.32,Dormant
+17906,248,1,72.9,Dormant
+13863,248,1,305.78,Dormant
+14964,248,1,206.21,Dormant
+15917,248,1,123.1,Dormant
+16378,248,3,362.95,Dormant
+14220,248,2,632.4,Dormant
+16586,249,1,463.95,Dormant
+15442,249,1,594.0,Dormant
+16105,249,1,336.96,Dormant
+17492,249,1,374.57,Dormant
+14747,250,1,328.2,Dormant
+18185,250,1,304.25,Dormant
+16142,250,1,535.34,Dormant
+13059,250,1,183.4,Dormant
+17956,250,1,12.75,Dormant
+13781,251,1,127.84,Dormant
+17701,253,1,417.95,Dormant
+17580,253,3,215.72,Dormant
+13841,253,1,85.0,Dormant
+16162,253,1,37.4,Dormant
+13626,253,1,257.23,Dormant
+14886,253,1,364.8,Dormant
+13462,253,1,151.5,Dormant
+15691,253,1,136.8,Dormant
+17438,254,1,388.45,Dormant
+17212,254,1,226.85,Dormant
+13060,254,1,307.53,Dormant
+15894,254,2,263.55,Dormant
+14957,254,1,58.49,Dormant
+14890,254,1,125.65,Dormant
+14479,254,2,316.25,Dormant
+15424,255,2,383.34,Dormant
+15832,255,1,836.79,Dormant
+17775,255,1,56.4,Dormant
+18108,255,1,271.0,Dormant
+15353,255,2,777.02,Dormant
+15528,255,1,229.33,Dormant
+13803,256,1,277.07,Dormant
+16980,256,2,1078.96,Dormant
+15589,256,3,478.53,Dormant
+13439,256,1,283.71,Dormant
+13649,257,2,346.6,Dormant
+12792,257,1,400.54,Dormant
+18010,257,1,174.8,Dormant
+15083,257,1,88.2,Dormant
+15032,257,3,4959.1,Dormant
+16692,257,2,1276.0,Dormant
+13368,257,2,623.4,Dormant
+13357,258,1,609.95,Dormant
+18071,258,2,453.0,Dormant
+14476,258,1,215.7,Dormant
+14536,260,1,171.8,Dormant
+13452,260,2,590.0,Dormant
+16769,261,1,380.39,Dormant
+13341,261,1,775.85,Dormant
+12811,261,3,514.85,Dormant
+13512,261,1,251.21,Dormant
+14256,261,2,969.06,Dormant
+16063,261,1,335.32,Dormant
+17698,261,1,154.95,Dormant
+14348,261,1,409.57,Dormant
+16022,261,1,628.28,Dormant
+15178,261,1,40.5,Dormant
+18191,262,1,207.8,Dormant
+12818,262,1,1542.08,Dormant
+17507,262,2,605.58,Dormant
+16250,262,2,389.44,Dormant
+13132,262,1,77.3,Dormant
+17486,262,1,396.87,Dormant
+17102,262,1,25.5,Dormant
+14870,262,1,327.25,Dormant
+12564,262,1,456.9,Dormant
+13239,262,1,329.56,Dormant
+16721,263,1,292.47,Dormant
+15437,263,1,200.16,Dormant
+14632,263,1,114.56,Dormant
+15457,263,1,237.07,Dormant
+12831,263,1,215.05,Dormant
+16135,263,1,517.55,Dormant
+17763,264,1,15.0,Dormant
+13934,264,1,922.1,Dormant
+14762,264,1,300.52,Dormant
+16427,264,2,241.06,Dormant
+16619,264,1,226.21,Dormant
+18224,264,1,158.95,Dormant
+17678,264,1,298.11,Dormant
+13262,264,1,200.29,Dormant
+15445,265,1,113.5,Dormant
+16096,265,1,320.62,Dormant
+12902,265,1,138.68,Dormant
+14693,265,1,172.9,Dormant
+15703,265,1,211.5,Dormant
+15408,265,1,267.18,Dormant
+16402,265,2,299.6,Dormant
+17230,265,8,3638.41,Dormant
+15019,267,1,266.0,Dormant
+13072,267,1,177.15,Dormant
+17060,267,1,234.24,Dormant
+14155,267,1,118.75,Dormant
+14041,267,1,141.41,Dormant
+14066,267,1,152.55,Dormant
+14059,267,1,183.6,Dormant
+16256,267,1,752.43,Dormant
+14633,267,1,344.9,Dormant
+15695,267,2,409.98,Dormant
+16716,267,2,901.2,Dormant
+13185,268,1,71.4,Dormant
+13216,268,1,333.74,Dormant
+12845,268,4,354.09,Dormant
+14840,268,1,62.85,Dormant
+16216,268,1,914.93,Dormant
+16976,268,1,251.52,Dormant
+13707,268,2,806.41,Dormant
+16377,268,1,676.2,Dormant
+12514,268,1,1017.68,Dormant
+13358,269,1,439.03,Dormant
+13261,269,2,944.1,Dormant
+13299,269,1,142.5,Dormant
+16297,269,1,301.9,Dormant
+16152,269,1,1829.04,Dormant
+16037,270,3,855.02,Dormant
+17542,270,1,170.75,Dormant
+15047,270,1,343.62,Dormant
+13716,270,1,138.28,Dormant
+16392,270,1,221.19,Dormant
+13121,270,1,283.73,Dormant
+15388,271,1,140.54,Dormant
+14962,271,1,126.7,Dormant
+13708,272,1,296.88,Dormant
+13133,274,2,109.8,Dormant
+13226,274,1,108.21,Dormant
+17194,274,2,262.62,Dormant
+16766,274,2,1145.6,Dormant
+14114,274,2,386.53,Dormant
+13043,274,1,516.42,Dormant
+15049,274,1,121.17,Dormant
+15308,275,1,310.47,Dormant
+14350,275,1,282.93,Dormant
+14727,275,1,268.58,Dormant
+16471,275,1,223.95,Dormant
+16625,275,1,333.08,Dormant
+14603,275,1,660.0,Dormant
+18086,275,1,101.34,Dormant
+13093,276,8,7832.47,Dormant
+17138,276,1,380.5,Dormant
+13493,276,2,618.63,Dormant
+15057,276,2,1489.5,Dormant
+14165,276,1,122.54,Dormant
+12881,276,1,298.0,Dormant
+15944,277,1,325.1,Dormant
+16917,277,1,391.52,Dormant
+12623,277,1,305.1,Dormant
+14586,277,1,237.36,Dormant
+15234,277,1,197.0,Dormant
+17639,277,1,108.5,Dormant
+16517,278,1,162.7,Dormant
+12614,278,1,315.6,Dormant
+18280,278,1,180.6,Dormant
+15869,278,2,149.64,Dormant
+17654,278,1,117.55,Dormant
+15554,278,1,217.2,Dormant
+14012,278,1,328.8,Dormant
+14247,279,1,136.77,Dormant
+12755,281,2,3811.95,Dormant
+17508,281,1,387.31,Dormant
+14670,281,2,411.53,Dormant
+17535,281,1,164.4,Dormant
+13382,281,1,222.99,Dormant
+14570,281,2,218.06,Dormant
+14779,281,3,386.15,Dormant
+17325,281,1,96.8,Dormant
+13715,282,5,1079.34,Dormant
+17995,282,1,76.1,Dormant
+15087,282,1,306.94,Dormant
+16159,282,1,348.2,Dormant
+17789,282,1,225.9,Dormant
+14483,282,1,137.1,Dormant
+12817,282,1,166.04,Dormant
+12834,283,1,312.38,Dormant
+15733,283,1,162.3,Dormant
+16792,283,2,110.38,Dormant
+12873,283,1,374.0,Dormant
+13497,283,2,348.05,Dormant
+17923,283,1,207.5,Dormant
+15319,284,1,204.5,Dormant
+15257,284,1,317.15,Dormant
+16078,284,1,79.2,Dormant
+13166,284,1,417.2,Dormant
+15709,284,1,133.25,Dormant
+12866,284,1,559.12,Dormant
+15456,284,3,447.22,Dormant
+14036,285,1,626.65,Dormant
+14046,285,1,154.99,Dormant
+12509,285,1,176.5,Dormant
+17165,285,1,158.68,Dormant
+16339,285,1,109.95,Dormant
+16598,286,1,145.05,Dormant
+13684,286,1,67.23,Dormant
+12361,288,1,189.9,Dormant
+13345,288,1,389.5,Dormant
+13753,288,1,741.26,Dormant
+13973,288,1,264.7,Dormant
+13501,289,1,1340.32,Dormant
+13751,289,1,296.25,Dormant
+18056,289,1,363.65,Dormant
+16997,289,3,702.0,Dormant
+17117,289,1,116.2,Dormant
+15543,289,1,127.86,Dormant
+12565,289,1,145.92,Dormant
+12945,289,1,462.95,Dormant
+16072,289,1,584.32,Dormant
+17171,290,1,224.91,Dormant
+15397,290,1,94.0,Dormant
+18068,290,1,101.7,Dormant
+17499,290,1,622.88,Dormant
+15303,291,1,574.02,Dormant
+16349,291,1,53.5,Dormant
+18114,291,1,220.1,Dormant
+16913,291,1,113.44,Dormant
+16546,291,2,787.15,Dormant
+12365,292,2,641.38,Dormant
+13044,292,1,560.47,Dormant
+12707,292,1,603.42,Dormant
+12988,293,1,535.32,Dormant
+12852,295,1,311.55,Dormant
+16765,295,1,34.0,Dormant
+13932,295,1,307.4,Dormant
+14371,296,1,100.5,Dormant
+13151,296,1,1257.87,Dormant
+18138,296,1,152.65,Dormant
+14386,297,1,142.4,Dormant
+16509,297,1,363.7,Dormant
+16494,297,1,826.53,Dormant
+15670,297,1,173.05,Dormant
+16148,297,1,76.32,Dormant
+13893,298,1,821.1,Dormant
+14935,298,1,1784.71,Dormant
+14760,298,1,89.2,Dormant
+16073,298,1,122.4,Dormant
+14176,298,4,576.9,Dormant
+16738,298,1,3.75,Dormant
+17829,299,1,889.24,Dormant
+15236,299,1,321.05,Dormant
+16897,300,2,289.78,Dormant
+16084,300,1,436.18,Dormant
+13819,302,3,1140.35,Dormant
+18159,302,1,530.15,Dormant
+13672,302,2,186.39,Dormant
+16405,303,2,167.25,Dormant
+12561,303,1,238.85,Dormant
+14081,303,2,934.52,Dormant
+16725,303,7,781.02,Dormant
+14431,303,1,470.36,Dormant
+17334,303,2,307.02,Dormant
+13706,303,1,330.79,Dormant
+16425,303,1,302.7,Dormant
+15843,304,1,118.95,Dormant
+12401,304,1,84.3,Dormant
+15970,304,1,314.1,Dormant
+17843,304,1,205.48,Dormant
+17358,304,2,365.85,Dormant
+17859,305,1,148.21,Dormant
+15753,305,1,79.2,Dormant
+17881,305,1,133.35,Dormant
+13809,306,1,155.05,Dormant
+14600,306,1,393.33,Dormant
+14048,306,1,409.93,Dormant
+15808,307,4,3734.97,Dormant
+17392,307,2,457.91,Dormant
+13584,307,1,142.4,Dormant
+12956,307,1,108.07,Dormant
+14438,307,1,131.9,Dormant
+17517,309,1,153.94,Dormant
+13963,309,4,664.54,Dormant
+17226,309,1,393.49,Dormant
+15090,309,1,381.32,Dormant
+12410,309,2,693.33,Dormant
+17291,309,1,550.8,Dormant
+13800,310,1,558.32,Dormant
+16030,310,1,331.24,Dormant
+13581,310,1,118.0,Dormant
+14497,310,1,475.37,Dormant
+14411,311,1,1063.0,Dormant
+17912,311,5,311.01,Dormant
+18250,311,1,349.27,Dormant
+12559,311,2,561.71,Dormant
+15226,311,1,154.41,Dormant
+12350,311,1,334.4,Dormant
+17223,311,2,426.79,Dormant
+14457,311,1,113.64,Dormant
+12373,312,1,364.6,Dormant
+15107,312,6,319.5,Dormant
+17356,312,1,178.22,Dormant
+13494,312,1,316.26,Dormant
+14850,312,1,325.75,Dormant
+14549,312,1,289.24,Dormant
+14496,312,2,538.81,Dormant
+12929,312,1,117.85,Dormant
+15940,312,1,35.8,Dormant
+17239,313,1,382.5,Dormant
+15448,313,1,494.64,Dormant
+13600,313,1,219.52,Dormant
+17619,313,1,218.52,Dormant
+15881,313,5,501.39,Dormant
+18095,313,2,580.05,Dormant
+16403,313,1,177.5,Dormant
+17431,314,1,403.3,Dormant
+13161,314,1,112.75,Dormant
+17062,314,4,538.37,Dormant
+15415,314,1,572.81,Dormant
+12377,316,2,1628.12,Dormant
+12735,316,2,779.57,Dormant
+12574,316,1,218.45,Dormant
+13328,317,1,1308.48,Dormant
+13506,317,2,458.52,Dormant
+12764,317,1,1693.88,Dormant
+16124,318,1,249.0,Dormant
+17118,318,1,157.02,Dormant
+15661,318,2,309.8,Dormant
+12591,318,1,452.85,Dormant
+13615,319,1,417.69,Dormant
+13002,319,1,120.95,Dormant
+14248,319,1,302.58,Dormant
+16757,319,1,106.83,Dormant
+15222,319,1,585.0,Dormant
+16222,319,1,846.72,Dormant
+15213,319,2,328.35,Dormant
+13703,319,1,99.5,Dormant
+14368,320,1,155.0,Dormant
+15820,320,1,206.98,Dormant
+14439,320,1,2661.24,Dormant
+15052,320,1,215.78,Dormant
+14130,320,1,483.86,Dormant
+13551,320,1,91.8,Dormant
+14782,320,1,200.1,Dormant
+17714,321,1,153.0,Dormant
+15167,321,1,163.0,Dormant
+14068,321,1,265.85,Dormant
+16387,323,1,94.36,Dormant
+17890,323,2,602.09,Dormant
+17094,323,1,302.0,Dormant
+15174,323,1,135.75,Dormant
+15262,324,1,178.95,Dormant
+12402,324,1,225.6,Dormant
+15422,324,2,97.7,Dormant
+13008,324,1,229.47,Dormant
+17862,324,1,330.9,Dormant
+14090,325,1,76.32,Dormant
+12665,325,1,63.0,Dormant
+18233,326,1,440.0,Dormant
+12346,326,1,77183.6,Loyal High-Value
+13898,326,1,155.93,Dormant
+15395,326,1,107.45,Dormant
+13859,327,1,201.16,Dormant
+14238,327,1,146.85,Dormant
+15316,327,1,165.0,Dormant
+18212,327,1,248.42,Dormant
+12872,327,2,599.97,Dormant
+18106,330,1,430.7,Dormant
+13385,330,1,534.57,Dormant
+12672,330,1,225.9,Dormant
+15447,331,1,155.17,Dormant
+16315,331,1,226.37,Dormant
+13284,331,1,201.19,Dormant
+18085,331,2,689.95,Dormant
+15510,331,1,250.0,Dormant
+14185,332,1,197.65,Dormant
+12652,332,1,919.98,Dormant
+15171,332,1,1289.5,Dormant
+14270,332,1,492.65,Dormant
+16351,333,1,153.9,Dormant
+15346,333,1,252.42,Dormant
+17569,333,1,344.14,Dormant
+13144,333,1,110.95,Dormant
+12736,333,1,234.0,Dormant
+16850,334,1,332.41,Dormant
+15100,334,3,876.0,Dormant
+17406,334,3,2200.42,Dormant
+15326,334,1,311.71,Dormant
+17128,335,1,157.09,Dormant
+12651,335,1,114.0,Dormant
+18032,335,1,73.5,Dormant
+12793,335,2,545.48,Dormant
+14889,337,1,135.9,Dormant
+12829,337,2,293.0,Dormant
+15649,337,2,816.0,Dormant
+12489,337,1,334.93,Dormant
+12501,337,1,2169.39,Dormant
+15607,337,1,104.76,Dormant
+13187,338,1,236.02,Dormant
+12386,338,2,401.9,Dormant
+15266,339,1,119.3,Dormant
+15464,339,1,1048.85,Dormant
+16282,340,1,168.3,Dormant
+13304,352,1,300.42,Dormant
+15562,352,1,134.55,Dormant
+13922,352,1,172.25,Dormant
+12734,353,1,110.4,Dormant
+16270,354,1,1141.24,Dormant
+12515,354,1,383.7,Dormant
+15279,355,1,290.51,Dormant
+15460,355,1,216.76,Dormant
+17343,356,1,193.64,Dormant
+12551,358,1,168.0,Dormant
+13033,358,1,190.55,Dormant
+15160,358,1,158.16,Dormant
+15204,358,1,316.58,Dormant
+17691,359,2,290.4,Dormant
+13874,359,1,540.45,Dormant
+17496,359,1,271.05,Dormant
+12967,359,2,1660.9,Dormant
+14373,359,1,76.55,Dormant
+15789,359,1,351.3,Dormant
+15224,359,2,322.08,Dormant
+18176,359,1,476.35,Dormant
+18050,360,1,74.4,Dormant
+13295,360,1,201.2,Dormant
+17525,360,1,422.7,Dormant
+17551,360,1,306.84,Dormant
+17752,360,1,80.64,Dormant
+13948,361,1,102.0,Dormant
+16499,361,2,365.45,Dormant
+16202,361,1,365.27,Dormant
+16812,361,1,479.35,Dormant
+17303,362,1,250.04,Dormant
+17524,362,1,145.0,Dormant
+15361,362,1,418.92,Dormant
+16665,363,1,135.4,Dormant
+18004,363,1,169.47,Dormant
+14413,363,1,122.7,Dormant
+15503,363,1,147.09,Dormant
+15454,363,1,179.1,Dormant
+17251,363,1,283.28,Dormant
+12785,365,1,311.95,Dormant
+14082,365,1,182.25,Dormant
+16727,365,1,272.82,Dormant
+15723,365,1,203.1,Dormant
+17880,365,1,458.92,Dormant
+16565,365,1,173.7,Dormant
+12797,366,1,254.03,Dormant
+14437,366,1,63.0,Dormant
+15945,366,1,181.0,Dormant
+16065,366,1,372.09,Dormant
+17978,366,1,300.92,Dormant
+13369,366,1,308.28,Dormant
+14355,366,1,174.4,Dormant
+17456,366,1,249.86,Dormant
+16795,366,1,414.88,Dormant
+14932,366,1,363.53,Dormant
+16893,367,1,145.93,Dormant
+15221,367,1,403.25,Dormant
+15332,367,4,1661.06,Dormant
+13270,367,1,590.0,Dormant
+15973,367,1,307.82,Dormant
+16679,367,1,129.75,Dormant
+15347,367,1,201.6,Dormant
+18269,367,1,168.6,Dormant
+14821,367,1,48.8,Dormant
+12441,367,1,173.55,Dormant
+15180,368,1,87.5,Dormant
+13807,368,1,112.6,Dormant
+16125,368,1,289.35,Dormant
+18119,368,1,181.12,Dormant
+13786,368,1,230.4,Dormant
+15899,369,1,56.25,Dormant
+17860,369,1,252.8,Dormant
+18113,369,1,76.32,Dormant
+16858,369,1,375.69,Dormant
+16658,369,1,123.24,Dormant
+16718,370,1,623.75,Dormant
+15880,370,1,343.28,Dormant
+14813,370,2,155.43,Dormant
+17967,372,1,123.07,Dormant
+13370,372,1,754.87,Dormant
+16926,372,1,230.25,Dormant
+12686,372,1,89.14,Dormant
+14589,372,1,39.75,Dormant
+12725,372,1,427.8,Dormant
+17976,373,1,353.19,Dormant
+14576,373,1,35.4,Dormant
+15070,373,1,106.2,Dormant
+16752,373,1,207.5,Dormant
+16754,373,1,2002.4,Dormant
+16781,373,1,311.25,Dormant
+17855,373,1,208.97,Dormant
+13011,373,1,50.55,Dormant
+17850,373,34,5391.21,Loyal High-Value
+16510,373,1,248.1,Dormant
+15823,373,1,15.0,Dormant
+12738,373,1,155.35,Dormant
+15363,373,1,326.0,Dormant
+17732,373,1,303.97,Dormant
+12855,373,1,38.1,Dormant
+17925,373,1,244.08,Dormant
+15923,373,1,127.08,Dormant
+13108,373,1,350.06,Dormant
+14142,374,1,311.81,Dormant
+13747,374,1,79.6,Dormant
+18011,374,1,102.79,Dormant
+15922,374,1,369.5,Dormant
+18074,374,1,489.6,Dormant
+12791,374,1,192.6,Dormant
+15350,374,1,115.65,Dormant
+17908,374,1,243.28,Dormant
+15165,374,1,487.75,Dormant
+16048,374,2,256.44,Dormant
+17643,374,1,101.55,Dormant
+16274,374,1,357.95,Dormant
+17968,374,1,277.35,Dormant
+14729,374,1,313.49,Dormant
+16583,374,1,233.45,Dormant
+14237,374,1,161.0,Dormant
+13065,374,1,205.86,Dormant
