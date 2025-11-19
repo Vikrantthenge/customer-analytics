@@ -350,8 +350,9 @@ elif page == "Export":
 
 # ---------------------------------------------------------------
 
-st.markdown(
-"""
+import streamlit as st
+
+st.html("""
 <div style="
     width:100%;
     margin-top:40px;
@@ -362,7 +363,6 @@ st.markdown(
     color:white;
 ">
 
-    <!-- Social Links with Emojis -->
     <div style="margin-bottom: 8px;">
         <a href="https://www.linkedin.com/in/vthenge"
            target="_blank"
@@ -377,14 +377,12 @@ st.markdown(
         </a>
     </div>
 
-    <!-- Footer Text -->
     <div style="font-size: 14px; margin-top: 10px;">
         Built by <strong>Vikrant Thenge</strong> • Customer Analytics Dashboard
     </div>
 
 </div>
-""",
-unsafe_allow_html=True
-)
+""")
+
 
 
