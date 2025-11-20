@@ -484,25 +484,25 @@ elif page == "Customer Lookup":
 elif page == "Cohorts":
     st.title("Cohort Retention Analysis")
 
-    # If date_col is missing or parsing failed earlier
-    if date_col is None:
-        st.error("invoice_date column is missing or invalid. Cohort analysis cannot run.")
+    # --- Ensure date column exists ---
+    if "invoice_date" not in filtered_tx.columns:
+        st.error("invoice_date column not found. Cohort analysis cannot run.")
         st.stop()
 
+    # Convert to datetime safely
     dfc = filtered_tx.copy()
+    dfc["invoice_date"] = pd.to_datetime(dfc["invoice_date"], errors="coerce")
 
-    # Safety check: ensure date exists in filtered_tx
-    if date_col not in dfc.columns:
-        st.error("invoice_date column missing in filtered transactions.")
+    if dfc["invoice_date"].isna().all():
+        st.error("invoice_date exists but contains no valid dates. Cannot run cohorts.")
         st.stop()
 
-    if dfc[date_col].isna().all():
-        st.error("invoice_date column exists but contains no valid dates. Cohort analysis cannot run.")
-        st.stop()
+    # --- Cohort calculation ---
+    dfc["invoice_month"] = dfc["invoice_date"].dt.to_period("M").dt.to_timestamp()
 
-    # --- Cohort monthly extraction ---
-    dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
-    dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
+    dfc["cohort_month"] = (
+        dfc.groupby("customerid")["invoice_month"].transform("min")
+    )
 
     cohort = (
         dfc.groupby(["cohort_month", "invoice_month"])
@@ -523,14 +523,15 @@ elif page == "Cohorts":
 
     retention = pivot.div(pivot.iloc[:, 0], axis=0)
 
+    # --- Visuals ---
     st.subheader("Retention Heatmap")
-
     fig, ax = plt.subplots(figsize=(12, 6))
     sns.heatmap(retention, cmap="YlGnBu", annot=False, cbar=True, ax=ax)
     st.pyplot(fig)
 
     st.subheader("Retention Table")
     st.dataframe(retention)
+
 
 
 # Convert invoice dates to monthly periods
