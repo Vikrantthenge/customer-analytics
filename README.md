@@ -29,6 +29,7 @@ It includes:
 
 ## 🏗️ Architecture
 
+```mermaid
 flowchart TD
     A[Raw Online Retail Data] --> B[Python Cleaning & Preprocessing]
     B --> C[PostgreSQL Data Warehouse]
@@ -36,6 +37,7 @@ flowchart TD
     D --> E[K-Means Segmentation]
     E --> F[Cohort + CLTV Modeling]
     F --> G[Streamlit Dashboard UI]
+
 
 
 
