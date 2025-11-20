@@ -261,8 +261,56 @@ if st.sidebar.button("Apply Filters"):
     st.session_state.filters_applied = True
     st.success("Filters applied", icon="✅")
 
-# Page nav
-page = st.sidebar.radio("Page", ["Overview", "Segments", "Cohorts", "CLTV & Actions", "Customer Lookup", "Export"])
+# ---------------------------------------------------------------
+# PAGE NAVIGATION
+# ---------------------------------------------------------------
+
+page = st.sidebar.radio(
+    "Page",
+    ["Overview", "Segments", "Cohorts", "CLTV & Actions", "Customer Lookup", "Export"]
+)
+
+# ---------------------------------------------------------------
+# PAGE 1: OVERVIEW
+# ---------------------------------------------------------------
+if page == "Overview":
+    st.title("Customer Analytics Overview")
+    # (your overview code here)
+
+# ---------------------------------------------------------------
+# PAGE 2: SEGMENTS
+# ---------------------------------------------------------------
+elif page == "Segments":
+    st.title("Segment Explorer")
+    # (your segment code here)
+
+# ---------------------------------------------------------------
+# PAGE 3: COHORTS
+# ---------------------------------------------------------------
+elif page == "Cohorts":
+    st.title("Cohort Retention Analysis")
+    # (your fixed cohort code block here)
+
+# ---------------------------------------------------------------
+# PAGE 4: CLTV & ACTIONS
+# ---------------------------------------------------------------
+elif page == "CLTV & Actions":
+    st.title("Segment Playbook & Actions")
+    # (your full CLTV code here)
+
+# ---------------------------------------------------------------
+# PAGE 5: CUSTOMER LOOKUP
+# ---------------------------------------------------------------
+elif page == "Customer Lookup":
+    st.title("Customer Lookup")
+    # (your lookup code here)
+
+# ---------------------------------------------------------------
+# PAGE 6: EXPORT
+# ---------------------------------------------------------------
+elif page == "Export":
+    st.title("Export Data")
+    # (your export code here)
 
 # ---------------------------------------------------------
 # Apply filters to transactions
@@ -362,6 +410,7 @@ if page == "Overview":
         st.plotly_chart(fig_bar, use_container_width=True)
 
     st.markdown("### Monthly Trends")
+
     # Monthly revenue and new customers if date exists
     if date_col:
         monthly = filtered_tx.copy()
