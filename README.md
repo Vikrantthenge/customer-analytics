@@ -1,10 +1,10 @@
 # 📊 Customer Analytics & Segmentation Dashboard  
-**AI-Enhanced Customer Insights • RFM Segmentation • K-Means Clustering • Cohort Retention • Streamlit Web App**
+**AI-Enhanced Customer Insights • RFM Segmentation • K-Means Clustering • Cohort Retention • CLTV Prediction • Revenue Forecasting • Streamlit Web App**
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql)
-![ML](https://img.shields.io/badge/Machine%20Learning-KMeans-orange?style=for-the-badge)
+![ML](https://img.shields.io/badge/Machine%20Learning-RFM%20%7C%20KMeans%20%7C%20CLTV-orange?style=for-the-badge)
 
 ---
 
@@ -15,27 +15,23 @@
 ---
 
 ## 🖼️ Project Overview  
+This dashboard delivers a complete customer analytics workflow using Python and Streamlit.  
+It includes:
 
-This project provides a full customer analytics workflow, integrating data engineering, machine learning, RFM scoring, clustering, and a modern interactive dashboard.
-
-The app supports:  
-✔ Exploratory analytics  
-✔ RFM scoring  
-✔ K-Means clustering  
-✔ Cohort retention modeling  
-✔ Customer lookup  
-✔ Transaction-level filtering  
-✔ Data export  
+- RFM scoring  
+- K-Means clustering  
+- Cohort retention analysis  
+- CLTV prediction (90-day spend)  
+- Revenue trends + forecasting  
+- Customer lookup  
+- Data exports (CSV + PDF)  
+- Clean UI for real-world business use cases  
 
 ---
 
-# 🏗️ Architecture  
+# 📷 Screenshots
 
-```mermaid
-flowchart TD
-    A[Raw Online Retail Data] --> B[Python Cleaning & Preprocessing]
-    B --> C[PostgreSQL Data Warehouse]
-    C --> D[RFM Feature Engineering]
-    D --> E[K-Means Segmentation]
-    E --> F[Cohort & CLTV Modeling]
-    F --> G[Streamlit Dashboard UI]
+### **1️⃣ Overview Dashboard**  
+*(Replace with your actual screenshot)*  
+```md
+![Overview Dashboard](assets/screenshots/overview.png)
