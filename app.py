@@ -484,20 +484,21 @@ elif page == "Customer Lookup":
 elif page == "Cohorts":
     st.title("Cohort Retention Analysis")
 
-    # --- Ensure date column exists ---
+    # ---- Check invoice_date column ----
     if "invoice_date" not in filtered_tx.columns:
         st.error("invoice_date column not found. Cohort analysis cannot run.")
         st.stop()
 
-    # Convert to datetime safely
     dfc = filtered_tx.copy()
+
+    # Convert date safely
     dfc["invoice_date"] = pd.to_datetime(dfc["invoice_date"], errors="coerce")
 
     if dfc["invoice_date"].isna().all():
-        st.error("invoice_date exists but contains no valid dates. Cannot run cohorts.")
+        st.error("invoice_date has no valid entries. Cohort analysis cannot run.")
         st.stop()
 
-    # --- Cohort calculation ---
+    # ---- Build cohort ----
     dfc["invoice_month"] = dfc["invoice_date"].dt.to_period("M").dt.to_timestamp()
 
     dfc["cohort_month"] = (
@@ -523,15 +524,14 @@ elif page == "Cohorts":
 
     retention = pivot.div(pivot.iloc[:, 0], axis=0)
 
-    # --- Visuals ---
+    # ---- Visuals ----
     st.subheader("Retention Heatmap")
     fig, ax = plt.subplots(figsize=(12, 6))
-    sns.heatmap(retention, cmap="YlGnBu", annot=False, cbar=True, ax=ax)
+    sns.heatmap(retention, cmap="YlGnBu", annot=True, fmt=".0%", ax=ax)
     st.pyplot(fig)
 
     st.subheader("Retention Table")
     st.dataframe(retention)
-
 
 
 # Convert invoice dates to monthly periods
