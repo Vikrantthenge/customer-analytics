@@ -534,25 +534,6 @@ elif page == "Cohorts":
     st.dataframe(retention)
 
 
-# Convert invoice dates to monthly periods
-# dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
-
-# First purchase month = cohort month
-# dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
-
-# Count customers per cohort per month
-cohort = (
-    dfc.groupby(["cohort_month", "invoice_month"])
-       .agg(customers=("customerid", "nunique"))
-       .reset_index()
-)
-
-# Number of months since cohort start
-cohort["period"] = (
-    (cohort["invoice_month"].dt.year - cohort["cohort_month"].dt.year) * 12 +
-    (cohort["invoice_month"].dt.month - cohort["cohort_month"].dt.month)
-)
-
 # Pivot into a retention matrix
 pivot = cohort.pivot_table(
     index="cohort_month",
