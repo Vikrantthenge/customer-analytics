@@ -25,6 +25,16 @@ It includes:
 - Revenue trends + forecasting  
 - Customer lookup  
 - Data exports (CSV + PDF)  
-- Clean UI for real-world business use cases  
+- Clean UI for real-world business use cases
+
+## 🏗️ Architecture
+- flowchart TD
+    A[Raw Online Retail Data] --> B[Python Cleaning & Preprocessing]
+    B --> C[PostgreSQL Data Warehouse]
+    C --> D[RFM Feature Engineering]
+    D --> E[K-Means Segmentation]
+    E --> F[Cohort + CLTV Modeling]
+    F --> G[Streamlit Dashboard UI]
+
 
 
