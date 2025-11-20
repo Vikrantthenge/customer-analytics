@@ -1,7 +1,7 @@
 # ================================================================
 # CUSTOMER ANALYTICS STREAMLIT APP 
 # ================================================================
-# Streamlit app:
+# Single-file Streamlit app:
 # - Pages: Overview, Segments, Cohorts, CLTV & Actions, Customer Lookup, Export
 # - Features: caching, spinners, validation, session state, theme toggle
 # - UI polish: CSS (hover, fade-in), metric cards, expanders, tooltips
@@ -483,11 +483,51 @@ elif page == "Customer Lookup":
 # ---------------------------------------------------------
 elif page == "Cohorts":
     st.title("Cohort Retention Analysis")
+
     if date_col is None:
-        st.error("Missing invoice_date column; cohorts disabled.")
+        st.error("invoice_date is missing or invalid. Cohort analysis cannot run.")
         st.stop()
 
-  dfc = filtered_tx.copy()
+    # ---- Cohort calculation ----
+    dfc = filtered_tx.copy()
+    dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
+    dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
+
+    cohort = (
+        dfc.groupby(["cohort_month", "invoice_month"])
+        .agg(customers=("customerid", "nunique"))
+        .reset_index()
+    )
+
+    cohort["period"] = (
+        (cohort["invoice_month"].dt.year - cohort["cohort_month"].dt.year) * 12 +
+        (cohort["invoice_month"].dt.month - cohort["cohort_month"].dt.month)
+    )
+
+    pivot = cohort.pivot_table(
+        index="cohort_month",
+        columns="period",
+        values="customers"
+    ).fillna(0)
+
+    retention = pivot.div(pivot.iloc[:, 0], axis=0)
+
+    # ---- Heatmap ----
+    st.subheader("Retention Heatmap")
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    sns.heatmap(
+        retention,
+        cmap="YlGnBu",
+        annot=False,
+        cbar=True,
+        ax=ax
+    )
+    st.pyplot(fig)
+
+    st.subheader("Retention Table")
+    st.dataframe(retention)
+
 
 # Convert invoice dates to monthly periods
 dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
@@ -517,4 +557,3 @@ pivot = cohort.pivot_table(
 
 # Retention percentages
 retention = pivot.div(pivot.iloc[:, 0], axis=0)
-
