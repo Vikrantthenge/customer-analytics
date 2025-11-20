@@ -535,10 +535,10 @@ elif page == "Cohorts":
 
 
 # Convert invoice dates to monthly periods
-dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
+# dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
 
 # First purchase month = cohort month
-dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
+# dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
 
 # Count customers per cohort per month
 cohort = (
