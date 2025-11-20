@@ -1,5 +1,5 @@
 # ================================================================
-# CUSTOMER ANALYTICS STREAMLIT APP - FINAL POLISHED VERSION
+# CUSTOMER ANALYTICS STREAMLIT APP - FINAL POLISHED VERSION (with Add-ons)
 # ================================================================
 
 import streamlit as st
@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 import base64
+import io
 
 # ---------------------------------------------------------
 # 1. Set Page Config (must be FIRST)
@@ -40,12 +41,9 @@ st.markdown(f"""
         align-items: center;
         gap: 18px;
     ">
-        <img src="data:image/png;base64,{icon}" 
-             style="width:55px; height:55px;">
+        <img src="data:image/png;base64,{icon}" style="width:55px; height:55px;">
         <div>
-            <h1 style="color:white; margin:0; font-size:40px;">
-                Customer Analytics Dashboard
-            </h1>
+            <h1 style="color:white; margin:0; font-size:40px;">Customer Analytics Dashboard</h1>
             <p style="color:white; margin-top:5px; font-size:18px;">
                 Powered by Python • PostgreSQL • RFM Segmentation • K-Means Clustering • Cohort Analysis • Transaction Insights
             </p>
@@ -59,39 +57,34 @@ st.markdown(f"""
 DATA_DIR = Path("data")
 
 # ---------------------------------------------------------
-# METRIC CARD (Gradient Style)
+# CSV UPLOAD (NEW ADD-ON)
 # ---------------------------------------------------------
-def metric_card(title, value, subtitle=None):
-    st.markdown(f"""
-        <div style="
-            background: linear-gradient(to right, #0B1F3F, #006D7F, #00AFC4, #00CFEA);
-            padding: 18px;
-            border-radius: 12px;
-            color: white;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-            margin-bottom: 15px;
-        ">
-            <h4 style="margin:0; font-size:20px;">{title}</h4>
-            <h2 style="margin:5px 0 0; font-size:32px; font-weight:bold;">{value}</h2>
-            {'<p style="margin:4px 0 0; font-size:14px;">' + subtitle + '</p>' if subtitle else ''}
-        </div>
-    """, unsafe_allow_html=True)
+st.sidebar.markdown("### Upload CSVs (Optional)")
+uploaded_segments = st.sidebar.file_uploader("Upload Segmented Customers CSV", type=["csv"])
+uploaded_tx = st.sidebar.file_uploader("Upload Transactions CSV", type=["csv"])
 
-# ---------------------------------------------------------------
-# 1. LOAD FILES
-# ---------------------------------------------------------------
-
+# ---------------------------------------------------------
+# LOAD FILES
+# ---------------------------------------------------------
 def load_csv(path):
     try:
         return pd.read_csv(path)
     except:
         return None
 
-final_df = load_csv(DATA_DIR / "customer_segments_final.csv")
-tx_df = load_csv(DATA_DIR / "transaction_history.csv")
+# Priority: uploaded → fallback to data folder
+if uploaded_segments:
+    final_df = pd.read_csv(uploaded_segments)
+else:
+    final_df = load_csv(DATA_DIR / "customer_segments_final.csv")
+
+if uploaded_tx:
+    tx_df = pd.read_csv(uploaded_tx)
+else:
+    tx_df = load_csv(DATA_DIR / "transaction_history.csv")
 
 if final_df is None or tx_df is None:
-    st.error("Missing required files in /data folder.")
+    st.error("Missing required files in /data folder or upload section.")
     st.stop()
 
 # Normalize column names
@@ -104,27 +97,23 @@ recency_c = "recency"
 freq_c = "frequency"
 mon_c = "monetary"
 seg_col = "km_segment"
-
 country_col = "country" if "country" in tx_df.columns else None
 date_col = "invoice_date" if "invoice_date" in tx_df.columns else None
 
 if date_col:
     tx_df[date_col] = pd.to_datetime(tx_df[date_col], errors="coerce")
 
-# ---------------------------------------------------------------
-# 2. SIDEBAR FILTERS
-# ---------------------------------------------------------------
-
+# ---------------------------------------------------------
+# SIDEBAR FILTERS
+# ---------------------------------------------------------
 st.sidebar.header("Filters")
 
-# Country filter
 country_list = ["All"]
 if country_col:
     country_list += sorted(tx_df[country_col].dropna().unique().tolist())
 
 selected_country = st.sidebar.selectbox("Country", country_list)
 
-# Date filter
 if date_col:
     min_date = tx_df[date_col].min().date()
     max_date = tx_df[date_col].max().date()
@@ -138,10 +127,9 @@ page = st.sidebar.radio(
     ["Overview", "Segments", "Cohorts", "CLTV & Actions", "Customer Lookup", "Export"]
 )
 
-# ---------------------------------------------------------------
-# 3. APPLY FILTERS TO TRANSACTIONS & REBUILD RFM
-# ---------------------------------------------------------------
-
+# ---------------------------------------------------------
+# APPLY FILTERS TO TRANSACTIONS & REBUILD RFM
+# ---------------------------------------------------------
 filtered_tx = tx_df.copy()
 
 if selected_country != "All" and country_col:
@@ -155,7 +143,7 @@ if filtered_tx.empty:
     st.warning("No data for selected filters.")
     st.stop()
 
-# Rebuild RFM-like metrics
+# RFM Build
 filtered_customers = (
     filtered_tx.groupby("customerid")
     .agg(
@@ -171,11 +159,9 @@ filtered_final = filtered_customers.merge(
     on="customerid",
     how="left"
 ).dropna(subset=[seg_col])
-
 # ---------------------------------------------------------------
 # PAGE 1: OVERVIEW
 # ---------------------------------------------------------------
-
 if page == "Overview":
     st.title("Customer Analytics Overview")
 
@@ -184,10 +170,16 @@ if page == "Overview":
     total_segments = filtered_final[seg_col].nunique()
 
     c1, c2, c3 = st.columns(3)
-    with c1: metric_card("Customers", f"{total_customers:,}")
-    with c2: metric_card("Revenue", f"{total_revenue:,.0f}")
-    with c3: metric_card("Active Segments", total_segments)
+    with c1: 
+        metric_card("Customers", f"{total_customers:,}")
+    with c2: 
+        metric_card("Revenue", f"{total_revenue:,.0f}")
+    with c3: 
+        metric_card("Active Segments", total_segments)
 
+    # -------------------------------
+    # Revenue by Segment
+    # -------------------------------
     st.markdown("### Revenue by Segment")
     seg_rev = (
         filtered_final.groupby(seg_col)
@@ -199,13 +191,42 @@ if page == "Overview":
         use_container_width=True
     )
 
+    # -------------------------------
+    # TOP CUSTOMERS
+    # -------------------------------
     st.markdown("### Top 10 Customers")
     st.dataframe(filtered_final.sort_values(mon_c, ascending=False).head(10))
+
+    # --------------------------------------------------------
+    # TIME-SERIES TRENDS (NEW ADD-ON)
+    # --------------------------------------------------------
+    st.markdown("### Monthly Revenue & Active Users")
+
+    if date_col:
+        ts = filtered_tx.copy()
+        ts["month"] = ts[date_col].dt.to_period("M").dt.to_timestamp()
+
+        # Revenue calculation fallback
+        if "unit_price" in ts.columns and "quantity" in ts.columns:
+            ts["revenue"] = ts["unit_price"] * ts["quantity"]
+        else:
+            ts["revenue"] = 1
+
+        monthly = ts.groupby("month").agg(
+            revenue=("revenue", "sum"),
+            users=("customerid", "nunique")
+        ).reset_index()
+
+        fig = px.line(monthly, x="month", y="revenue", title="Monthly Revenue Trend")
+        fig.add_bar(x=monthly["month"], y=monthly["users"], name="Active Customers", opacity=0.5)
+
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.info("No invoice_date column found — Time-series disabled.")
 
 # ---------------------------------------------------------------
 # PAGE 2: SEGMENTS
 # ---------------------------------------------------------------
-
 elif page == "Segments":
     st.title("Segment Explorer")
 
@@ -220,6 +241,9 @@ elif page == "Segments":
     with c3: metric_card("Median Frequency", seg_df[freq_c].median())
     with c4: metric_card("Median Monetary", seg_df[mon_c].median())
 
+    # -------------------------------
+    # DISTRIBUTIONS
+    # -------------------------------
     st.markdown("### Distributions")
     st.plotly_chart(px.histogram(seg_df, x=recency_c), use_container_width=True)
     st.plotly_chart(px.histogram(seg_df, x=freq_c), use_container_width=True)
@@ -228,10 +252,27 @@ elif page == "Segments":
     st.markdown("### Segment Data")
     st.dataframe(seg_df)
 
+    # --------------------------------------------------------
+    # CLUSTER / SCATTER VISUALIZATION (NEW ADD-ON)
+    # --------------------------------------------------------
+    st.markdown("### Recency vs Monetary Scatter")
+
+    if seg_df[recency_c].notna().any() and seg_df[mon_c].notna().any():
+        fig = px.scatter(
+            seg_df,
+            x=recency_c,
+            y=mon_c,
+            color=seg_col,
+            hover_data=[cust_col, freq_c],
+            title="Recency vs Monetary Scatter by Segment"
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.info("Insufficient data for scatterplot.")
+
 # ---------------------------------------------------------------
 # PAGE 3: CUSTOMER LOOKUP
 # ---------------------------------------------------------------
-
 elif page == "Customer Lookup":
     st.title("Customer Lookup")
     cid = st.text_input("Enter Customer ID")
@@ -260,7 +301,6 @@ elif page == "Customer Lookup":
 # ---------------------------------------------------------------
 # PAGE 4: COHORTS
 # ---------------------------------------------------------------
-
 elif page == "Cohorts":
     st.title("Cohort Retention Analysis")
 
@@ -272,7 +312,9 @@ elif page == "Cohorts":
     dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
     dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
 
-    cohort = dfc.groupby(["cohort_month", "invoice_month"]).agg(customers=("customerid", "nunique")).reset_index()
+    cohort = dfc.groupby(["cohort_month", "invoice_month"]).agg(
+        customers=("customerid", "nunique")
+    ).reset_index()
 
     cohort["period"] = (
         (cohort["invoice_month"].dt.year - cohort["cohort_month"].dt.year) * 12 +
@@ -293,7 +335,6 @@ elif page == "Cohorts":
 # ---------------------------------------------------------------
 # PAGE 5: CLTV & ACTIONS
 # ---------------------------------------------------------------
-
 elif page == "CLTV & Actions":
     st.title("Segment Playbook & Actions")
 
@@ -320,11 +361,9 @@ elif page == "CLTV & Actions":
     for seg in filtered_final[seg_col].unique():
         st.markdown(f"**{seg}** — {actions.get(seg, 'No action defined.')}")
 
-
 # ---------------------------------------------------------------
 # PAGE 6: EXPORT
 # ---------------------------------------------------------------
-
 elif page == "Export":
     st.title("Export Data")
 
@@ -346,8 +385,8 @@ elif page == "Export":
         out = DATA_DIR / "export_segment_summary.csv"
         summary.to_csv(out, index=False)
         st.success(f"Saved: {out}")
-
-
+# ---------------------------------------------------------------
+# FOOTER (unchanged)
 # ---------------------------------------------------------------
 
 st.html("""
