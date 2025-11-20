@@ -484,62 +484,83 @@ elif page == "Customer Lookup":
 elif page == "Cohorts":
     st.title("Cohort Retention Analysis")
 
-    # ---- Check invoice_date column ----
+    # ---------------------------------------------------------
+    # 1. Ensure invoice_date column exists
+    # ---------------------------------------------------------
     if "invoice_date" not in filtered_tx.columns:
-        st.error("invoice_date column not found. Cohort analysis cannot run.")
+        st.error("invoice_date column not found in filtered transactions. Cohort analysis cannot run.")
         st.stop()
 
+    # ---------------------------------------------------------
+    # 2. Copy + Convert invoice_date safely
+    # ---------------------------------------------------------
     dfc = filtered_tx.copy()
-
-    # Convert date safely
     dfc["invoice_date"] = pd.to_datetime(dfc["invoice_date"], errors="coerce")
 
     if dfc["invoice_date"].isna().all():
-        st.error("invoice_date has no valid entries. Cohort analysis cannot run.")
+        st.error("No valid dates found in invoice_date. Cannot compute cohorts.")
         st.stop()
 
-    # ---- Build cohort ----
+    # ---------------------------------------------------------
+    # 3. Extract Month & Cohort Month
+    # ---------------------------------------------------------
     dfc["invoice_month"] = dfc["invoice_date"].dt.to_period("M").dt.to_timestamp()
 
     dfc["cohort_month"] = (
         dfc.groupby("customerid")["invoice_month"].transform("min")
     )
 
+    # ---------------------------------------------------------
+    # 4. Build cohort table
+    # ---------------------------------------------------------
     cohort = (
         dfc.groupby(["cohort_month", "invoice_month"])
         .agg(customers=("customerid", "nunique"))
         .reset_index()
     )
 
+    # ---------------------------------------------------------
+    # 5. Calculate period number
+    # ---------------------------------------------------------
     cohort["period"] = (
         (cohort["invoice_month"].dt.year - cohort["cohort_month"].dt.year) * 12 +
         (cohort["invoice_month"].dt.month - cohort["cohort_month"].dt.month)
     )
 
+    # ---------------------------------------------------------
+    # 6. Pivot into retention matrix
+    # ---------------------------------------------------------
     pivot = cohort.pivot_table(
         index="cohort_month",
         columns="period",
         values="customers"
     ).fillna(0)
 
+    if pivot.empty:
+        st.warning("Not enough data to build cohort retention matrix.")
+        st.stop()
+
     retention = pivot.div(pivot.iloc[:, 0], axis=0)
 
-    # ---- Visuals ----
+    # ---------------------------------------------------------
+    # 7. Heatmap
+    # ---------------------------------------------------------
     st.subheader("Retention Heatmap")
+
     fig, ax = plt.subplots(figsize=(12, 6))
-    sns.heatmap(retention, cmap="YlGnBu", annot=True, fmt=".0%", ax=ax)
+    sns.heatmap(
+        retention,
+        cmap="YlGnBu",
+        annot=True,
+        fmt=".0%",
+        cbar=True,
+        ax=ax
+    )
     st.pyplot(fig)
 
+    # ---------------------------------------------------------
+    # 8. Retention Table
+    # ---------------------------------------------------------
     st.subheader("Retention Table")
     st.dataframe(retention)
 
-
-# Pivot into a retention matrix
-pivot = cohort.pivot_table(
-    index="cohort_month",
-    columns="period",
-    values="customers"
-).fillna(0)
-
-# Retention percentages
-retention = pivot.div(pivot.iloc[:, 0], axis=0)
