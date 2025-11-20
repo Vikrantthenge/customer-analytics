@@ -487,10 +487,34 @@ elif page == "Cohorts":
         st.error("Missing invoice_date column; cohorts disabled.")
         st.stop()
 
-    dfc = filtered_tx.copy()
-    dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
-    dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
-    cohort = dfc.groupby(["cohort_month", "invoice_month"]).agg(customers=("customerid", "nunique")).reset_index()
-    cohort["period"] = (
-        (cohort["invoice_month"].dt.year - cohort["cohort_month"].dt.year) * 12 +
-        (cohort["invoice_month"].dt.month - cohort["cohort_month"].d_]()_]()
+  dfc = filtered_tx.copy()
+
+# Convert invoice dates to monthly periods
+dfc["invoice_month"] = dfc[date_col].dt.to_period("M").dt.to_timestamp()
+
+# First purchase month = cohort month
+dfc["cohort_month"] = dfc.groupby("customerid")["invoice_month"].transform("min")
+
+# Count customers per cohort per month
+cohort = (
+    dfc.groupby(["cohort_month", "invoice_month"])
+       .agg(customers=("customerid", "nunique"))
+       .reset_index()
+)
+
+# Number of months since cohort start
+cohort["period"] = (
+    (cohort["invoice_month"].dt.year - cohort["cohort_month"].dt.year) * 12 +
+    (cohort["invoice_month"].dt.month - cohort["cohort_month"].dt.month)
+)
+
+# Pivot into a retention matrix
+pivot = cohort.pivot_table(
+    index="cohort_month",
+    columns="period",
+    values="customers"
+).fillna(0)
+
+# Retention percentages
+retention = pivot.div(pivot.iloc[:, 0], axis=0)
+
