@@ -27,11 +27,4 @@ It includes:
 - Data exports (CSV + PDF)  
 - Clean UI for real-world business use cases  
 
----
 
-# 📷 Screenshots
-
-### **1️⃣ Overview Dashboard**  
-*(Replace with your actual screenshot)*  
-```md
-![Overview Dashboard](assets/screenshots/overview.png)
