@@ -28,13 +28,15 @@ It includes:
 - Clean UI for real-world business use cases
 
 ## 🏗️ Architecture
-- flowchart TD
+
+flowchart TD
     A[Raw Online Retail Data] --> B[Python Cleaning & Preprocessing]
     B --> C[PostgreSQL Data Warehouse]
     C --> D[RFM Feature Engineering]
     D --> E[K-Means Segmentation]
     E --> F[Cohort + CLTV Modeling]
     F --> G[Streamlit Dashboard UI]
+
 
 
 
